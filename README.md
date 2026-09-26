@@ -1,14 +1,13 @@
 # VPEvolve signed preprint website
 
-This repository hosts the standalone public site for the signed VPEvolve preprint at
-`https://true-litianyi.github.io/VPEVOLVE/`.
-The signed code release is at `https://github.com/True-Litianyi/VPEVOLVE_code`.
+This is the standalone public project website for the signed VPEvolve preprint:
+https://true-litianyi.github.io/VPEVOLVE/.
 
-The site is static HTML and CSS. It uses no analytics, third-party scripts, or
-resources from the anonymous review site. The figures and PDF are exported from
-the signed Overleaf source. To publish with GitHub Pages, use **Settings → Pages →
-Deploy from a branch → main → /(root)**.
+It contains the measured results, figures, recipe replay, physical geometry
+views, and code/data downloads. The signed code release is at
+https://github.com/True-Litianyi/VPEVOLVE_code. The paper PDF is in `paper/`.
 
-The preprint PDF in `paper/` should be refreshed whenever the signed Overleaf
-manuscript changes. The abstract and author information on the page should be
-checked against the same manuscript before publication.
+The site is static HTML, CSS, JavaScript, and local assets. It loads no
+third-party scripts or visitor analytics. GitHub Pages publishes `main` from
+the repository root. Refresh the PDF and author information when the signed
+preprint changes.

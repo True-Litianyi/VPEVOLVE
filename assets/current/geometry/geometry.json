@@ -1,0 +1,5217 @@
+{
+  "schema": "current-geometry-replay/v2",
+  "render_size_px": 1000,
+  "cases": [
+    {
+      "case_id": "poly-19-dense-x240-y480",
+      "layer": "poly",
+      "view_id": "poly",
+      "display_label": "Poly19",
+      "frames": [
+        {
+          "opc_calls": 0,
+          "kind": "initial",
+          "retained_frame": 0,
+          "recipe_sha256": "f6ac45fb020dee7bfcbffff577917b2e8a72cb9961c99bc89c7732034f1a3cca",
+          "measurement_sha256": "27735fe9e11e93bc249400877cd7e79c335749a869b0bcb569a6474d5859c872",
+          "result_gds_sha256": "5fe76df41c35469b71a606ae1756fc9687b8e9840a396db8c617694961b49e9a",
+          "target_sha256": "c6f223edb5ec557ad97a286d39c0dc4955c4fecce7044a97d574be6e144fd433",
+          "metrics": {
+            "corner_max_deviation_nm": 30.367647843307303,
+            "edge_normal_max_epe_nm": 18.9473684210526,
+            "edge_normal_mean_epe_nm": 0.8642324756407077,
+            "edge_normal_top10_mean_epe_nm": 17.12651257195814,
+            "max_nominal_contour_deviation_nm": 30.367647843307303,
+            "max_nominal_shape_error_nm": 30.367647843307303,
+            "mean_nominal_contour_deviation_nm": 2.09230279201512,
+            "mrc_total_result_count": 0,
+            "nominal_contour_deviation_ratio_over_5nm": 0.1235349949141891,
+            "nominal_violation_ratio_over_5nm": 0.1235349949141891,
+            "p95_nominal_contour_deviation_nm": 11.327841806805043,
+            "pv_band_area_per_target_edge_um": 0.007239975300570398,
+            "sraf_printability_violation_count": 0,
+            "top10_mean_nominal_contour_deviation_nm": 28.43016683064291
+          },
+          "focus_epe_nm": 11.068965517242901,
+          "focus_signed_epe_nm": -11.068965517242901,
+          "assets": {
+            "core": {
+              "target": "poly-00-core-target.png",
+              "mask": "poly-00-core-mask.png",
+              "sraf": "poly-00-core-sraf.png",
+              "contour": "poly-00-core-contour.png",
+              "pvb": "poly-00-core-pvb.png",
+              "gauge": "poly-00-core-gauge.png",
+              "overlay": "poly-00-core-overlay.png",
+              "mask_view": "poly-00-core-mask_view.png",
+              "resist_view": "poly-00-core-resist_view.png",
+              "pvb_view": "poly-00-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "poly-00-zoom-target.png",
+              "mask": "poly-00-zoom-mask.png",
+              "sraf": "poly-00-zoom-sraf.png",
+              "contour": "poly-00-zoom-contour.png",
+              "pvb": "poly-00-zoom-pvb.png",
+              "gauge": "poly-00-zoom-gauge.png",
+              "overlay": "poly-00-zoom-overlay.png",
+              "mask_view": "poly-00-zoom-mask_view.png",
+              "resist_view": "poly-00-zoom-resist_view.png",
+              "pvb_view": "poly-00-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "poly-00-detail-target.png",
+              "mask": "poly-00-detail-mask.png",
+              "sraf": "poly-00-detail-sraf.png",
+              "contour": "poly-00-detail-contour.png",
+              "pvb": "poly-00-detail-pvb.png",
+              "gauge": "poly-00-detail-gauge.png",
+              "overlay": "poly-00-detail-overlay.png",
+              "mask_view": "poly-00-detail-mask_view.png",
+              "resist_view": "poly-00-detail-resist_view.png",
+              "pvb_view": "poly-00-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 1,
+          "kind": "candidate",
+          "retained_frame": 1,
+          "recipe_sha256": "2c613472a4efb49031222e6009fd888751bf42282fdf11fd6978d8e39b1e6ea1",
+          "measurement_sha256": "1aa3b1524b242ebfe9a920e526078b736e9cad6acbf1af70493d85feb4864b61",
+          "result_gds_sha256": "01fa56cc928915ee46c93220a3ed60b35bd0c34e45f9dba01ca98f279aaa84a2",
+          "target_sha256": "c6f223edb5ec557ad97a286d39c0dc4955c4fecce7044a97d574be6e144fd433",
+          "metrics": {
+            "corner_max_deviation_nm": 22.740287183602828,
+            "edge_normal_max_epe_nm": 8.544565217391664,
+            "edge_normal_mean_epe_nm": 0.6617408428565063,
+            "edge_normal_top10_mean_epe_nm": 8.3541370223978,
+            "max_nominal_contour_deviation_nm": 22.740287183602828,
+            "max_nominal_shape_error_nm": 22.740287183602828,
+            "mean_nominal_contour_deviation_nm": 1.733532331854017,
+            "mrc_total_result_count": 0,
+            "nominal_contour_deviation_ratio_over_5nm": 0.10158826311458947,
+            "nominal_violation_ratio_over_5nm": 0.10158826311458947,
+            "p95_nominal_contour_deviation_nm": 9.822516775518706,
+            "pv_band_area_per_target_edge_um": 0.007280414483139834,
+            "sraf_printability_violation_count": 0,
+            "top10_mean_nominal_contour_deviation_nm": 22.44797843165832
+          },
+          "focus_epe_nm": 7.164583333334917,
+          "focus_signed_epe_nm": -7.164583333334917,
+          "assets": {
+            "core": {
+              "target": "poly-01-core-target.png",
+              "mask": "poly-01-core-mask.png",
+              "sraf": "poly-01-core-sraf.png",
+              "contour": "poly-01-core-contour.png",
+              "pvb": "poly-01-core-pvb.png",
+              "gauge": "poly-01-core-gauge.png",
+              "overlay": "poly-01-core-overlay.png",
+              "mask_view": "poly-01-core-mask_view.png",
+              "resist_view": "poly-01-core-resist_view.png",
+              "pvb_view": "poly-01-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "poly-01-zoom-target.png",
+              "mask": "poly-01-zoom-mask.png",
+              "sraf": "poly-01-zoom-sraf.png",
+              "contour": "poly-01-zoom-contour.png",
+              "pvb": "poly-01-zoom-pvb.png",
+              "gauge": "poly-01-zoom-gauge.png",
+              "overlay": "poly-01-zoom-overlay.png",
+              "mask_view": "poly-01-zoom-mask_view.png",
+              "resist_view": "poly-01-zoom-resist_view.png",
+              "pvb_view": "poly-01-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "poly-01-detail-target.png",
+              "mask": "poly-01-detail-mask.png",
+              "sraf": "poly-01-detail-sraf.png",
+              "contour": "poly-01-detail-contour.png",
+              "pvb": "poly-01-detail-pvb.png",
+              "gauge": "poly-01-detail-gauge.png",
+              "overlay": "poly-01-detail-overlay.png",
+              "mask_view": "poly-01-detail-mask_view.png",
+              "resist_view": "poly-01-detail-resist_view.png",
+              "pvb_view": "poly-01-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 2,
+          "kind": "candidate",
+          "retained_frame": 2,
+          "recipe_sha256": "62df30d9d919ee1365d357b723db4ff28b84f01ef8646d97b4e5dfa870462ae5",
+          "measurement_sha256": "ec1f9f6b25801728eef2fe30621c2484dd867a73554314b7309b112dc6f0ed34",
+          "result_gds_sha256": "2edc55a06f29f75b8d45e508f50512f2cfe9633e280acbe8cb2dd68a06263000",
+          "target_sha256": "c6f223edb5ec557ad97a286d39c0dc4955c4fecce7044a97d574be6e144fd433",
+          "metrics": {
+            "corner_max_deviation_nm": 22.202986669908793,
+            "edge_normal_max_epe_nm": 7.913559322034303,
+            "edge_normal_mean_epe_nm": 0.6226320643514541,
+            "edge_normal_top10_mean_epe_nm": 7.623596061890758,
+            "max_nominal_contour_deviation_nm": 22.202986669908793,
+            "max_nominal_shape_error_nm": 22.202986669908793,
+            "mean_nominal_contour_deviation_nm": 1.7628227393825568,
+            "mrc_total_result_count": 0,
+            "nominal_contour_deviation_ratio_over_5nm": 0.10747905747290266,
+            "nominal_violation_ratio_over_5nm": 0.10747905747290266,
+            "p95_nominal_contour_deviation_nm": 10.279679917962769,
+            "pv_band_area_per_target_edge_um": 0.007351160899187932,
+            "sraf_printability_violation_count": 0,
+            "top10_mean_nominal_contour_deviation_nm": 21.97005187521781
+          },
+          "focus_epe_nm": 7.913559322034303,
+          "focus_signed_epe_nm": -7.913559322034303,
+          "assets": {
+            "core": {
+              "target": "poly-02-core-target.png",
+              "mask": "poly-02-core-mask.png",
+              "sraf": "poly-02-core-sraf.png",
+              "contour": "poly-02-core-contour.png",
+              "pvb": "poly-02-core-pvb.png",
+              "gauge": "poly-02-core-gauge.png",
+              "overlay": "poly-02-core-overlay.png",
+              "mask_view": "poly-02-core-mask_view.png",
+              "resist_view": "poly-02-core-resist_view.png",
+              "pvb_view": "poly-02-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "poly-02-zoom-target.png",
+              "mask": "poly-02-zoom-mask.png",
+              "sraf": "poly-02-zoom-sraf.png",
+              "contour": "poly-02-zoom-contour.png",
+              "pvb": "poly-02-zoom-pvb.png",
+              "gauge": "poly-02-zoom-gauge.png",
+              "overlay": "poly-02-zoom-overlay.png",
+              "mask_view": "poly-02-zoom-mask_view.png",
+              "resist_view": "poly-02-zoom-resist_view.png",
+              "pvb_view": "poly-02-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "poly-02-detail-target.png",
+              "mask": "poly-02-detail-mask.png",
+              "sraf": "poly-02-detail-sraf.png",
+              "contour": "poly-02-detail-contour.png",
+              "pvb": "poly-02-detail-pvb.png",
+              "gauge": "poly-02-detail-gauge.png",
+              "overlay": "poly-02-detail-overlay.png",
+              "mask_view": "poly-02-detail-mask_view.png",
+              "resist_view": "poly-02-detail-resist_view.png",
+              "pvb_view": "poly-02-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 3,
+          "kind": "candidate",
+          "retained_frame": 2,
+          "recipe_sha256": "178003bec228b5121439df546ebe884047a088162b2b3cb318cb76adf647520e",
+          "measurement_sha256": "18ea0ffa3fe4a321cfcbff64b6a63d5bede760bac895b2e0f53c4007ddcef256",
+          "result_gds_sha256": "08d320091c67a4f77895dffa6a22f811f8a1d4f07c0b872ec95fcd881a6774f3",
+          "target_sha256": "c6f223edb5ec557ad97a286d39c0dc4955c4fecce7044a97d574be6e144fd433",
+          "metrics": {
+            "corner_max_deviation_nm": 22.702985735479015,
+            "edge_normal_max_epe_nm": 9.076315789474876,
+            "edge_normal_mean_epe_nm": 0.7718541410203033,
+            "edge_normal_top10_mean_epe_nm": 8.848886944373113,
+            "max_nominal_contour_deviation_nm": 22.702985735479015,
+            "max_nominal_shape_error_nm": 22.702985735479015,
+            "mean_nominal_contour_deviation_nm": 2.005685087210308,
+            "mrc_total_result_count": 0,
+            "nominal_contour_deviation_ratio_over_5nm": 0.11857551943298067,
+            "nominal_violation_ratio_over_5nm": 0.11857551943298067,
+            "p95_nominal_contour_deviation_nm": 11.180339887499901,
+            "pv_band_area_per_target_edge_um": 0.007316552695961767,
+            "sraf_printability_violation_count": 0,
+            "top10_mean_nominal_contour_deviation_nm": 22.50641606501275
+          },
+          "focus_epe_nm": 8.93999999999906,
+          "focus_signed_epe_nm": -8.93999999999906,
+          "assets": {
+            "core": {
+              "target": "poly-03-core-target.png",
+              "mask": "poly-03-core-mask.png",
+              "sraf": "poly-03-core-sraf.png",
+              "contour": "poly-03-core-contour.png",
+              "pvb": "poly-03-core-pvb.png",
+              "gauge": "poly-03-core-gauge.png",
+              "overlay": "poly-03-core-overlay.png",
+              "mask_view": "poly-03-core-mask_view.png",
+              "resist_view": "poly-03-core-resist_view.png",
+              "pvb_view": "poly-03-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "poly-03-zoom-target.png",
+              "mask": "poly-03-zoom-mask.png",
+              "sraf": "poly-03-zoom-sraf.png",
+              "contour": "poly-03-zoom-contour.png",
+              "pvb": "poly-03-zoom-pvb.png",
+              "gauge": "poly-03-zoom-gauge.png",
+              "overlay": "poly-03-zoom-overlay.png",
+              "mask_view": "poly-03-zoom-mask_view.png",
+              "resist_view": "poly-03-zoom-resist_view.png",
+              "pvb_view": "poly-03-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "poly-03-detail-target.png",
+              "mask": "poly-03-detail-mask.png",
+              "sraf": "poly-03-detail-sraf.png",
+              "contour": "poly-03-detail-contour.png",
+              "pvb": "poly-03-detail-pvb.png",
+              "gauge": "poly-03-detail-gauge.png",
+              "overlay": "poly-03-detail-overlay.png",
+              "mask_view": "poly-03-detail-mask_view.png",
+              "resist_view": "poly-03-detail-resist_view.png",
+              "pvb_view": "poly-03-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 4,
+          "kind": "candidate",
+          "retained_frame": 2,
+          "recipe_sha256": "2e2aa00ed457974eb9e1da28ba210bb983db9c23542c04ee75c583d48419b306",
+          "measurement_sha256": "d417dbfa8fb969b429f227cd7254d95c4d45e56f3db40845251f3c4c29c24c0f",
+          "result_gds_sha256": "9119659c76e8c57063fe898c4a9c6ec98e04cdc4ddbbc4d9b2d3a8cbe8bc722f",
+          "target_sha256": "c6f223edb5ec557ad97a286d39c0dc4955c4fecce7044a97d574be6e144fd433",
+          "metrics": {
+            "corner_max_deviation_nm": 22.244135314235848,
+            "edge_normal_max_epe_nm": 8.142391304346575,
+            "edge_normal_mean_epe_nm": 0.5972939497285885,
+            "edge_normal_top10_mean_epe_nm": 7.457127783858565,
+            "max_nominal_contour_deviation_nm": 22.244135314235848,
+            "max_nominal_shape_error_nm": 22.244135314235848,
+            "mean_nominal_contour_deviation_nm": 1.6886464077994086,
+            "mrc_total_result_count": 0,
+            "nominal_contour_deviation_ratio_over_5nm": 0.10241430246645632,
+            "nominal_violation_ratio_over_5nm": 0.10241430246645632,
+            "p95_nominal_contour_deviation_nm": 9.89992424049176,
+            "pv_band_area_per_target_edge_um": 0.007303986467143209,
+            "sraf_printability_violation_count": 0,
+            "top10_mean_nominal_contour_deviation_nm": 21.864235184251584
+          },
+          "focus_epe_nm": 7.297872340426892,
+          "focus_signed_epe_nm": -7.297872340426892,
+          "assets": {
+            "core": {
+              "target": "poly-04-core-target.png",
+              "mask": "poly-04-core-mask.png",
+              "sraf": "poly-04-core-sraf.png",
+              "contour": "poly-04-core-contour.png",
+              "pvb": "poly-04-core-pvb.png",
+              "gauge": "poly-04-core-gauge.png",
+              "overlay": "poly-04-core-overlay.png",
+              "mask_view": "poly-04-core-mask_view.png",
+              "resist_view": "poly-04-core-resist_view.png",
+              "pvb_view": "poly-04-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "poly-04-zoom-target.png",
+              "mask": "poly-04-zoom-mask.png",
+              "sraf": "poly-04-zoom-sraf.png",
+              "contour": "poly-04-zoom-contour.png",
+              "pvb": "poly-04-zoom-pvb.png",
+              "gauge": "poly-04-zoom-gauge.png",
+              "overlay": "poly-04-zoom-overlay.png",
+              "mask_view": "poly-04-zoom-mask_view.png",
+              "resist_view": "poly-04-zoom-resist_view.png",
+              "pvb_view": "poly-04-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "poly-04-detail-target.png",
+              "mask": "poly-04-detail-mask.png",
+              "sraf": "poly-04-detail-sraf.png",
+              "contour": "poly-04-detail-contour.png",
+              "pvb": "poly-04-detail-pvb.png",
+              "gauge": "poly-04-detail-gauge.png",
+              "overlay": "poly-04-detail-overlay.png",
+              "mask_view": "poly-04-detail-mask_view.png",
+              "resist_view": "poly-04-detail-resist_view.png",
+              "pvb_view": "poly-04-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 5,
+          "kind": "candidate",
+          "retained_frame": 5,
+          "recipe_sha256": "b109abd7f7678459144a4bcd3a7792013753684faf174361f94bfc8486f23df1",
+          "measurement_sha256": "2148c169cb281e796141f6bf5a79cde4672cbdb263f5c4f3aafb0bef585e06ba",
+          "result_gds_sha256": "a9a24ef5eb39ecc558c8d8bcdb479aa0954588b606cf38e9998a50273de16645",
+          "target_sha256": "c6f223edb5ec557ad97a286d39c0dc4955c4fecce7044a97d574be6e144fd433",
+          "metrics": {
+            "corner_max_deviation_nm": 22.202986669908793,
+            "edge_normal_max_epe_nm": 7.732307692307927,
+            "edge_normal_mean_epe_nm": 0.6227286942226444,
+            "edge_normal_top10_mean_epe_nm": 7.577954415401678,
+            "max_nominal_contour_deviation_nm": 22.202986669908793,
+            "max_nominal_shape_error_nm": 22.202986669908793,
+            "mean_nominal_contour_deviation_nm": 1.7627793225900494,
+            "mrc_total_result_count": 0,
+            "nominal_contour_deviation_ratio_over_5nm": 0.10746933936288071,
+            "nominal_violation_ratio_over_5nm": 0.10746933936288071,
+            "p95_nominal_contour_deviation_nm": 10.277160349306143,
+            "pv_band_area_per_target_edge_um": 0.007351058345050493,
+            "sraf_printability_violation_count": 0,
+            "top10_mean_nominal_contour_deviation_nm": 21.97005187521781
+          },
+          "focus_epe_nm": 6.371428571430471,
+          "focus_signed_epe_nm": -6.371428571430471,
+          "assets": {
+            "core": {
+              "target": "poly-05-core-target.png",
+              "mask": "poly-05-core-mask.png",
+              "sraf": "poly-05-core-sraf.png",
+              "contour": "poly-05-core-contour.png",
+              "pvb": "poly-05-core-pvb.png",
+              "gauge": "poly-05-core-gauge.png",
+              "overlay": "poly-05-core-overlay.png",
+              "mask_view": "poly-05-core-mask_view.png",
+              "resist_view": "poly-05-core-resist_view.png",
+              "pvb_view": "poly-05-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "poly-05-zoom-target.png",
+              "mask": "poly-05-zoom-mask.png",
+              "sraf": "poly-05-zoom-sraf.png",
+              "contour": "poly-05-zoom-contour.png",
+              "pvb": "poly-05-zoom-pvb.png",
+              "gauge": "poly-05-zoom-gauge.png",
+              "overlay": "poly-05-zoom-overlay.png",
+              "mask_view": "poly-05-zoom-mask_view.png",
+              "resist_view": "poly-05-zoom-resist_view.png",
+              "pvb_view": "poly-05-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "poly-05-detail-target.png",
+              "mask": "poly-05-detail-mask.png",
+              "sraf": "poly-05-detail-sraf.png",
+              "contour": "poly-05-detail-contour.png",
+              "pvb": "poly-05-detail-pvb.png",
+              "gauge": "poly-05-detail-gauge.png",
+              "overlay": "poly-05-detail-overlay.png",
+              "mask_view": "poly-05-detail-mask_view.png",
+              "resist_view": "poly-05-detail-resist_view.png",
+              "pvb_view": "poly-05-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 6,
+          "kind": "candidate",
+          "retained_frame": 6,
+          "recipe_sha256": "a7a8a19fb1665ca9a70505535f37441bdb4aa69738dd7a6ed06c8d21bb84db0b",
+          "measurement_sha256": "8b84850e2c74cf95e1cdd058910a2d01074a668b0e5328d92969fa9d7d95bace",
+          "result_gds_sha256": "679577fcf6ba4a0c6e004c5add9ba90355d832924d3bbb99e6b6611a37d28b08",
+          "target_sha256": "c6f223edb5ec557ad97a286d39c0dc4955c4fecce7044a97d574be6e144fd433",
+          "metrics": {
+            "corner_max_deviation_nm": 22.202986669908793,
+            "edge_normal_max_epe_nm": 7.659782608696375,
+            "edge_normal_mean_epe_nm": 0.6231311068446965,
+            "edge_normal_top10_mean_epe_nm": 7.546897559214294,
+            "max_nominal_contour_deviation_nm": 22.202986669908793,
+            "max_nominal_shape_error_nm": 22.202986669908793,
+            "mean_nominal_contour_deviation_nm": 1.7630176355285725,
+            "mrc_total_result_count": 0,
+            "nominal_contour_deviation_ratio_over_5nm": 0.10745800156785508,
+            "nominal_violation_ratio_over_5nm": 0.10745800156785508,
+            "p95_nominal_contour_deviation_nm": 10.276273369530273,
+            "pv_band_area_per_target_edge_um": 0.00735156957222643,
+            "sraf_printability_violation_count": 0,
+            "top10_mean_nominal_contour_deviation_nm": 21.95027889086526
+          },
+          "focus_epe_nm": 6.371428571430471,
+          "focus_signed_epe_nm": -6.371428571430471,
+          "assets": {
+            "core": {
+              "target": "poly-06-core-target.png",
+              "mask": "poly-06-core-mask.png",
+              "sraf": "poly-06-core-sraf.png",
+              "contour": "poly-06-core-contour.png",
+              "pvb": "poly-06-core-pvb.png",
+              "gauge": "poly-06-core-gauge.png",
+              "overlay": "poly-06-core-overlay.png",
+              "mask_view": "poly-06-core-mask_view.png",
+              "resist_view": "poly-06-core-resist_view.png",
+              "pvb_view": "poly-06-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "poly-06-zoom-target.png",
+              "mask": "poly-06-zoom-mask.png",
+              "sraf": "poly-06-zoom-sraf.png",
+              "contour": "poly-06-zoom-contour.png",
+              "pvb": "poly-06-zoom-pvb.png",
+              "gauge": "poly-06-zoom-gauge.png",
+              "overlay": "poly-06-zoom-overlay.png",
+              "mask_view": "poly-06-zoom-mask_view.png",
+              "resist_view": "poly-06-zoom-resist_view.png",
+              "pvb_view": "poly-06-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "poly-06-detail-target.png",
+              "mask": "poly-06-detail-mask.png",
+              "sraf": "poly-06-detail-sraf.png",
+              "contour": "poly-06-detail-contour.png",
+              "pvb": "poly-06-detail-pvb.png",
+              "gauge": "poly-06-detail-gauge.png",
+              "overlay": "poly-06-detail-overlay.png",
+              "mask_view": "poly-06-detail-mask_view.png",
+              "resist_view": "poly-06-detail-resist_view.png",
+              "pvb_view": "poly-06-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 7,
+          "kind": "candidate",
+          "retained_frame": 7,
+          "recipe_sha256": "be9e5b2735870eda40ca3d71d12ad9e9cfe14f21c8f91b68dea46aee3ce96c7f",
+          "measurement_sha256": "109e94fbc719ed13de5d8ba1b5579bdc333656fe4a913db94e137152ede5f02d",
+          "result_gds_sha256": "41d535381f007f16758641ecf12366c035aecdb8096c07dedaaa8518284bbee2",
+          "target_sha256": "c6f223edb5ec557ad97a286d39c0dc4955c4fecce7044a97d574be6e144fd433",
+          "metrics": {
+            "corner_max_deviation_nm": 22.202986669908793,
+            "edge_normal_max_epe_nm": 7.6326086956512995,
+            "edge_normal_mean_epe_nm": 0.6236171877166801,
+            "edge_normal_top10_mean_epe_nm": 7.531078718634632,
+            "max_nominal_contour_deviation_nm": 22.202986669908793,
+            "max_nominal_shape_error_nm": 22.202986669908793,
+            "mean_nominal_contour_deviation_nm": 1.7633328813672766,
+            "mrc_total_result_count": 0,
+            "nominal_contour_deviation_ratio_over_5nm": 0.10745476219784776,
+            "nominal_violation_ratio_over_5nm": 0.10745476219784776,
+            "p95_nominal_contour_deviation_nm": 10.274791411034961,
+            "pv_band_area_per_target_edge_um": 0.007352112075814688,
+            "sraf_printability_violation_count": 0,
+            "top10_mean_nominal_contour_deviation_nm": 21.928960497534213
+          },
+          "focus_epe_nm": 6.371428571430471,
+          "focus_signed_epe_nm": -6.371428571430471,
+          "assets": {
+            "core": {
+              "target": "poly-07-core-target.png",
+              "mask": "poly-07-core-mask.png",
+              "sraf": "poly-07-core-sraf.png",
+              "contour": "poly-07-core-contour.png",
+              "pvb": "poly-07-core-pvb.png",
+              "gauge": "poly-07-core-gauge.png",
+              "overlay": "poly-07-core-overlay.png",
+              "mask_view": "poly-07-core-mask_view.png",
+              "resist_view": "poly-07-core-resist_view.png",
+              "pvb_view": "poly-07-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "poly-07-zoom-target.png",
+              "mask": "poly-07-zoom-mask.png",
+              "sraf": "poly-07-zoom-sraf.png",
+              "contour": "poly-07-zoom-contour.png",
+              "pvb": "poly-07-zoom-pvb.png",
+              "gauge": "poly-07-zoom-gauge.png",
+              "overlay": "poly-07-zoom-overlay.png",
+              "mask_view": "poly-07-zoom-mask_view.png",
+              "resist_view": "poly-07-zoom-resist_view.png",
+              "pvb_view": "poly-07-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "poly-07-detail-target.png",
+              "mask": "poly-07-detail-mask.png",
+              "sraf": "poly-07-detail-sraf.png",
+              "contour": "poly-07-detail-contour.png",
+              "pvb": "poly-07-detail-pvb.png",
+              "gauge": "poly-07-detail-gauge.png",
+              "overlay": "poly-07-detail-overlay.png",
+              "mask_view": "poly-07-detail-mask_view.png",
+              "resist_view": "poly-07-detail-resist_view.png",
+              "pvb_view": "poly-07-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 8,
+          "kind": "candidate",
+          "retained_frame": 8,
+          "recipe_sha256": "3d8017c0a22f83fe85dd8dbfffd3fd646e7c7cad41ea2cb429a309f125a6ed6f",
+          "measurement_sha256": "6fdf8c3f2f851571464e67afa8074423a40f4390b242b9b5db65bc51618e4f3c",
+          "result_gds_sha256": "daba090b1a8b3bbec2a5f3b4241f5fd4cbb0bc28238b6baefbd7849c80bc7a35",
+          "target_sha256": "c6f223edb5ec557ad97a286d39c0dc4955c4fecce7044a97d574be6e144fd433",
+          "metrics": {
+            "corner_max_deviation_nm": 22.202986669908793,
+            "edge_normal_max_epe_nm": 7.6043478260849895,
+            "edge_normal_mean_epe_nm": 0.6240716721367694,
+            "edge_normal_top10_mean_epe_nm": 7.514665675156529,
+            "max_nominal_contour_deviation_nm": 22.202986669908793,
+            "max_nominal_shape_error_nm": 22.202986669908793,
+            "mean_nominal_contour_deviation_nm": 1.7636233744030914,
+            "mrc_total_result_count": 0,
+            "nominal_contour_deviation_ratio_over_5nm": 0.10744018503281481,
+            "nominal_violation_ratio_over_5nm": 0.10744018503281481,
+            "p95_nominal_contour_deviation_nm": 10.273053958244688,
+            "pv_band_area_per_target_edge_um": 0.00735268973896464,
+            "sraf_printability_violation_count": 0,
+            "top10_mean_nominal_contour_deviation_nm": 21.91549042943269
+          },
+          "focus_epe_nm": 6.371428571430471,
+          "focus_signed_epe_nm": -6.371428571430471,
+          "assets": {
+            "core": {
+              "target": "poly-08-core-target.png",
+              "mask": "poly-08-core-mask.png",
+              "sraf": "poly-08-core-sraf.png",
+              "contour": "poly-08-core-contour.png",
+              "pvb": "poly-08-core-pvb.png",
+              "gauge": "poly-08-core-gauge.png",
+              "overlay": "poly-08-core-overlay.png",
+              "mask_view": "poly-08-core-mask_view.png",
+              "resist_view": "poly-08-core-resist_view.png",
+              "pvb_view": "poly-08-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "poly-08-zoom-target.png",
+              "mask": "poly-08-zoom-mask.png",
+              "sraf": "poly-08-zoom-sraf.png",
+              "contour": "poly-08-zoom-contour.png",
+              "pvb": "poly-08-zoom-pvb.png",
+              "gauge": "poly-08-zoom-gauge.png",
+              "overlay": "poly-08-zoom-overlay.png",
+              "mask_view": "poly-08-zoom-mask_view.png",
+              "resist_view": "poly-08-zoom-resist_view.png",
+              "pvb_view": "poly-08-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "poly-08-detail-target.png",
+              "mask": "poly-08-detail-mask.png",
+              "sraf": "poly-08-detail-sraf.png",
+              "contour": "poly-08-detail-contour.png",
+              "pvb": "poly-08-detail-pvb.png",
+              "gauge": "poly-08-detail-gauge.png",
+              "overlay": "poly-08-detail-overlay.png",
+              "mask_view": "poly-08-detail-mask_view.png",
+              "resist_view": "poly-08-detail-resist_view.png",
+              "pvb_view": "poly-08-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 9,
+          "kind": "candidate",
+          "retained_frame": 9,
+          "recipe_sha256": "07a12b294edca8c2da8d8ed8f689715fb5a81c28009d0033206e1f1a3f3cbc53",
+          "measurement_sha256": "01bca7468184ee020abab11a7faa38076edb6bc931ca397541a87ee8be59b61c",
+          "result_gds_sha256": "45341501535650052717655b4767d95c21972d13146ea1ea18bb4bfdef3ee93c",
+          "target_sha256": "c6f223edb5ec557ad97a286d39c0dc4955c4fecce7044a97d574be6e144fd433",
+          "metrics": {
+            "corner_max_deviation_nm": 22.202986669908793,
+            "edge_normal_max_epe_nm": 7.595312500001228,
+            "edge_normal_mean_epe_nm": 0.6244924801435483,
+            "edge_normal_top10_mean_epe_nm": 7.492039111726001,
+            "max_nominal_contour_deviation_nm": 22.202986669908793,
+            "max_nominal_shape_error_nm": 22.202986669908793,
+            "mean_nominal_contour_deviation_nm": 1.7638757913418786,
+            "mrc_total_result_count": 0,
+            "nominal_contour_deviation_ratio_over_5nm": 0.10743046692279286,
+            "nominal_violation_ratio_over_5nm": 0.10743046692279286,
+            "p95_nominal_contour_deviation_nm": 10.272779565434014,
+            "pv_band_area_per_target_edge_um": 0.0073532272708219,
+            "sraf_printability_violation_count": 0,
+            "top10_mean_nominal_contour_deviation_nm": 21.899852781078902
+          },
+          "focus_epe_nm": 6.371428571430471,
+          "focus_signed_epe_nm": -6.371428571430471,
+          "assets": {
+            "core": {
+              "target": "poly-09-core-target.png",
+              "mask": "poly-09-core-mask.png",
+              "sraf": "poly-09-core-sraf.png",
+              "contour": "poly-09-core-contour.png",
+              "pvb": "poly-09-core-pvb.png",
+              "gauge": "poly-09-core-gauge.png",
+              "overlay": "poly-09-core-overlay.png",
+              "mask_view": "poly-09-core-mask_view.png",
+              "resist_view": "poly-09-core-resist_view.png",
+              "pvb_view": "poly-09-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "poly-09-zoom-target.png",
+              "mask": "poly-09-zoom-mask.png",
+              "sraf": "poly-09-zoom-sraf.png",
+              "contour": "poly-09-zoom-contour.png",
+              "pvb": "poly-09-zoom-pvb.png",
+              "gauge": "poly-09-zoom-gauge.png",
+              "overlay": "poly-09-zoom-overlay.png",
+              "mask_view": "poly-09-zoom-mask_view.png",
+              "resist_view": "poly-09-zoom-resist_view.png",
+              "pvb_view": "poly-09-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "poly-09-detail-target.png",
+              "mask": "poly-09-detail-mask.png",
+              "sraf": "poly-09-detail-sraf.png",
+              "contour": "poly-09-detail-contour.png",
+              "pvb": "poly-09-detail-pvb.png",
+              "gauge": "poly-09-detail-gauge.png",
+              "overlay": "poly-09-detail-overlay.png",
+              "mask_view": "poly-09-detail-mask_view.png",
+              "resist_view": "poly-09-detail-resist_view.png",
+              "pvb_view": "poly-09-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 10,
+          "kind": "candidate",
+          "retained_frame": 10,
+          "recipe_sha256": "136dc5d92b09b2e1a25d5eaf57cfcc66da65056858bb8e5a1836bf2d02c6184b",
+          "measurement_sha256": "845ff86b49f655eab00ca8c949d4a2a59bc12d2b9da0721e576d1d23436caf31",
+          "result_gds_sha256": "a4b7966aa1b3b49bb597ec73f581246173c74953204abe65fbb8a6131eba5a6f",
+          "target_sha256": "c6f223edb5ec557ad97a286d39c0dc4955c4fecce7044a97d574be6e144fd433",
+          "metrics": {
+            "corner_max_deviation_nm": 22.202986669908793,
+            "edge_normal_max_epe_nm": 7.579120879119827,
+            "edge_normal_mean_epe_nm": 0.6249663358962579,
+            "edge_normal_top10_mean_epe_nm": 7.469899166073546,
+            "max_nominal_contour_deviation_nm": 22.202986669908793,
+            "max_nominal_shape_error_nm": 22.202986669908793,
+            "mean_nominal_contour_deviation_nm": 1.7641733675726146,
+            "mrc_total_result_count": 0,
+            "nominal_contour_deviation_ratio_over_5nm": 0.10742236849777455,
+            "nominal_violation_ratio_over_5nm": 0.10742236849777455,
+            "p95_nominal_contour_deviation_nm": 10.27275934121688,
+            "pv_band_area_per_target_edge_um": 0.007353745419427265,
+            "sraf_printability_violation_count": 0,
+            "top10_mean_nominal_contour_deviation_nm": 21.873945139375287
+          },
+          "focus_epe_nm": 6.371428571430471,
+          "focus_signed_epe_nm": -6.371428571430471,
+          "assets": {
+            "core": {
+              "target": "poly-10-core-target.png",
+              "mask": "poly-10-core-mask.png",
+              "sraf": "poly-10-core-sraf.png",
+              "contour": "poly-10-core-contour.png",
+              "pvb": "poly-10-core-pvb.png",
+              "gauge": "poly-10-core-gauge.png",
+              "overlay": "poly-10-core-overlay.png",
+              "mask_view": "poly-10-core-mask_view.png",
+              "resist_view": "poly-10-core-resist_view.png",
+              "pvb_view": "poly-10-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "poly-10-zoom-target.png",
+              "mask": "poly-10-zoom-mask.png",
+              "sraf": "poly-10-zoom-sraf.png",
+              "contour": "poly-10-zoom-contour.png",
+              "pvb": "poly-10-zoom-pvb.png",
+              "gauge": "poly-10-zoom-gauge.png",
+              "overlay": "poly-10-zoom-overlay.png",
+              "mask_view": "poly-10-zoom-mask_view.png",
+              "resist_view": "poly-10-zoom-resist_view.png",
+              "pvb_view": "poly-10-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "poly-10-detail-target.png",
+              "mask": "poly-10-detail-mask.png",
+              "sraf": "poly-10-detail-sraf.png",
+              "contour": "poly-10-detail-contour.png",
+              "pvb": "poly-10-detail-pvb.png",
+              "gauge": "poly-10-detail-gauge.png",
+              "overlay": "poly-10-detail-overlay.png",
+              "mask_view": "poly-10-detail-mask_view.png",
+              "resist_view": "poly-10-detail-resist_view.png",
+              "pvb_view": "poly-10-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 11,
+          "kind": "repeat",
+          "retained_frame": 11,
+          "recipe_sha256": "136dc5d92b09b2e1a25d5eaf57cfcc66da65056858bb8e5a1836bf2d02c6184b",
+          "measurement_sha256": "2bef1de95968fa6d1abcffbd0f3e22a5c299188d1a29b48823aa568cd15f24a0",
+          "result_gds_sha256": "ca03df60a60faae6aa641a859b79e6f97c5885ba3f10f37bf5ac7805fc94f1f0",
+          "target_sha256": "c6f223edb5ec557ad97a286d39c0dc4955c4fecce7044a97d574be6e144fd433",
+          "metrics": {
+            "corner_max_deviation_nm": 22.202986669908793,
+            "edge_normal_max_epe_nm": 7.579120879119827,
+            "edge_normal_mean_epe_nm": 0.6249663358962579,
+            "edge_normal_top10_mean_epe_nm": 7.469899166073546,
+            "max_nominal_contour_deviation_nm": 22.202986669908793,
+            "max_nominal_shape_error_nm": 22.202986669908793,
+            "mean_nominal_contour_deviation_nm": 1.7641733675726146,
+            "mrc_total_result_count": 0,
+            "nominal_contour_deviation_ratio_over_5nm": 0.10742236849777455,
+            "nominal_violation_ratio_over_5nm": 0.10742236849777455,
+            "p95_nominal_contour_deviation_nm": 10.27275934121688,
+            "pv_band_area_per_target_edge_um": 0.007353745419427265,
+            "sraf_printability_violation_count": 0,
+            "top10_mean_nominal_contour_deviation_nm": 21.873945139375287
+          },
+          "focus_epe_nm": 6.371428571430471,
+          "focus_signed_epe_nm": -6.371428571430471,
+          "assets": {
+            "core": {
+              "target": "poly-11-core-target.png",
+              "mask": "poly-11-core-mask.png",
+              "sraf": "poly-11-core-sraf.png",
+              "contour": "poly-11-core-contour.png",
+              "pvb": "poly-11-core-pvb.png",
+              "gauge": "poly-11-core-gauge.png",
+              "overlay": "poly-11-core-overlay.png",
+              "mask_view": "poly-11-core-mask_view.png",
+              "resist_view": "poly-11-core-resist_view.png",
+              "pvb_view": "poly-11-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "poly-11-zoom-target.png",
+              "mask": "poly-11-zoom-mask.png",
+              "sraf": "poly-11-zoom-sraf.png",
+              "contour": "poly-11-zoom-contour.png",
+              "pvb": "poly-11-zoom-pvb.png",
+              "gauge": "poly-11-zoom-gauge.png",
+              "overlay": "poly-11-zoom-overlay.png",
+              "mask_view": "poly-11-zoom-mask_view.png",
+              "resist_view": "poly-11-zoom-resist_view.png",
+              "pvb_view": "poly-11-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "poly-11-detail-target.png",
+              "mask": "poly-11-detail-mask.png",
+              "sraf": "poly-11-detail-sraf.png",
+              "contour": "poly-11-detail-contour.png",
+              "pvb": "poly-11-detail-pvb.png",
+              "gauge": "poly-11-detail-gauge.png",
+              "overlay": "poly-11-detail-overlay.png",
+              "mask_view": "poly-11-detail-mask_view.png",
+              "resist_view": "poly-11-detail-resist_view.png",
+              "pvb_view": "poly-11-detail-pvb_view.png"
+            }
+          }
+        }
+      ],
+      "prefix": 4,
+      "parent_slot": 2,
+      "viewport": {
+        "core": {
+          "bbox_um": [
+            7.1819,
+            4.4201,
+            17.1819,
+            14.420099999999998
+          ],
+          "width_um": 10.0,
+          "scale_bar_um": 2,
+          "scale_label": "2 µm"
+        },
+        "zoom": {
+          "bbox_um": [
+            16.72,
+            4.4455,
+            17.32,
+            5.0455
+          ],
+          "width_um": 0.6000000000000014,
+          "scale_bar_um": 0.1,
+          "scale_label": "100 nm"
+        },
+        "detail": {
+          "bbox_um": [
+            16.93,
+            4.6555,
+            17.11,
+            4.8355
+          ],
+          "width_um": 0.17999999999999972,
+          "scale_bar_um": 0.025,
+          "scale_label": "25 nm"
+        }
+      },
+      "focus": {
+        "x_um": 17.02,
+        "y_um": 4.7455,
+        "gauge_id": "1bd0e0adb683dfa11c3b:0.1545000000",
+        "normal": [
+          1.0,
+          0.0
+        ]
+      },
+      "report_sha256": "8a5b29ed58d534d504aba6ef1a5b34d34844a8c9e98be4448deab305134f74ba",
+      "scope": "Selected dense main-study window; fixed worst-gauge location at the start of local correction, across all frames. This is an illustrative success case, not a random sample."
+    },
+    {
+      "case_id": "metal1-44-dense-x20-y740",
+      "layer": "metal1",
+      "view_id": "metal1",
+      "display_label": "Metal44",
+      "frames": [
+        {
+          "opc_calls": 0,
+          "kind": "initial",
+          "retained_frame": 0,
+          "recipe_sha256": "f65147e49de5a8101312266f739ef1302983808303e7d1a0566c503d40fffcbf",
+          "measurement_sha256": "a71a59d7a8020a8a3a30ba4698bdc70ced626458474218d6f8343f589d8fea2d",
+          "result_gds_sha256": "c9baa7d41d9bf8155b3a235f546ac22503b89731193bb30bafe4092c153368d7",
+          "target_sha256": "de5961a7ca4f7c85213350339903f56de23eb9e30ce92a579055807aa532dfd1",
+          "metrics": {
+            "edge_normal_max_epe_nm": 22.782608695653295,
+            "edge_normal_mean_epe_nm": 0.7961105152167048,
+            "edge_normal_p95_epe_nm": 3.7760869565214072,
+            "edge_normal_top10_mean_epe_nm": 21.046041845879238,
+            "edge_normal_violation_ratio_over_5nm": 0.03647502464862338,
+            "mrc_total_result_count": 0,
+            "pv_band_area_per_target_edge_um": 0.004981542797304379,
+            "sraf_printability_violation_count": 0
+          },
+          "focus_epe_nm": 22.782608695653295,
+          "focus_signed_epe_nm": 22.782608695653295,
+          "assets": {
+            "core": {
+              "target": "metal44-00-core-target.png",
+              "mask": "metal44-00-core-mask.png",
+              "sraf": "metal44-00-core-sraf.png",
+              "contour": "metal44-00-core-contour.png",
+              "pvb": "metal44-00-core-pvb.png",
+              "gauge": "metal44-00-core-gauge.png",
+              "overlay": "metal44-00-core-overlay.png",
+              "mask_view": "metal44-00-core-mask_view.png",
+              "resist_view": "metal44-00-core-resist_view.png",
+              "pvb_view": "metal44-00-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "metal44-00-zoom-target.png",
+              "mask": "metal44-00-zoom-mask.png",
+              "sraf": "metal44-00-zoom-sraf.png",
+              "contour": "metal44-00-zoom-contour.png",
+              "pvb": "metal44-00-zoom-pvb.png",
+              "gauge": "metal44-00-zoom-gauge.png",
+              "overlay": "metal44-00-zoom-overlay.png",
+              "mask_view": "metal44-00-zoom-mask_view.png",
+              "resist_view": "metal44-00-zoom-resist_view.png",
+              "pvb_view": "metal44-00-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "metal44-00-detail-target.png",
+              "mask": "metal44-00-detail-mask.png",
+              "sraf": "metal44-00-detail-sraf.png",
+              "contour": "metal44-00-detail-contour.png",
+              "pvb": "metal44-00-detail-pvb.png",
+              "gauge": "metal44-00-detail-gauge.png",
+              "overlay": "metal44-00-detail-overlay.png",
+              "mask_view": "metal44-00-detail-mask_view.png",
+              "resist_view": "metal44-00-detail-resist_view.png",
+              "pvb_view": "metal44-00-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 1,
+          "kind": "candidate",
+          "retained_frame": 1,
+          "recipe_sha256": "ef34ffb1837954e7a3c1a6fa8f69a70b430d6bd65eddf0f23db239aeacd36da2",
+          "measurement_sha256": "bc5be61fcbab7c69de19980e3fa60235bf638da7ddad33775e192eed580a48d6",
+          "result_gds_sha256": "df0f471fc216c0f1c51e679a0f7272e326de74f4e6ab531f95c3a46faf983aa7",
+          "target_sha256": "de5961a7ca4f7c85213350339903f56de23eb9e30ce92a579055807aa532dfd1",
+          "metrics": {
+            "edge_normal_max_epe_nm": 22.682608695653528,
+            "edge_normal_mean_epe_nm": 0.748996962934861,
+            "edge_normal_p95_epe_nm": 3.6793478260861434,
+            "edge_normal_top10_mean_epe_nm": 17.270615217485652,
+            "edge_normal_violation_ratio_over_5nm": 0.035015036071758356,
+            "mrc_total_result_count": 0,
+            "pv_band_area_per_target_edge_um": 0.004980844650093887,
+            "sraf_printability_violation_count": 0
+          },
+          "focus_epe_nm": 22.682608695653528,
+          "focus_signed_epe_nm": 22.682608695653528,
+          "assets": {
+            "core": {
+              "target": "metal44-01-core-target.png",
+              "mask": "metal44-01-core-mask.png",
+              "sraf": "metal44-01-core-sraf.png",
+              "contour": "metal44-01-core-contour.png",
+              "pvb": "metal44-01-core-pvb.png",
+              "gauge": "metal44-01-core-gauge.png",
+              "overlay": "metal44-01-core-overlay.png",
+              "mask_view": "metal44-01-core-mask_view.png",
+              "resist_view": "metal44-01-core-resist_view.png",
+              "pvb_view": "metal44-01-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "metal44-01-zoom-target.png",
+              "mask": "metal44-01-zoom-mask.png",
+              "sraf": "metal44-01-zoom-sraf.png",
+              "contour": "metal44-01-zoom-contour.png",
+              "pvb": "metal44-01-zoom-pvb.png",
+              "gauge": "metal44-01-zoom-gauge.png",
+              "overlay": "metal44-01-zoom-overlay.png",
+              "mask_view": "metal44-01-zoom-mask_view.png",
+              "resist_view": "metal44-01-zoom-resist_view.png",
+              "pvb_view": "metal44-01-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "metal44-01-detail-target.png",
+              "mask": "metal44-01-detail-mask.png",
+              "sraf": "metal44-01-detail-sraf.png",
+              "contour": "metal44-01-detail-contour.png",
+              "pvb": "metal44-01-detail-pvb.png",
+              "gauge": "metal44-01-detail-gauge.png",
+              "overlay": "metal44-01-detail-overlay.png",
+              "mask_view": "metal44-01-detail-mask_view.png",
+              "resist_view": "metal44-01-detail-resist_view.png",
+              "pvb_view": "metal44-01-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 2,
+          "kind": "candidate",
+          "retained_frame": 2,
+          "recipe_sha256": "4606506956bea2a26726a8c1cd82de9c00c7a4d35a914e2d6e87391f00321df3",
+          "measurement_sha256": "60bc9414c3f92644351434b92828f9741e6122ccd5c80d70210ee7f49eb898ce",
+          "result_gds_sha256": "2b87652134c4823de24e24bfee4e5364bb06d29033838e725e5adccc118a70f3",
+          "target_sha256": "de5961a7ca4f7c85213350339903f56de23eb9e30ce92a579055807aa532dfd1",
+          "metrics": {
+            "edge_normal_max_epe_nm": 22.41956521739219,
+            "edge_normal_mean_epe_nm": 0.7500113941075518,
+            "edge_normal_p95_epe_nm": 3.59057739557799,
+            "edge_normal_top10_mean_epe_nm": 15.955003858607862,
+            "edge_normal_violation_ratio_over_5nm": 0.0321921720251704,
+            "mrc_total_result_count": 0,
+            "pv_band_area_per_target_edge_um": 0.004994349688928831,
+            "sraf_printability_violation_count": 0
+          },
+          "focus_epe_nm": 22.41956521739219,
+          "focus_signed_epe_nm": 22.41956521739219,
+          "assets": {
+            "core": {
+              "target": "metal44-02-core-target.png",
+              "mask": "metal44-02-core-mask.png",
+              "sraf": "metal44-02-core-sraf.png",
+              "contour": "metal44-02-core-contour.png",
+              "pvb": "metal44-02-core-pvb.png",
+              "gauge": "metal44-02-core-gauge.png",
+              "overlay": "metal44-02-core-overlay.png",
+              "mask_view": "metal44-02-core-mask_view.png",
+              "resist_view": "metal44-02-core-resist_view.png",
+              "pvb_view": "metal44-02-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "metal44-02-zoom-target.png",
+              "mask": "metal44-02-zoom-mask.png",
+              "sraf": "metal44-02-zoom-sraf.png",
+              "contour": "metal44-02-zoom-contour.png",
+              "pvb": "metal44-02-zoom-pvb.png",
+              "gauge": "metal44-02-zoom-gauge.png",
+              "overlay": "metal44-02-zoom-overlay.png",
+              "mask_view": "metal44-02-zoom-mask_view.png",
+              "resist_view": "metal44-02-zoom-resist_view.png",
+              "pvb_view": "metal44-02-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "metal44-02-detail-target.png",
+              "mask": "metal44-02-detail-mask.png",
+              "sraf": "metal44-02-detail-sraf.png",
+              "contour": "metal44-02-detail-contour.png",
+              "pvb": "metal44-02-detail-pvb.png",
+              "gauge": "metal44-02-detail-gauge.png",
+              "overlay": "metal44-02-detail-overlay.png",
+              "mask_view": "metal44-02-detail-mask_view.png",
+              "resist_view": "metal44-02-detail-resist_view.png",
+              "pvb_view": "metal44-02-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 3,
+          "kind": "candidate",
+          "retained_frame": 3,
+          "recipe_sha256": "3eeda3744c66964388f4717e7b8bd9ceb33c1cb524e7f30bfb79029fb40b6b24",
+          "measurement_sha256": "5bc1354c2d2fd7661c882382b3a3ca58ca0191dc7713960994ff978c2557aa0d",
+          "result_gds_sha256": "93fd4ae3a4e1cbec3e1a19b6121b54afd1f5a395bcaaeb90898590b50f6785eb",
+          "target_sha256": "de5961a7ca4f7c85213350339903f56de23eb9e30ce92a579055807aa532dfd1",
+          "metrics": {
+            "edge_normal_max_epe_nm": 21.156521739131406,
+            "edge_normal_mean_epe_nm": 0.7495492099706678,
+            "edge_normal_p95_epe_nm": 3.591304347826174,
+            "edge_normal_top10_mean_epe_nm": 15.691661778866095,
+            "edge_normal_violation_ratio_over_5nm": 0.03218558808570314,
+            "mrc_total_result_count": 0,
+            "pv_band_area_per_target_edge_um": 0.004994742707374573,
+            "sraf_printability_violation_count": 0
+          },
+          "focus_epe_nm": 21.156521739131406,
+          "focus_signed_epe_nm": 21.156521739131406,
+          "assets": {
+            "core": {
+              "target": "metal44-03-core-target.png",
+              "mask": "metal44-03-core-mask.png",
+              "sraf": "metal44-03-core-sraf.png",
+              "contour": "metal44-03-core-contour.png",
+              "pvb": "metal44-03-core-pvb.png",
+              "gauge": "metal44-03-core-gauge.png",
+              "overlay": "metal44-03-core-overlay.png",
+              "mask_view": "metal44-03-core-mask_view.png",
+              "resist_view": "metal44-03-core-resist_view.png",
+              "pvb_view": "metal44-03-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "metal44-03-zoom-target.png",
+              "mask": "metal44-03-zoom-mask.png",
+              "sraf": "metal44-03-zoom-sraf.png",
+              "contour": "metal44-03-zoom-contour.png",
+              "pvb": "metal44-03-zoom-pvb.png",
+              "gauge": "metal44-03-zoom-gauge.png",
+              "overlay": "metal44-03-zoom-overlay.png",
+              "mask_view": "metal44-03-zoom-mask_view.png",
+              "resist_view": "metal44-03-zoom-resist_view.png",
+              "pvb_view": "metal44-03-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "metal44-03-detail-target.png",
+              "mask": "metal44-03-detail-mask.png",
+              "sraf": "metal44-03-detail-sraf.png",
+              "contour": "metal44-03-detail-contour.png",
+              "pvb": "metal44-03-detail-pvb.png",
+              "gauge": "metal44-03-detail-gauge.png",
+              "overlay": "metal44-03-detail-overlay.png",
+              "mask_view": "metal44-03-detail-mask_view.png",
+              "resist_view": "metal44-03-detail-resist_view.png",
+              "pvb_view": "metal44-03-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 4,
+          "kind": "candidate",
+          "retained_frame": 4,
+          "recipe_sha256": "58e6f8425358ff9ec38bf06778ff530ae75ac6fec875cb22b895a589fa825dcd",
+          "measurement_sha256": "8c9a4d20e3b876b26fb7ee8a621b169cc8ad9e17d7e87ffc9ee20cefc4954608",
+          "result_gds_sha256": "19313e0039815cf816f4b4c798407bc8183b66ba69bd4010d0e8c83286161e4e",
+          "target_sha256": "de5961a7ca4f7c85213350339903f56de23eb9e30ce92a579055807aa532dfd1",
+          "metrics": {
+            "edge_normal_max_epe_nm": 19.76250000000057,
+            "edge_normal_mean_epe_nm": 0.7492796536239952,
+            "edge_normal_p95_epe_nm": 3.591304347826174,
+            "edge_normal_top10_mean_epe_nm": 15.422466938351585,
+            "edge_normal_violation_ratio_over_5nm": 0.032180650131102696,
+            "mrc_total_result_count": 0,
+            "pv_band_area_per_target_edge_um": 0.0049948376758786025,
+            "sraf_printability_violation_count": 0
+          },
+          "focus_epe_nm": 19.76250000000057,
+          "focus_signed_epe_nm": 19.76250000000057,
+          "assets": {
+            "core": {
+              "target": "metal44-04-core-target.png",
+              "mask": "metal44-04-core-mask.png",
+              "sraf": "metal44-04-core-sraf.png",
+              "contour": "metal44-04-core-contour.png",
+              "pvb": "metal44-04-core-pvb.png",
+              "gauge": "metal44-04-core-gauge.png",
+              "overlay": "metal44-04-core-overlay.png",
+              "mask_view": "metal44-04-core-mask_view.png",
+              "resist_view": "metal44-04-core-resist_view.png",
+              "pvb_view": "metal44-04-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "metal44-04-zoom-target.png",
+              "mask": "metal44-04-zoom-mask.png",
+              "sraf": "metal44-04-zoom-sraf.png",
+              "contour": "metal44-04-zoom-contour.png",
+              "pvb": "metal44-04-zoom-pvb.png",
+              "gauge": "metal44-04-zoom-gauge.png",
+              "overlay": "metal44-04-zoom-overlay.png",
+              "mask_view": "metal44-04-zoom-mask_view.png",
+              "resist_view": "metal44-04-zoom-resist_view.png",
+              "pvb_view": "metal44-04-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "metal44-04-detail-target.png",
+              "mask": "metal44-04-detail-mask.png",
+              "sraf": "metal44-04-detail-sraf.png",
+              "contour": "metal44-04-detail-contour.png",
+              "pvb": "metal44-04-detail-pvb.png",
+              "gauge": "metal44-04-detail-gauge.png",
+              "overlay": "metal44-04-detail-overlay.png",
+              "mask_view": "metal44-04-detail-mask_view.png",
+              "resist_view": "metal44-04-detail-resist_view.png",
+              "pvb_view": "metal44-04-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 5,
+          "kind": "candidate",
+          "retained_frame": 5,
+          "recipe_sha256": "6980cef418e78ce92d320fd3fde550ac01524569b7742da9e950725c191cb465",
+          "measurement_sha256": "7dcab095e4019258d7d58dcd3c82e0b4c499837298357fbefa31138b0d5b8363",
+          "result_gds_sha256": "cb458707d2857b067bea77578dba3d7af2f8827c168a70fcf8553edafda84284",
+          "target_sha256": "de5961a7ca4f7c85213350339903f56de23eb9e30ce92a579055807aa532dfd1",
+          "metrics": {
+            "edge_normal_max_epe_nm": 18.71956521739193,
+            "edge_normal_mean_epe_nm": 0.749098585948016,
+            "edge_normal_p95_epe_nm": 3.591304347826174,
+            "edge_normal_top10_mean_epe_nm": 15.189366078666476,
+            "edge_normal_violation_ratio_over_5nm": 0.03217571217650225,
+            "mrc_total_result_count": 0,
+            "pv_band_area_per_target_edge_um": 0.004994906163833786,
+            "sraf_printability_violation_count": 0
+          },
+          "focus_epe_nm": 18.71956521739193,
+          "focus_signed_epe_nm": 18.71956521739193,
+          "assets": {
+            "core": {
+              "target": "metal44-05-core-target.png",
+              "mask": "metal44-05-core-mask.png",
+              "sraf": "metal44-05-core-sraf.png",
+              "contour": "metal44-05-core-contour.png",
+              "pvb": "metal44-05-core-pvb.png",
+              "gauge": "metal44-05-core-gauge.png",
+              "overlay": "metal44-05-core-overlay.png",
+              "mask_view": "metal44-05-core-mask_view.png",
+              "resist_view": "metal44-05-core-resist_view.png",
+              "pvb_view": "metal44-05-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "metal44-05-zoom-target.png",
+              "mask": "metal44-05-zoom-mask.png",
+              "sraf": "metal44-05-zoom-sraf.png",
+              "contour": "metal44-05-zoom-contour.png",
+              "pvb": "metal44-05-zoom-pvb.png",
+              "gauge": "metal44-05-zoom-gauge.png",
+              "overlay": "metal44-05-zoom-overlay.png",
+              "mask_view": "metal44-05-zoom-mask_view.png",
+              "resist_view": "metal44-05-zoom-resist_view.png",
+              "pvb_view": "metal44-05-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "metal44-05-detail-target.png",
+              "mask": "metal44-05-detail-mask.png",
+              "sraf": "metal44-05-detail-sraf.png",
+              "contour": "metal44-05-detail-contour.png",
+              "pvb": "metal44-05-detail-pvb.png",
+              "gauge": "metal44-05-detail-gauge.png",
+              "overlay": "metal44-05-detail-overlay.png",
+              "mask_view": "metal44-05-detail-mask_view.png",
+              "resist_view": "metal44-05-detail-resist_view.png",
+              "pvb_view": "metal44-05-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 6,
+          "kind": "candidate",
+          "retained_frame": 6,
+          "recipe_sha256": "72294adca1bb6b46a6832b9ded84cad401b8e404c9755072a7c022967dcecc0f",
+          "measurement_sha256": "9620d9a0cf24a5b04831af0958cf15ffc2a76bb40438431e47e151c64929b286",
+          "result_gds_sha256": "3a1e2dce67118bcd7c06da1e6ea20620127e4c017fabd15ba9513b54c7ed1e94",
+          "target_sha256": "de5961a7ca4f7c85213350339903f56de23eb9e30ce92a579055807aa532dfd1",
+          "metrics": {
+            "edge_normal_max_epe_nm": 17.456521739131148,
+            "edge_normal_mean_epe_nm": 0.748877631072462,
+            "edge_normal_p95_epe_nm": 3.5869565217385713,
+            "edge_normal_top10_mean_epe_nm": 15.009981562063768,
+            "edge_normal_violation_ratio_over_5nm": 0.03217406619163543,
+            "mrc_total_result_count": 0,
+            "pv_band_area_per_target_edge_um": 0.004995001981248896,
+            "sraf_printability_violation_count": 0
+          },
+          "focus_epe_nm": 17.456521739131148,
+          "focus_signed_epe_nm": 17.456521739131148,
+          "assets": {
+            "core": {
+              "target": "metal44-06-core-target.png",
+              "mask": "metal44-06-core-mask.png",
+              "sraf": "metal44-06-core-sraf.png",
+              "contour": "metal44-06-core-contour.png",
+              "pvb": "metal44-06-core-pvb.png",
+              "gauge": "metal44-06-core-gauge.png",
+              "overlay": "metal44-06-core-overlay.png",
+              "mask_view": "metal44-06-core-mask_view.png",
+              "resist_view": "metal44-06-core-resist_view.png",
+              "pvb_view": "metal44-06-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "metal44-06-zoom-target.png",
+              "mask": "metal44-06-zoom-mask.png",
+              "sraf": "metal44-06-zoom-sraf.png",
+              "contour": "metal44-06-zoom-contour.png",
+              "pvb": "metal44-06-zoom-pvb.png",
+              "gauge": "metal44-06-zoom-gauge.png",
+              "overlay": "metal44-06-zoom-overlay.png",
+              "mask_view": "metal44-06-zoom-mask_view.png",
+              "resist_view": "metal44-06-zoom-resist_view.png",
+              "pvb_view": "metal44-06-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "metal44-06-detail-target.png",
+              "mask": "metal44-06-detail-mask.png",
+              "sraf": "metal44-06-detail-sraf.png",
+              "contour": "metal44-06-detail-contour.png",
+              "pvb": "metal44-06-detail-pvb.png",
+              "gauge": "metal44-06-detail-gauge.png",
+              "overlay": "metal44-06-detail-overlay.png",
+              "mask_view": "metal44-06-detail-mask_view.png",
+              "resist_view": "metal44-06-detail-resist_view.png",
+              "pvb_view": "metal44-06-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 7,
+          "kind": "candidate",
+          "retained_frame": 7,
+          "recipe_sha256": "3e15aa45c26f6f4f141a6f827a4e3f7d8391a5280d0ff46346984c4153bdfdab",
+          "measurement_sha256": "7558c37086611bbc6f6740181e4f50fcbc99d95922246e34881cce0b2beed3ce",
+          "result_gds_sha256": "02a97c2c3b20f983c1c2cff1082d0c217fd6504b0349bc3bd16eb5c2529cb2d6",
+          "target_sha256": "de5961a7ca4f7c85213350339903f56de23eb9e30ce92a579055807aa532dfd1",
+          "metrics": {
+            "edge_normal_max_epe_nm": 16.093478260870597,
+            "edge_normal_mean_epe_nm": 0.7487276655437013,
+            "edge_normal_p95_epe_nm": 3.5854805194807264,
+            "edge_normal_top10_mean_epe_nm": 14.873677214237711,
+            "edge_normal_violation_ratio_over_5nm": 0.032172420206768616,
+            "mrc_total_result_count": 0,
+            "pv_band_area_per_target_edge_um": 0.004995121540790013,
+            "sraf_printability_violation_count": 0
+          },
+          "focus_epe_nm": 16.093478260870597,
+          "focus_signed_epe_nm": 16.093478260870597,
+          "assets": {
+            "core": {
+              "target": "metal44-07-core-target.png",
+              "mask": "metal44-07-core-mask.png",
+              "sraf": "metal44-07-core-sraf.png",
+              "contour": "metal44-07-core-contour.png",
+              "pvb": "metal44-07-core-pvb.png",
+              "gauge": "metal44-07-core-gauge.png",
+              "overlay": "metal44-07-core-overlay.png",
+              "mask_view": "metal44-07-core-mask_view.png",
+              "resist_view": "metal44-07-core-resist_view.png",
+              "pvb_view": "metal44-07-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "metal44-07-zoom-target.png",
+              "mask": "metal44-07-zoom-mask.png",
+              "sraf": "metal44-07-zoom-sraf.png",
+              "contour": "metal44-07-zoom-contour.png",
+              "pvb": "metal44-07-zoom-pvb.png",
+              "gauge": "metal44-07-zoom-gauge.png",
+              "overlay": "metal44-07-zoom-overlay.png",
+              "mask_view": "metal44-07-zoom-mask_view.png",
+              "resist_view": "metal44-07-zoom-resist_view.png",
+              "pvb_view": "metal44-07-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "metal44-07-detail-target.png",
+              "mask": "metal44-07-detail-mask.png",
+              "sraf": "metal44-07-detail-sraf.png",
+              "contour": "metal44-07-detail-contour.png",
+              "pvb": "metal44-07-detail-pvb.png",
+              "gauge": "metal44-07-detail-gauge.png",
+              "overlay": "metal44-07-detail-overlay.png",
+              "mask_view": "metal44-07-detail-mask_view.png",
+              "resist_view": "metal44-07-detail-resist_view.png",
+              "pvb_view": "metal44-07-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 8,
+          "kind": "candidate",
+          "retained_frame": 8,
+          "recipe_sha256": "97c3aa17b71ac9970592b5944118213fdcadef6b7516a96a502de9f78d1c4598",
+          "measurement_sha256": "ad32fac125b0a30663bcfc338519b17e57d0852036fb3dd655163062b6d3c262",
+          "result_gds_sha256": "7f800385a3ff46d19ec4ba3cebbdbbb117ffbfbd64bb28f8c11470fd563d7708",
+          "target_sha256": "de5961a7ca4f7c85213350339903f56de23eb9e30ce92a579055807aa532dfd1",
+          "metrics": {
+            "edge_normal_max_epe_nm": 15.803076923077697,
+            "edge_normal_mean_epe_nm": 0.7485605256758706,
+            "edge_normal_p95_epe_nm": 3.584797498511346,
+            "edge_normal_top10_mean_epe_nm": 14.743677214237659,
+            "edge_normal_violation_ratio_over_5nm": 0.03216912823703499,
+            "mrc_total_result_count": 0,
+            "pv_band_area_per_target_edge_um": 0.004995259913296029,
+            "sraf_printability_violation_count": 0
+          },
+          "focus_epe_nm": 14.793478260870074,
+          "focus_signed_epe_nm": 14.793478260870074,
+          "assets": {
+            "core": {
+              "target": "metal44-08-core-target.png",
+              "mask": "metal44-08-core-mask.png",
+              "sraf": "metal44-08-core-sraf.png",
+              "contour": "metal44-08-core-contour.png",
+              "pvb": "metal44-08-core-pvb.png",
+              "gauge": "metal44-08-core-gauge.png",
+              "overlay": "metal44-08-core-overlay.png",
+              "mask_view": "metal44-08-core-mask_view.png",
+              "resist_view": "metal44-08-core-resist_view.png",
+              "pvb_view": "metal44-08-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "metal44-08-zoom-target.png",
+              "mask": "metal44-08-zoom-mask.png",
+              "sraf": "metal44-08-zoom-sraf.png",
+              "contour": "metal44-08-zoom-contour.png",
+              "pvb": "metal44-08-zoom-pvb.png",
+              "gauge": "metal44-08-zoom-gauge.png",
+              "overlay": "metal44-08-zoom-overlay.png",
+              "mask_view": "metal44-08-zoom-mask_view.png",
+              "resist_view": "metal44-08-zoom-resist_view.png",
+              "pvb_view": "metal44-08-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "metal44-08-detail-target.png",
+              "mask": "metal44-08-detail-mask.png",
+              "sraf": "metal44-08-detail-sraf.png",
+              "contour": "metal44-08-detail-contour.png",
+              "pvb": "metal44-08-detail-pvb.png",
+              "gauge": "metal44-08-detail-gauge.png",
+              "overlay": "metal44-08-detail-overlay.png",
+              "mask_view": "metal44-08-detail-mask_view.png",
+              "resist_view": "metal44-08-detail-resist_view.png",
+              "pvb_view": "metal44-08-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 9,
+          "kind": "candidate",
+          "retained_frame": 9,
+          "recipe_sha256": "26f616bee9ed395b63c1e83db9d335d84fb8095957cbc2cd82141b69cb0fb382",
+          "measurement_sha256": "58cf49709200bc55c0ac3286f612f632859880418c11771dae32df9cea392bc3",
+          "result_gds_sha256": "0b89caf7002932fb0fefb516a077514e7990dc2698c8ade6aa56b4d093c3fa4a",
+          "target_sha256": "de5961a7ca4f7c85213350339903f56de23eb9e30ce92a579055807aa532dfd1",
+          "metrics": {
+            "edge_normal_max_epe_nm": 15.223456790123713,
+            "edge_normal_mean_epe_nm": 0.7483989765397343,
+            "edge_normal_p95_epe_nm": 3.5847826086944146,
+            "edge_normal_top10_mean_epe_nm": 14.627015355263229,
+            "edge_normal_violation_ratio_over_5nm": 0.032160898312700914,
+            "mrc_total_result_count": 0,
+            "pv_band_area_per_target_edge_um": 0.004995256202733084,
+            "sraf_printability_violation_count": 0
+          },
+          "focus_epe_nm": 14.793478260870074,
+          "focus_signed_epe_nm": 14.793478260870074,
+          "assets": {
+            "core": {
+              "target": "metal44-09-core-target.png",
+              "mask": "metal44-09-core-mask.png",
+              "sraf": "metal44-09-core-sraf.png",
+              "contour": "metal44-09-core-contour.png",
+              "pvb": "metal44-09-core-pvb.png",
+              "gauge": "metal44-09-core-gauge.png",
+              "overlay": "metal44-09-core-overlay.png",
+              "mask_view": "metal44-09-core-mask_view.png",
+              "resist_view": "metal44-09-core-resist_view.png",
+              "pvb_view": "metal44-09-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "metal44-09-zoom-target.png",
+              "mask": "metal44-09-zoom-mask.png",
+              "sraf": "metal44-09-zoom-sraf.png",
+              "contour": "metal44-09-zoom-contour.png",
+              "pvb": "metal44-09-zoom-pvb.png",
+              "gauge": "metal44-09-zoom-gauge.png",
+              "overlay": "metal44-09-zoom-overlay.png",
+              "mask_view": "metal44-09-zoom-mask_view.png",
+              "resist_view": "metal44-09-zoom-resist_view.png",
+              "pvb_view": "metal44-09-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "metal44-09-detail-target.png",
+              "mask": "metal44-09-detail-mask.png",
+              "sraf": "metal44-09-detail-sraf.png",
+              "contour": "metal44-09-detail-contour.png",
+              "pvb": "metal44-09-detail-pvb.png",
+              "gauge": "metal44-09-detail-gauge.png",
+              "overlay": "metal44-09-detail-overlay.png",
+              "mask_view": "metal44-09-detail-mask_view.png",
+              "resist_view": "metal44-09-detail-resist_view.png",
+              "pvb_view": "metal44-09-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 10,
+          "kind": "candidate",
+          "retained_frame": 10,
+          "recipe_sha256": "feafa57d44befb02fba7fa884a0e3bc89015ec65efbfeba24efef14a1dd2221a",
+          "measurement_sha256": "131105984e2566e155594b55b742821df4ffefee7864711256b8804e8fe818dd",
+          "result_gds_sha256": "57ba92827be36cd31a7b1082f1488f320951ef0dc81c6a98ebf3f8af9129d3a0",
+          "target_sha256": "de5961a7ca4f7c85213350339903f56de23eb9e30ce92a579055807aa532dfd1",
+          "metrics": {
+            "edge_normal_max_epe_nm": 14.914130434783957,
+            "edge_normal_mean_epe_nm": 0.7482572794402966,
+            "edge_normal_p95_epe_nm": 3.5830037115578683,
+            "edge_normal_top10_mean_epe_nm": 14.471336342917596,
+            "edge_normal_violation_ratio_over_5nm": 0.032149376418633205,
+            "mrc_total_result_count": 0,
+            "pv_band_area_per_target_edge_um": 0.004995261515273389,
+            "sraf_printability_violation_count": 0
+          },
+          "focus_epe_nm": 14.793478260870074,
+          "focus_signed_epe_nm": 14.793478260870074,
+          "assets": {
+            "core": {
+              "target": "metal44-10-core-target.png",
+              "mask": "metal44-10-core-mask.png",
+              "sraf": "metal44-10-core-sraf.png",
+              "contour": "metal44-10-core-contour.png",
+              "pvb": "metal44-10-core-pvb.png",
+              "gauge": "metal44-10-core-gauge.png",
+              "overlay": "metal44-10-core-overlay.png",
+              "mask_view": "metal44-10-core-mask_view.png",
+              "resist_view": "metal44-10-core-resist_view.png",
+              "pvb_view": "metal44-10-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "metal44-10-zoom-target.png",
+              "mask": "metal44-10-zoom-mask.png",
+              "sraf": "metal44-10-zoom-sraf.png",
+              "contour": "metal44-10-zoom-contour.png",
+              "pvb": "metal44-10-zoom-pvb.png",
+              "gauge": "metal44-10-zoom-gauge.png",
+              "overlay": "metal44-10-zoom-overlay.png",
+              "mask_view": "metal44-10-zoom-mask_view.png",
+              "resist_view": "metal44-10-zoom-resist_view.png",
+              "pvb_view": "metal44-10-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "metal44-10-detail-target.png",
+              "mask": "metal44-10-detail-mask.png",
+              "sraf": "metal44-10-detail-sraf.png",
+              "contour": "metal44-10-detail-contour.png",
+              "pvb": "metal44-10-detail-pvb.png",
+              "gauge": "metal44-10-detail-gauge.png",
+              "overlay": "metal44-10-detail-overlay.png",
+              "mask_view": "metal44-10-detail-mask_view.png",
+              "resist_view": "metal44-10-detail-resist_view.png",
+              "pvb_view": "metal44-10-detail-pvb_view.png"
+            }
+          }
+        },
+        {
+          "opc_calls": 11,
+          "kind": "repeat",
+          "retained_frame": 10,
+          "recipe_sha256": "feafa57d44befb02fba7fa884a0e3bc89015ec65efbfeba24efef14a1dd2221a",
+          "measurement_sha256": "1a804ce98ac268269fd6a758eaa25c9ab3d27a1c7bbcac575c76bc837e019ff2",
+          "result_gds_sha256": "a0cede3728a7a851db8ee356af90234157e8fb33e6c8d5b99e007d9b3dd6983b",
+          "target_sha256": "de5961a7ca4f7c85213350339903f56de23eb9e30ce92a579055807aa532dfd1",
+          "metrics": {
+            "edge_normal_max_epe_nm": 14.914130434783957,
+            "edge_normal_mean_epe_nm": 0.7482572794402966,
+            "edge_normal_p95_epe_nm": 3.5830037115578683,
+            "edge_normal_top10_mean_epe_nm": 14.471336342917596,
+            "edge_normal_violation_ratio_over_5nm": 0.032149376418633205,
+            "mrc_total_result_count": 0,
+            "pv_band_area_per_target_edge_um": 0.004995261515273389,
+            "sraf_printability_violation_count": 0
+          },
+          "focus_epe_nm": 14.793478260870074,
+          "focus_signed_epe_nm": 14.793478260870074,
+          "assets": {
+            "core": {
+              "target": "metal44-11-core-target.png",
+              "mask": "metal44-11-core-mask.png",
+              "sraf": "metal44-11-core-sraf.png",
+              "contour": "metal44-11-core-contour.png",
+              "pvb": "metal44-11-core-pvb.png",
+              "gauge": "metal44-11-core-gauge.png",
+              "overlay": "metal44-11-core-overlay.png",
+              "mask_view": "metal44-11-core-mask_view.png",
+              "resist_view": "metal44-11-core-resist_view.png",
+              "pvb_view": "metal44-11-core-pvb_view.png"
+            },
+            "zoom": {
+              "target": "metal44-11-zoom-target.png",
+              "mask": "metal44-11-zoom-mask.png",
+              "sraf": "metal44-11-zoom-sraf.png",
+              "contour": "metal44-11-zoom-contour.png",
+              "pvb": "metal44-11-zoom-pvb.png",
+              "gauge": "metal44-11-zoom-gauge.png",
+              "overlay": "metal44-11-zoom-overlay.png",
+              "mask_view": "metal44-11-zoom-mask_view.png",
+              "resist_view": "metal44-11-zoom-resist_view.png",
+              "pvb_view": "metal44-11-zoom-pvb_view.png"
+            },
+            "detail": {
+              "target": "metal44-11-detail-target.png",
+              "mask": "metal44-11-detail-mask.png",
+              "sraf": "metal44-11-detail-sraf.png",
+              "contour": "metal44-11-detail-contour.png",
+              "pvb": "metal44-11-detail-pvb.png",
+              "gauge": "metal44-11-detail-gauge.png",
+              "overlay": "metal44-11-detail-overlay.png",
+              "mask_view": "metal44-11-detail-mask_view.png",
+              "resist_view": "metal44-11-detail-resist_view.png",
+              "pvb_view": "metal44-11-detail-pvb_view.png"
+            }
+          }
+        }
+      ],
+      "prefix": 2,
+      "parent_slot": 2,
+      "viewport": {
+        "core": {
+          "bbox_um": [
+            3.7522999999999995,
+            5.3054,
+            13.752299999999998,
+            15.305399999999999
+          ],
+          "width_um": 9.999999999999998,
+          "scale_bar_um": 2,
+          "scale_label": "2 µm"
+        },
+        "zoom": {
+          "bbox_um": [
+            4.0545,
+            12.754999999999999,
+            4.6545,
+            13.355
+          ],
+          "width_um": 0.5999999999999996,
+          "scale_bar_um": 0.1,
+          "scale_label": "100 nm"
+        },
+        "detail": {
+          "bbox_um": [
+            4.2645,
+            12.965,
+            4.4445,
+            13.145
+          ],
+          "width_um": 0.17999999999999972,
+          "scale_bar_um": 0.025,
+          "scale_label": "25 nm"
+        }
+      },
+      "focus": {
+        "x_um": 4.3545,
+        "y_um": 13.055,
+        "gauge_id": "5f53c99a799a9597126d:0.0255000000",
+        "normal": [
+          -0.0,
+          -1.0
+        ]
+      },
+      "report_sha256": "e95a6593d2daca980a707b3663ab4a1a9086b8c480b7674c80b873dc2f81f088",
+      "scope": "Fixed worst gauge before the first local correction, shown across all measured trials. The global maximum may move to another gauge."
+    }
+  ],
+  "files": [
+    {
+      "path": "poly-00-core-target.png",
+      "sha256": "05b7daac17ff4c00e86bc05b1e4f7bd5d3e9625d54662dade9cbddca6784ed38",
+      "bytes": 9969
+    },
+    {
+      "path": "poly-00-core-mask.png",
+      "sha256": "fb9a3baaabb37de2ece509ec161c2e2342a5fda62c21e610461282617975b8e3",
+      "bytes": 15506
+    },
+    {
+      "path": "poly-00-core-sraf.png",
+      "sha256": "e9b832af889a90c57350c5b597079195e0229f71cf1c15bb5d713448c676b21d",
+      "bytes": 17301
+    },
+    {
+      "path": "poly-00-core-contour.png",
+      "sha256": "11eb321e1584500af4c73b81e8e9e2ebae06c00697739be414992f0fdb7a1b8a",
+      "bytes": 22521
+    },
+    {
+      "path": "poly-00-core-pvb.png",
+      "sha256": "996c3fc5eb3ab9ace5649448fb4325756049898b483d30d4246ac1ee8da11a14",
+      "bytes": 25417
+    },
+    {
+      "path": "poly-00-core-gauge.png",
+      "sha256": "19a67f732b82f3ee95e8ffbd978c6082b94244b19f8354b2a170a9a112e28b8c",
+      "bytes": 3957
+    },
+    {
+      "path": "poly-00-core-overlay.png",
+      "sha256": "1c038472e2cd25514a9ec2c952868840ee728393399c0c430e51630c5c4affb6",
+      "bytes": 57850
+    },
+    {
+      "path": "poly-00-core-mask_view.png",
+      "sha256": "1ccb1fcd4b4206f2a7c8f14bd6888bca801d195e5bd3843c6b0769022c9c5ad7",
+      "bytes": 38427
+    },
+    {
+      "path": "poly-00-core-resist_view.png",
+      "sha256": "bcb524d2bfbd8495e209e2628cf6951819ae9bf3cf858c14cb462da4203b6a75",
+      "bytes": 33058
+    },
+    {
+      "path": "poly-00-core-pvb_view.png",
+      "sha256": "fc62fe674be35378302977ab1f4f64dc1cfa66f29eb58747efd5d654a86c2110",
+      "bytes": 36265
+    },
+    {
+      "path": "poly-00-zoom-target.png",
+      "sha256": "692bd77e8893fdd1886759421f3f9d371c0f90c2f774c119b54f890791fd1008",
+      "bytes": 5465
+    },
+    {
+      "path": "poly-00-zoom-mask.png",
+      "sha256": "1ef6c632dc882a2846ecef1d16cf05369305adcc492ff0b5e00dd207978692bc",
+      "bytes": 5664
+    },
+    {
+      "path": "poly-00-zoom-sraf.png",
+      "sha256": "123974c63b1ad535c65a351816ce37b4fbbee95b099fa9008c492fee8687b10d",
+      "bytes": 5509
+    },
+    {
+      "path": "poly-00-zoom-contour.png",
+      "sha256": "11d6f0a4d036690e12e8754e4c87b67fbd15038e530ec2fb829995541775839d",
+      "bytes": 7641
+    },
+    {
+      "path": "poly-00-zoom-pvb.png",
+      "sha256": "1b60cbd64478cb31378783cdc08df82c9a0f92cb29fa1e61f2e8b6fb50353910",
+      "bytes": 8048
+    },
+    {
+      "path": "poly-00-zoom-gauge.png",
+      "sha256": "bee92ec45c331eb46bd1ceadacef5572c49eb7769caf2f4d9a103c1df4d70006",
+      "bytes": 4069
+    },
+    {
+      "path": "poly-00-zoom-overlay.png",
+      "sha256": "296d3282f2bb3c74bb99facf1505c7f5985fd6a29ff6b7e9cf439bd9269d0533",
+      "bytes": 12720
+    },
+    {
+      "path": "poly-00-zoom-mask_view.png",
+      "sha256": "45ee7fea9b9a9ef825eca12de1295fab78d3add61bdee46678b56665bcce9b29",
+      "bytes": 6283
+    },
+    {
+      "path": "poly-00-zoom-resist_view.png",
+      "sha256": "2cc24ea70df81bc7742980ab3ce90361155d17b1eeb4d0eaed307eb3ed9e5546",
+      "bytes": 11183
+    },
+    {
+      "path": "poly-00-zoom-pvb_view.png",
+      "sha256": "c46bc4270120c3d3ab5f75aaccb245508b309689a766e72e8a619c38790a4112",
+      "bytes": 8470
+    },
+    {
+      "path": "poly-00-detail-target.png",
+      "sha256": "0e14d85252dbd2d88380aecd6e5e5b420550e3de522c0d177c5039d8c06e8e9f",
+      "bytes": 5385
+    },
+    {
+      "path": "poly-00-detail-mask.png",
+      "sha256": "e241d0a181bac2248d67e958123f993c32aa8b0c8d6fc6738296eb6c6f9eeaee",
+      "bytes": 5386
+    },
+    {
+      "path": "poly-00-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "poly-00-detail-contour.png",
+      "sha256": "dbdef41a02aed3fa8b61329a8cbea220af0598a4a375b4acc6d5c684dca52458",
+      "bytes": 6176
+    },
+    {
+      "path": "poly-00-detail-pvb.png",
+      "sha256": "e6b2085d47e4c4e6c59f809f112cf3da9c638b9301987738322e524d8910412a",
+      "bytes": 6470
+    },
+    {
+      "path": "poly-00-detail-gauge.png",
+      "sha256": "ab31e32647d01219f99fc7893f15c28654b202222de609a9feeccc7956ef5100",
+      "bytes": 4071
+    },
+    {
+      "path": "poly-00-detail-overlay.png",
+      "sha256": "057f65b8862c4f93ef6abc84ce7ddf7cc2b84b58699c258f87760fd749a1cba2",
+      "bytes": 7324
+    },
+    {
+      "path": "poly-00-detail-mask_view.png",
+      "sha256": "7520161f905d888d63fa08cb87e4c5aa9eaf6979cce6bcd46e3903333bc0a054",
+      "bytes": 5006
+    },
+    {
+      "path": "poly-00-detail-resist_view.png",
+      "sha256": "c1defa3cd008491f986e408098fe8537cba7b1f617eed4ce06a95b9595fa9f90",
+      "bytes": 7132
+    },
+    {
+      "path": "poly-00-detail-pvb_view.png",
+      "sha256": "034ca16c47235ec15af179658b9bbf108cb0747a08b6afcae977167d1df62da9",
+      "bytes": 6204
+    },
+    {
+      "path": "poly-01-core-target.png",
+      "sha256": "05b7daac17ff4c00e86bc05b1e4f7bd5d3e9625d54662dade9cbddca6784ed38",
+      "bytes": 9969
+    },
+    {
+      "path": "poly-01-core-mask.png",
+      "sha256": "044ae64b23783de9e68221dd969856bb16dd459aa258f4588e731a1711458cfc",
+      "bytes": 16754
+    },
+    {
+      "path": "poly-01-core-sraf.png",
+      "sha256": "e9b832af889a90c57350c5b597079195e0229f71cf1c15bb5d713448c676b21d",
+      "bytes": 17301
+    },
+    {
+      "path": "poly-01-core-contour.png",
+      "sha256": "745eec355ef65e21edaf073a741543cf5dad120b55e7f73923df09e683540a5b",
+      "bytes": 21349
+    },
+    {
+      "path": "poly-01-core-pvb.png",
+      "sha256": "8aea8d3c1c8dcfcd554501d85ae8afbadd98f17f680b7f03cd95f62392b27f83",
+      "bytes": 24703
+    },
+    {
+      "path": "poly-01-core-gauge.png",
+      "sha256": "19a67f732b82f3ee95e8ffbd978c6082b94244b19f8354b2a170a9a112e28b8c",
+      "bytes": 3957
+    },
+    {
+      "path": "poly-01-core-overlay.png",
+      "sha256": "b9cd1a5650f88046c2c25c3d3e500b702fa5d14d0c2fe84ef2637d3e741f5273",
+      "bytes": 54777
+    },
+    {
+      "path": "poly-01-core-mask_view.png",
+      "sha256": "43269b93427c34d795e9940d5c87a8619c22bc9ab1cdd42b5b285162c51d4101",
+      "bytes": 39683
+    },
+    {
+      "path": "poly-01-core-resist_view.png",
+      "sha256": "74b5a2fedf5bc5d014b48071542bd123bf4d7f2efb51d2b5b72462dcbbf099d1",
+      "bytes": 30625
+    },
+    {
+      "path": "poly-01-core-pvb_view.png",
+      "sha256": "7c619f01d37167cd666292d5f65b6b3af028f88b27bdb9074274de2053353077",
+      "bytes": 35088
+    },
+    {
+      "path": "poly-01-zoom-target.png",
+      "sha256": "692bd77e8893fdd1886759421f3f9d371c0f90c2f774c119b54f890791fd1008",
+      "bytes": 5465
+    },
+    {
+      "path": "poly-01-zoom-mask.png",
+      "sha256": "7fe25dadd26735c63b5e72d5634bb451fcde38251f518490c5d4cf36ff71ffad",
+      "bytes": 5718
+    },
+    {
+      "path": "poly-01-zoom-sraf.png",
+      "sha256": "123974c63b1ad535c65a351816ce37b4fbbee95b099fa9008c492fee8687b10d",
+      "bytes": 5509
+    },
+    {
+      "path": "poly-01-zoom-contour.png",
+      "sha256": "f352c8bae52dc1b329fcc22d586dce82fad7d67b399f779f0e9418117e80c4c7",
+      "bytes": 7664
+    },
+    {
+      "path": "poly-01-zoom-pvb.png",
+      "sha256": "94b9f2f3d020c3326b3925c9e7d4eab433a1d167697dbae98eba375673331f98",
+      "bytes": 8201
+    },
+    {
+      "path": "poly-01-zoom-gauge.png",
+      "sha256": "c77c5e8180df156a6f37cc16c8904fadcf7ad934b640a404be7126361c91ff38",
+      "bytes": 4067
+    },
+    {
+      "path": "poly-01-zoom-overlay.png",
+      "sha256": "759010245251fe35a2162a605f296e01a4d46f67e936c32b4b68ba9e43c97a60",
+      "bytes": 13159
+    },
+    {
+      "path": "poly-01-zoom-mask_view.png",
+      "sha256": "affdf8068fed670660675f36b2cdd1521cb75e993578b1cc28f0b99a2247a91a",
+      "bytes": 6334
+    },
+    {
+      "path": "poly-01-zoom-resist_view.png",
+      "sha256": "17d222f058b4ee7518ba693f8fc540fe3a3e7421ad63643d26ceaf5839d8d80e",
+      "bytes": 11637
+    },
+    {
+      "path": "poly-01-zoom-pvb_view.png",
+      "sha256": "c56aec78e6aa1434c0dabf08183c49b6dfb195677dcadc95c4888e1bcbd3ea82",
+      "bytes": 8700
+    },
+    {
+      "path": "poly-01-detail-target.png",
+      "sha256": "0e14d85252dbd2d88380aecd6e5e5b420550e3de522c0d177c5039d8c06e8e9f",
+      "bytes": 5385
+    },
+    {
+      "path": "poly-01-detail-mask.png",
+      "sha256": "b55e9d8d371b5526cab21ff01aa3d101df10cfbfe80a652826d9d4675d1a0866",
+      "bytes": 5427
+    },
+    {
+      "path": "poly-01-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "poly-01-detail-contour.png",
+      "sha256": "735052d98bb9fc8c66b33e259b65057c6a913f21d5a3cd7c08bfc52c9dfadd81",
+      "bytes": 6465
+    },
+    {
+      "path": "poly-01-detail-pvb.png",
+      "sha256": "260406a37b7cc802f4e98bc9986b182cf15ebb500a7f5c1b5ebd7cbc80a9a386",
+      "bytes": 6832
+    },
+    {
+      "path": "poly-01-detail-gauge.png",
+      "sha256": "0bd620f9446157b5398f0b3fb69b108ca69af8da13d90e3da4c41c6b580a35df",
+      "bytes": 4068
+    },
+    {
+      "path": "poly-01-detail-overlay.png",
+      "sha256": "8b015bd41a4d14fd7bcc543900c075cce65a8be6c661fc1e09bba4d731fc3adb",
+      "bytes": 7974
+    },
+    {
+      "path": "poly-01-detail-mask_view.png",
+      "sha256": "733bd09f61cb5a34c14f54adc7d1861d67c52e05eeeb2e569cb05d1cc37d5f81",
+      "bytes": 5050
+    },
+    {
+      "path": "poly-01-detail-resist_view.png",
+      "sha256": "390164e6241b8b8aabef821d2fe1c366c82f2675c8e651e3bfe39e86e99fab74",
+      "bytes": 7720
+    },
+    {
+      "path": "poly-01-detail-pvb_view.png",
+      "sha256": "623b36a8217c82a0678303fb0e036cdad5a58a753ac2d8022ef26b18a4809e8a",
+      "bytes": 6558
+    },
+    {
+      "path": "poly-02-core-target.png",
+      "sha256": "05b7daac17ff4c00e86bc05b1e4f7bd5d3e9625d54662dade9cbddca6784ed38",
+      "bytes": 9969
+    },
+    {
+      "path": "poly-02-core-mask.png",
+      "sha256": "093fa9a4e24b820d050d1adfa40846cb3db0ffa699597c0cb279163efdf1122e",
+      "bytes": 16843
+    },
+    {
+      "path": "poly-02-core-sraf.png",
+      "sha256": "e9b832af889a90c57350c5b597079195e0229f71cf1c15bb5d713448c676b21d",
+      "bytes": 17301
+    },
+    {
+      "path": "poly-02-core-contour.png",
+      "sha256": "50c0477fdf429fd6045f9e3038584b626072b08ca233520cc62a3aa122630ff3",
+      "bytes": 21572
+    },
+    {
+      "path": "poly-02-core-pvb.png",
+      "sha256": "a677db46e1783fe7caefe12192aa932c4ad73c4021269d2197270e9ff9de6703",
+      "bytes": 24670
+    },
+    {
+      "path": "poly-02-core-gauge.png",
+      "sha256": "19a67f732b82f3ee95e8ffbd978c6082b94244b19f8354b2a170a9a112e28b8c",
+      "bytes": 3957
+    },
+    {
+      "path": "poly-02-core-overlay.png",
+      "sha256": "50ee998990fcfe7f4f9f889cea9cd5b59ceccd1ec52de544f418d186ad5fa894",
+      "bytes": 54882
+    },
+    {
+      "path": "poly-02-core-mask_view.png",
+      "sha256": "8db88e928e54361dd503153a7d7203739add09e9ad9757efd6a6d261589b1dc0",
+      "bytes": 39519
+    },
+    {
+      "path": "poly-02-core-resist_view.png",
+      "sha256": "18b81bd6cd80be760e8cb062a60793f94b1d4bd9bfe32201c2ac77e43e19aa26",
+      "bytes": 31390
+    },
+    {
+      "path": "poly-02-core-pvb_view.png",
+      "sha256": "a7761a0d8070af04a49ddb132beeacc8573f7f937ed8e25db3c67952ffcfb178",
+      "bytes": 35093
+    },
+    {
+      "path": "poly-02-zoom-target.png",
+      "sha256": "692bd77e8893fdd1886759421f3f9d371c0f90c2f774c119b54f890791fd1008",
+      "bytes": 5465
+    },
+    {
+      "path": "poly-02-zoom-mask.png",
+      "sha256": "af9525aaa0312325044da0fa33ef9a999a88b1745b2f2a3e9132b595fb0f748b",
+      "bytes": 5696
+    },
+    {
+      "path": "poly-02-zoom-sraf.png",
+      "sha256": "123974c63b1ad535c65a351816ce37b4fbbee95b099fa9008c492fee8687b10d",
+      "bytes": 5509
+    },
+    {
+      "path": "poly-02-zoom-contour.png",
+      "sha256": "67480cb073e1303d1e13b1d5b3129ef9b1f284dbcc482bd0ca319906e27b43a5",
+      "bytes": 7714
+    },
+    {
+      "path": "poly-02-zoom-pvb.png",
+      "sha256": "e43101a3d2cbe7d19f713ab86fb7a0fd209ebf67b96abe171d7cdde95637b9b5",
+      "bytes": 8218
+    },
+    {
+      "path": "poly-02-zoom-gauge.png",
+      "sha256": "548252bdd899941dbf9ccbb229b3b6e7ef8ba05d48c574198149ba0f7f42933d",
+      "bytes": 4069
+    },
+    {
+      "path": "poly-02-zoom-overlay.png",
+      "sha256": "e4a3bcff7482db408c54c072423ff879da8441d18a1d83ed1f584064bd38f34a",
+      "bytes": 13173
+    },
+    {
+      "path": "poly-02-zoom-mask_view.png",
+      "sha256": "b0b255cce8bec24c66abd3c81a0e8129434bb2207d65d8f11cc65d18b2bf2611",
+      "bytes": 6245
+    },
+    {
+      "path": "poly-02-zoom-resist_view.png",
+      "sha256": "3a9d03cae0901f87aa2e91b158bab033d0aa045d282d9c60b9857b7c49a00cfc",
+      "bytes": 11668
+    },
+    {
+      "path": "poly-02-zoom-pvb_view.png",
+      "sha256": "750eeffbc8c5220165dd16a5692df45dbe9a64aa0602c93aa0a8ea006e0cebed",
+      "bytes": 8672
+    },
+    {
+      "path": "poly-02-detail-target.png",
+      "sha256": "0e14d85252dbd2d88380aecd6e5e5b420550e3de522c0d177c5039d8c06e8e9f",
+      "bytes": 5385
+    },
+    {
+      "path": "poly-02-detail-mask.png",
+      "sha256": "bcae046741e0ad424bcc441ad5a9e289f2a96f1dd4684ca7541c6e8f2b51f60c",
+      "bytes": 5433
+    },
+    {
+      "path": "poly-02-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "poly-02-detail-contour.png",
+      "sha256": "789a0d5b1c8af47d1067f4bc37133208ad5d681712615318b9d544c435f166b7",
+      "bytes": 6431
+    },
+    {
+      "path": "poly-02-detail-pvb.png",
+      "sha256": "ce694e01b804abea6e71629d705dd35b13bc64db7b4163eadc2e78eeca57cac6",
+      "bytes": 6825
+    },
+    {
+      "path": "poly-02-detail-gauge.png",
+      "sha256": "dd4cbecec087307e430b61d96416cabb11d86fc16af1cf45d6f018e0d5f74bf1",
+      "bytes": 4066
+    },
+    {
+      "path": "poly-02-detail-overlay.png",
+      "sha256": "a6417d7d2d4a0bd4bb88b9bfde256c11a4f571635458e71d2be0a72448b3f1a7",
+      "bytes": 7911
+    },
+    {
+      "path": "poly-02-detail-mask_view.png",
+      "sha256": "f1db94d8cd4658173c6703e47ba92d090ba5137f5ea40954212f4be2010fc791",
+      "bytes": 5061
+    },
+    {
+      "path": "poly-02-detail-resist_view.png",
+      "sha256": "fe3a2f668bea0915b655f250b631dadc655a9adefc04d2775418c336a6c2cc8f",
+      "bytes": 7644
+    },
+    {
+      "path": "poly-02-detail-pvb_view.png",
+      "sha256": "392385c0b34941b4f2f114d1e9569155497165371a90479c3cd954bed722d2f7",
+      "bytes": 6546
+    },
+    {
+      "path": "poly-03-core-target.png",
+      "sha256": "05b7daac17ff4c00e86bc05b1e4f7bd5d3e9625d54662dade9cbddca6784ed38",
+      "bytes": 9969
+    },
+    {
+      "path": "poly-03-core-mask.png",
+      "sha256": "053a571e21d11309c4d3335e334c5e4ccacd0cf9a2c8e3017db25faab29c8f2e",
+      "bytes": 15757
+    },
+    {
+      "path": "poly-03-core-sraf.png",
+      "sha256": "e9b832af889a90c57350c5b597079195e0229f71cf1c15bb5d713448c676b21d",
+      "bytes": 17301
+    },
+    {
+      "path": "poly-03-core-contour.png",
+      "sha256": "1cc7e986ed8eebd7543f120ed1cd81f97bb05db902ccc0efa213f7b2a4a501cb",
+      "bytes": 21902
+    },
+    {
+      "path": "poly-03-core-pvb.png",
+      "sha256": "a5a461ae135cd7033d293ea5c59c0feb7a7543e0553b634433316214d9722ac7",
+      "bytes": 25091
+    },
+    {
+      "path": "poly-03-core-gauge.png",
+      "sha256": "19a67f732b82f3ee95e8ffbd978c6082b94244b19f8354b2a170a9a112e28b8c",
+      "bytes": 3957
+    },
+    {
+      "path": "poly-03-core-overlay.png",
+      "sha256": "b8c6ade78a407e7d94e365c8568ccf6484ce88bd34de7f987a667f61b6843673",
+      "bytes": 54811
+    },
+    {
+      "path": "poly-03-core-mask_view.png",
+      "sha256": "c1f3531964d2cd3ccf1d008cad63c852e7244927a9973b72aab7be402924c2f3",
+      "bytes": 37285
+    },
+    {
+      "path": "poly-03-core-resist_view.png",
+      "sha256": "188e7ce44038d8572780ae27b49b75665b4863d10a7e4dbffd916235abaa3ecb",
+      "bytes": 32344
+    },
+    {
+      "path": "poly-03-core-pvb_view.png",
+      "sha256": "65b109b90cd27f5541013d4abcce6dd15f422b84d2a6738d3111860697fca2ce",
+      "bytes": 35814
+    },
+    {
+      "path": "poly-03-zoom-target.png",
+      "sha256": "692bd77e8893fdd1886759421f3f9d371c0f90c2f774c119b54f890791fd1008",
+      "bytes": 5465
+    },
+    {
+      "path": "poly-03-zoom-mask.png",
+      "sha256": "e3e9192cfa3f63192fade45bf201efd855d3fc8d9b43b879dc0509ba47490c7a",
+      "bytes": 5676
+    },
+    {
+      "path": "poly-03-zoom-sraf.png",
+      "sha256": "123974c63b1ad535c65a351816ce37b4fbbee95b099fa9008c492fee8687b10d",
+      "bytes": 5509
+    },
+    {
+      "path": "poly-03-zoom-contour.png",
+      "sha256": "af29642653e952e72744479fe3201f072ec8b155dee9384809e5404fa9271824",
+      "bytes": 7727
+    },
+    {
+      "path": "poly-03-zoom-pvb.png",
+      "sha256": "c322559e26b4f4795e590695b1cfb5fd28b8bb8f5c582998e23020471a63e5a8",
+      "bytes": 8216
+    },
+    {
+      "path": "poly-03-zoom-gauge.png",
+      "sha256": "3291d3a7195656e4ec83b79a6f27784ce6e0b35d8dfb84e01265dec1c2864a57",
+      "bytes": 4068
+    },
+    {
+      "path": "poly-03-zoom-overlay.png",
+      "sha256": "a5f52134dfae40577eafbfe73d75561a2bb722cb611ab9810b097da3af3e8957",
+      "bytes": 13042
+    },
+    {
+      "path": "poly-03-zoom-mask_view.png",
+      "sha256": "d9ee7c8a4f549e97d8fa89b48ace4a98c40646014740b74f75639143ede0b06e",
+      "bytes": 6189
+    },
+    {
+      "path": "poly-03-zoom-resist_view.png",
+      "sha256": "08da152c4a7ae1b3575a79cf312b2509a8e2f4ce543f9bf4e9c11ec7e78ee7dd",
+      "bytes": 11593
+    },
+    {
+      "path": "poly-03-zoom-pvb_view.png",
+      "sha256": "a777d3d644edf6849741828d3167217761033abf49ea8538a67beeddf9d42121",
+      "bytes": 8643
+    },
+    {
+      "path": "poly-03-detail-target.png",
+      "sha256": "0e14d85252dbd2d88380aecd6e5e5b420550e3de522c0d177c5039d8c06e8e9f",
+      "bytes": 5385
+    },
+    {
+      "path": "poly-03-detail-mask.png",
+      "sha256": "49d8a0bdac1bd734344a57b0067b47fd7493d55b3a6b65b82aff7a8a2359fac9",
+      "bytes": 5425
+    },
+    {
+      "path": "poly-03-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "poly-03-detail-contour.png",
+      "sha256": "399781cf30c88774c6a37a52f5d6f77a56ab3c3202b134392049e599504da7da",
+      "bytes": 6375
+    },
+    {
+      "path": "poly-03-detail-pvb.png",
+      "sha256": "33d853096cd4c9b30d6b9fe19adc92d80254464ccdf057ac6c4502e48a4d671f",
+      "bytes": 6785
+    },
+    {
+      "path": "poly-03-detail-gauge.png",
+      "sha256": "23a31867118c1367ed4e152a8c647143a23891a34952e674c59b0e51691a09bd",
+      "bytes": 4066
+    },
+    {
+      "path": "poly-03-detail-overlay.png",
+      "sha256": "342b46633e08380cd1acd031594f21f48dacd2d7ad570f3d2af289afb7d62109",
+      "bytes": 7747
+    },
+    {
+      "path": "poly-03-detail-mask_view.png",
+      "sha256": "668d869887a8acf7e535fc03f404545f9578cea9452562203f3cae35d2e75d4e",
+      "bytes": 5040
+    },
+    {
+      "path": "poly-03-detail-resist_view.png",
+      "sha256": "9f20741f9d97e495db94ccf914195c05bb944a9c05d97f620c4b92f8cf2b11f7",
+      "bytes": 7515
+    },
+    {
+      "path": "poly-03-detail-pvb_view.png",
+      "sha256": "eb9a941f7a6dc9d733ce6a1fcc8fadb982a2ff51762e8de60c153cc4867af04e",
+      "bytes": 6501
+    },
+    {
+      "path": "poly-04-core-target.png",
+      "sha256": "05b7daac17ff4c00e86bc05b1e4f7bd5d3e9625d54662dade9cbddca6784ed38",
+      "bytes": 9969
+    },
+    {
+      "path": "poly-04-core-mask.png",
+      "sha256": "0c04d0211b803c0642d3450e357a8f42f8bb91d89705170fc8a272a2c97aba84",
+      "bytes": 17085
+    },
+    {
+      "path": "poly-04-core-sraf.png",
+      "sha256": "e9b832af889a90c57350c5b597079195e0229f71cf1c15bb5d713448c676b21d",
+      "bytes": 17301
+    },
+    {
+      "path": "poly-04-core-contour.png",
+      "sha256": "732318771ad218ee22e809e73951537986c1d42c2fcbdf0014a3f8f36b85eb7d",
+      "bytes": 21109
+    },
+    {
+      "path": "poly-04-core-pvb.png",
+      "sha256": "63a3741272592de99777c6f7d0f6bf73aad3ac6a7d6a696c509a6f2cd587ee25",
+      "bytes": 24713
+    },
+    {
+      "path": "poly-04-core-gauge.png",
+      "sha256": "19a67f732b82f3ee95e8ffbd978c6082b94244b19f8354b2a170a9a112e28b8c",
+      "bytes": 3957
+    },
+    {
+      "path": "poly-04-core-overlay.png",
+      "sha256": "064baff2a55eaf25dca3eb17143e38131884436b340d1619ecd3f5135146680f",
+      "bytes": 54502
+    },
+    {
+      "path": "poly-04-core-mask_view.png",
+      "sha256": "fad3d232851bb8ef676779226fd832ee2b9e948f2556def671dd02b928874a49",
+      "bytes": 40098
+    },
+    {
+      "path": "poly-04-core-resist_view.png",
+      "sha256": "ddbc883acdba0270b9ce8393e349523837391417301d7dbcea54f3e556f2903d",
+      "bytes": 30393
+    },
+    {
+      "path": "poly-04-core-pvb_view.png",
+      "sha256": "38710043530e705b25c31f0e42f4fd2c805dadca285b6948a4f38e9512ed44ca",
+      "bytes": 35020
+    },
+    {
+      "path": "poly-04-zoom-target.png",
+      "sha256": "692bd77e8893fdd1886759421f3f9d371c0f90c2f774c119b54f890791fd1008",
+      "bytes": 5465
+    },
+    {
+      "path": "poly-04-zoom-mask.png",
+      "sha256": "157aba5f72e5c832435a9b8e86f5e46ecde16e096c842ee9e978ef8a91ca5ee9",
+      "bytes": 5708
+    },
+    {
+      "path": "poly-04-zoom-sraf.png",
+      "sha256": "123974c63b1ad535c65a351816ce37b4fbbee95b099fa9008c492fee8687b10d",
+      "bytes": 5509
+    },
+    {
+      "path": "poly-04-zoom-contour.png",
+      "sha256": "4b7e8c4b75e1f1a435d5c7f29af77a754fece59209dfcf31e0c483ce5b01bf3e",
+      "bytes": 7705
+    },
+    {
+      "path": "poly-04-zoom-pvb.png",
+      "sha256": "e210f97e16d617e42c762d16161552cef653deb8e40c8073ee120da8390b5434",
+      "bytes": 8245
+    },
+    {
+      "path": "poly-04-zoom-gauge.png",
+      "sha256": "0a662a3a631940c5a72ed232929d9fcdcbb1a7b4c15bca41a53468ebd0a05559",
+      "bytes": 4067
+    },
+    {
+      "path": "poly-04-zoom-overlay.png",
+      "sha256": "4cb564caad6a0234f91d91a9010f4d42a12e0022a18b827f145dab3dec821bc5",
+      "bytes": 13105
+    },
+    {
+      "path": "poly-04-zoom-mask_view.png",
+      "sha256": "5c98de3d069e498d3cfef40a401bf071be7405f8c99afb52075eae035a189d6f",
+      "bytes": 6289
+    },
+    {
+      "path": "poly-04-zoom-resist_view.png",
+      "sha256": "4d4c119618a907e85a8946fb264e471c8290fa81ecbc3888e4fdbdd63d865ccf",
+      "bytes": 11656
+    },
+    {
+      "path": "poly-04-zoom-pvb_view.png",
+      "sha256": "a01900b78d4b69ec5c53e475df234096b43e358825b2a09a0c8aa50aaecadb3a",
+      "bytes": 8692
+    },
+    {
+      "path": "poly-04-detail-target.png",
+      "sha256": "0e14d85252dbd2d88380aecd6e5e5b420550e3de522c0d177c5039d8c06e8e9f",
+      "bytes": 5385
+    },
+    {
+      "path": "poly-04-detail-mask.png",
+      "sha256": "aea07aaded98cd0c1ec6a4329e13d85dafb5472a90faf394e2c92269e9e3d1ba",
+      "bytes": 5430
+    },
+    {
+      "path": "poly-04-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "poly-04-detail-contour.png",
+      "sha256": "53a0605f35f55f0600ad6184446ce69a3fdf17bdd3a06dcdb4f535a6737b2d78",
+      "bytes": 6445
+    },
+    {
+      "path": "poly-04-detail-pvb.png",
+      "sha256": "9c87fa4ff0ddba82c7a212726afb71a3a8d097e14cac21d11f506ce48a0131a7",
+      "bytes": 6784
+    },
+    {
+      "path": "poly-04-detail-gauge.png",
+      "sha256": "5608ede1afcfdd250d940a17562eee88be11421fd525f4af2e1e8f0e3e45c21e",
+      "bytes": 4068
+    },
+    {
+      "path": "poly-04-detail-overlay.png",
+      "sha256": "31502828c2c6b271993d0b95e14603af536dbcd2619f15eab4b4e8c642bbde7a",
+      "bytes": 7911
+    },
+    {
+      "path": "poly-04-detail-mask_view.png",
+      "sha256": "25087d27c86aca4743a9e6e9bfc80b5d9cd31c535b80044065573a8033e6d813",
+      "bytes": 5057
+    },
+    {
+      "path": "poly-04-detail-resist_view.png",
+      "sha256": "b9ebe18ac455ac1cba94d306c333536eb11fa71b1f68ed990bdc2653fcf4b02d",
+      "bytes": 7654
+    },
+    {
+      "path": "poly-04-detail-pvb_view.png",
+      "sha256": "8a66809c27ce2b6a1bf39a4ec1a09394be358e88c92d4bfad9f040e39e9f02f1",
+      "bytes": 6514
+    },
+    {
+      "path": "poly-05-core-target.png",
+      "sha256": "05b7daac17ff4c00e86bc05b1e4f7bd5d3e9625d54662dade9cbddca6784ed38",
+      "bytes": 9969
+    },
+    {
+      "path": "poly-05-core-mask.png",
+      "sha256": "093fa9a4e24b820d050d1adfa40846cb3db0ffa699597c0cb279163efdf1122e",
+      "bytes": 16843
+    },
+    {
+      "path": "poly-05-core-sraf.png",
+      "sha256": "e9b832af889a90c57350c5b597079195e0229f71cf1c15bb5d713448c676b21d",
+      "bytes": 17301
+    },
+    {
+      "path": "poly-05-core-contour.png",
+      "sha256": "9e276ad66984ee53327a3364b987e73a4eb597305d806beb1d59fd312492084b",
+      "bytes": 21569
+    },
+    {
+      "path": "poly-05-core-pvb.png",
+      "sha256": "369fc6af6663ae28f6c0f386c271cbfa8afb34180093ae8142b187c3aac7ce5f",
+      "bytes": 24660
+    },
+    {
+      "path": "poly-05-core-gauge.png",
+      "sha256": "19a67f732b82f3ee95e8ffbd978c6082b94244b19f8354b2a170a9a112e28b8c",
+      "bytes": 3957
+    },
+    {
+      "path": "poly-05-core-overlay.png",
+      "sha256": "00114355d91e175f2539da89c5b0d6362289ebc2ebeac27ab4d7ac18194c0de1",
+      "bytes": 54872
+    },
+    {
+      "path": "poly-05-core-mask_view.png",
+      "sha256": "8db88e928e54361dd503153a7d7203739add09e9ad9757efd6a6d261589b1dc0",
+      "bytes": 39519
+    },
+    {
+      "path": "poly-05-core-resist_view.png",
+      "sha256": "99ebb1f84024589c8bb743c65cc352981a58eeecace7a8c18ae5bd82b3c90581",
+      "bytes": 31375
+    },
+    {
+      "path": "poly-05-core-pvb_view.png",
+      "sha256": "8caa4d3b8969c3607be4a22dad2b0d68d0fccf03829933f0eabe4420bf1c5d72",
+      "bytes": 35069
+    },
+    {
+      "path": "poly-05-zoom-target.png",
+      "sha256": "692bd77e8893fdd1886759421f3f9d371c0f90c2f774c119b54f890791fd1008",
+      "bytes": 5465
+    },
+    {
+      "path": "poly-05-zoom-mask.png",
+      "sha256": "1d2839603f49e27035a624c62714bc5be7ab29752ead77f89ce164442bdffdea",
+      "bytes": 5702
+    },
+    {
+      "path": "poly-05-zoom-sraf.png",
+      "sha256": "123974c63b1ad535c65a351816ce37b4fbbee95b099fa9008c492fee8687b10d",
+      "bytes": 5509
+    },
+    {
+      "path": "poly-05-zoom-contour.png",
+      "sha256": "d75a26858293b05fb4ecac463a3c0a472cb35a548c8662be0dff602ae5127e3d",
+      "bytes": 7815
+    },
+    {
+      "path": "poly-05-zoom-pvb.png",
+      "sha256": "a3b3c2ec966f546e80ce1f554f697e04a1e569bd1541e16a84ff4aa40957702b",
+      "bytes": 8196
+    },
+    {
+      "path": "poly-05-zoom-gauge.png",
+      "sha256": "3814a3820ccb33c8d9556047e6fcca16e4a37ba20c8a5f8d45b845ab65a4e4c6",
+      "bytes": 4067
+    },
+    {
+      "path": "poly-05-zoom-overlay.png",
+      "sha256": "987ef75e92002775dbc98dc692641b280c7e5abf6af9fce6abcb200691d536ca",
+      "bytes": 13192
+    },
+    {
+      "path": "poly-05-zoom-mask_view.png",
+      "sha256": "798abe2c34dc72d560c5ef5c00a7c1c5b42b8a6f95f9a18045b532f0258aa75f",
+      "bytes": 6249
+    },
+    {
+      "path": "poly-05-zoom-resist_view.png",
+      "sha256": "c916918264681defd86410e45e6f5c57ee7fbfd7fec52b0d9a70613d3e787f97",
+      "bytes": 11692
+    },
+    {
+      "path": "poly-05-zoom-pvb_view.png",
+      "sha256": "bdb17ec8364d4606e6c6d3a27a619d620efda52f71cf2facd41f08be29b0d851",
+      "bytes": 8658
+    },
+    {
+      "path": "poly-05-detail-target.png",
+      "sha256": "0e14d85252dbd2d88380aecd6e5e5b420550e3de522c0d177c5039d8c06e8e9f",
+      "bytes": 5385
+    },
+    {
+      "path": "poly-05-detail-mask.png",
+      "sha256": "284275180d02915186b7728cc22176eb2d5fcca045bbf53081db567ff6c09925",
+      "bytes": 5435
+    },
+    {
+      "path": "poly-05-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "poly-05-detail-contour.png",
+      "sha256": "763556b96258190557b8e6cc1b8468c6b426644a32c4169fe5c73a19d2a8e6a8",
+      "bytes": 6429
+    },
+    {
+      "path": "poly-05-detail-pvb.png",
+      "sha256": "9646c20fc1d861c4294a3294a625047c315a005125856db6584a21763b532088",
+      "bytes": 6813
+    },
+    {
+      "path": "poly-05-detail-gauge.png",
+      "sha256": "a06ab8670cee1202286cf9ca02c89cedfc0d72d3df0fded804b1e11d1dabde26",
+      "bytes": 4069
+    },
+    {
+      "path": "poly-05-detail-overlay.png",
+      "sha256": "5f57ff059b3faedfa90a15bf49080c1aa5280f10ce63edc225632131b6970cf9",
+      "bytes": 7861
+    },
+    {
+      "path": "poly-05-detail-mask_view.png",
+      "sha256": "e95e3882d6aa74bf1f0e78294cb0231cce779cbf37052c6411663e5c5cfcbb3f",
+      "bytes": 5060
+    },
+    {
+      "path": "poly-05-detail-resist_view.png",
+      "sha256": "132414561a780bca714a996ab69035654f1890b300c00e56d6ddd7e539f64ead",
+      "bytes": 7606
+    },
+    {
+      "path": "poly-05-detail-pvb_view.png",
+      "sha256": "5412b383f2d4040370afb97e1e1ca3876708b2d18ec7d9aacb7b94d3927fb564",
+      "bytes": 6533
+    },
+    {
+      "path": "poly-06-core-target.png",
+      "sha256": "05b7daac17ff4c00e86bc05b1e4f7bd5d3e9625d54662dade9cbddca6784ed38",
+      "bytes": 9969
+    },
+    {
+      "path": "poly-06-core-mask.png",
+      "sha256": "093fa9a4e24b820d050d1adfa40846cb3db0ffa699597c0cb279163efdf1122e",
+      "bytes": 16843
+    },
+    {
+      "path": "poly-06-core-sraf.png",
+      "sha256": "e9b832af889a90c57350c5b597079195e0229f71cf1c15bb5d713448c676b21d",
+      "bytes": 17301
+    },
+    {
+      "path": "poly-06-core-contour.png",
+      "sha256": "8e0fe64688be8ead33e40c2c4624042a41701fffc9f4ba7d060fd5abe6093d6e",
+      "bytes": 21602
+    },
+    {
+      "path": "poly-06-core-pvb.png",
+      "sha256": "2baad4d4fac37f5f976c2f578b63c30552dc82b62f8cf1c85e5db80c5acb8228",
+      "bytes": 24673
+    },
+    {
+      "path": "poly-06-core-gauge.png",
+      "sha256": "19a67f732b82f3ee95e8ffbd978c6082b94244b19f8354b2a170a9a112e28b8c",
+      "bytes": 3957
+    },
+    {
+      "path": "poly-06-core-overlay.png",
+      "sha256": "63aaeff2862ee3aaedf763fc7a54b0af20462e6fc0b27377bb8ffd49c0b72aba",
+      "bytes": 54920
+    },
+    {
+      "path": "poly-06-core-mask_view.png",
+      "sha256": "8db88e928e54361dd503153a7d7203739add09e9ad9757efd6a6d261589b1dc0",
+      "bytes": 39519
+    },
+    {
+      "path": "poly-06-core-resist_view.png",
+      "sha256": "2cb791fd59338620f7235970b2110f2cd24f791668feee277dfde73bdbad900f",
+      "bytes": 31409
+    },
+    {
+      "path": "poly-06-core-pvb_view.png",
+      "sha256": "2ddd98d4d24dfe34ef916766f55a45ad7f4954dc6ac9032670317b667964a760",
+      "bytes": 35074
+    },
+    {
+      "path": "poly-06-zoom-target.png",
+      "sha256": "692bd77e8893fdd1886759421f3f9d371c0f90c2f774c119b54f890791fd1008",
+      "bytes": 5465
+    },
+    {
+      "path": "poly-06-zoom-mask.png",
+      "sha256": "1d2839603f49e27035a624c62714bc5be7ab29752ead77f89ce164442bdffdea",
+      "bytes": 5702
+    },
+    {
+      "path": "poly-06-zoom-sraf.png",
+      "sha256": "123974c63b1ad535c65a351816ce37b4fbbee95b099fa9008c492fee8687b10d",
+      "bytes": 5509
+    },
+    {
+      "path": "poly-06-zoom-contour.png",
+      "sha256": "d75a26858293b05fb4ecac463a3c0a472cb35a548c8662be0dff602ae5127e3d",
+      "bytes": 7815
+    },
+    {
+      "path": "poly-06-zoom-pvb.png",
+      "sha256": "a3b3c2ec966f546e80ce1f554f697e04a1e569bd1541e16a84ff4aa40957702b",
+      "bytes": 8196
+    },
+    {
+      "path": "poly-06-zoom-gauge.png",
+      "sha256": "3814a3820ccb33c8d9556047e6fcca16e4a37ba20c8a5f8d45b845ab65a4e4c6",
+      "bytes": 4067
+    },
+    {
+      "path": "poly-06-zoom-overlay.png",
+      "sha256": "987ef75e92002775dbc98dc692641b280c7e5abf6af9fce6abcb200691d536ca",
+      "bytes": 13192
+    },
+    {
+      "path": "poly-06-zoom-mask_view.png",
+      "sha256": "798abe2c34dc72d560c5ef5c00a7c1c5b42b8a6f95f9a18045b532f0258aa75f",
+      "bytes": 6249
+    },
+    {
+      "path": "poly-06-zoom-resist_view.png",
+      "sha256": "c916918264681defd86410e45e6f5c57ee7fbfd7fec52b0d9a70613d3e787f97",
+      "bytes": 11692
+    },
+    {
+      "path": "poly-06-zoom-pvb_view.png",
+      "sha256": "bdb17ec8364d4606e6c6d3a27a619d620efda52f71cf2facd41f08be29b0d851",
+      "bytes": 8658
+    },
+    {
+      "path": "poly-06-detail-target.png",
+      "sha256": "0e14d85252dbd2d88380aecd6e5e5b420550e3de522c0d177c5039d8c06e8e9f",
+      "bytes": 5385
+    },
+    {
+      "path": "poly-06-detail-mask.png",
+      "sha256": "284275180d02915186b7728cc22176eb2d5fcca045bbf53081db567ff6c09925",
+      "bytes": 5435
+    },
+    {
+      "path": "poly-06-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "poly-06-detail-contour.png",
+      "sha256": "763556b96258190557b8e6cc1b8468c6b426644a32c4169fe5c73a19d2a8e6a8",
+      "bytes": 6429
+    },
+    {
+      "path": "poly-06-detail-pvb.png",
+      "sha256": "9646c20fc1d861c4294a3294a625047c315a005125856db6584a21763b532088",
+      "bytes": 6813
+    },
+    {
+      "path": "poly-06-detail-gauge.png",
+      "sha256": "a06ab8670cee1202286cf9ca02c89cedfc0d72d3df0fded804b1e11d1dabde26",
+      "bytes": 4069
+    },
+    {
+      "path": "poly-06-detail-overlay.png",
+      "sha256": "5f57ff059b3faedfa90a15bf49080c1aa5280f10ce63edc225632131b6970cf9",
+      "bytes": 7861
+    },
+    {
+      "path": "poly-06-detail-mask_view.png",
+      "sha256": "e95e3882d6aa74bf1f0e78294cb0231cce779cbf37052c6411663e5c5cfcbb3f",
+      "bytes": 5060
+    },
+    {
+      "path": "poly-06-detail-resist_view.png",
+      "sha256": "132414561a780bca714a996ab69035654f1890b300c00e56d6ddd7e539f64ead",
+      "bytes": 7606
+    },
+    {
+      "path": "poly-06-detail-pvb_view.png",
+      "sha256": "5412b383f2d4040370afb97e1e1ca3876708b2d18ec7d9aacb7b94d3927fb564",
+      "bytes": 6533
+    },
+    {
+      "path": "poly-07-core-target.png",
+      "sha256": "05b7daac17ff4c00e86bc05b1e4f7bd5d3e9625d54662dade9cbddca6784ed38",
+      "bytes": 9969
+    },
+    {
+      "path": "poly-07-core-mask.png",
+      "sha256": "093fa9a4e24b820d050d1adfa40846cb3db0ffa699597c0cb279163efdf1122e",
+      "bytes": 16843
+    },
+    {
+      "path": "poly-07-core-sraf.png",
+      "sha256": "e9b832af889a90c57350c5b597079195e0229f71cf1c15bb5d713448c676b21d",
+      "bytes": 17301
+    },
+    {
+      "path": "poly-07-core-contour.png",
+      "sha256": "9df581864610954a7f3558f9d272672cf12f9861b616d8d050cb970a99b45136",
+      "bytes": 21596
+    },
+    {
+      "path": "poly-07-core-pvb.png",
+      "sha256": "ee2d41f771b451d822af87c05cf8b362e1cca1031a848cdf417361a0267726be",
+      "bytes": 24652
+    },
+    {
+      "path": "poly-07-core-gauge.png",
+      "sha256": "19a67f732b82f3ee95e8ffbd978c6082b94244b19f8354b2a170a9a112e28b8c",
+      "bytes": 3957
+    },
+    {
+      "path": "poly-07-core-overlay.png",
+      "sha256": "3796cabbebf38908dc5166cced6cde295d0731613fb050f6daaa7213c04179c9",
+      "bytes": 54934
+    },
+    {
+      "path": "poly-07-core-mask_view.png",
+      "sha256": "8db88e928e54361dd503153a7d7203739add09e9ad9757efd6a6d261589b1dc0",
+      "bytes": 39519
+    },
+    {
+      "path": "poly-07-core-resist_view.png",
+      "sha256": "14090612f73213c52b0ab08690a4297eb4c7eb68c77dd8eaf8e2fb20f388eb25",
+      "bytes": 31389
+    },
+    {
+      "path": "poly-07-core-pvb_view.png",
+      "sha256": "3a7afe843deb7628bc3d8f5474e08dfbf5f7a2125c1936e497bc342c1d16485f",
+      "bytes": 35054
+    },
+    {
+      "path": "poly-07-zoom-target.png",
+      "sha256": "692bd77e8893fdd1886759421f3f9d371c0f90c2f774c119b54f890791fd1008",
+      "bytes": 5465
+    },
+    {
+      "path": "poly-07-zoom-mask.png",
+      "sha256": "1d2839603f49e27035a624c62714bc5be7ab29752ead77f89ce164442bdffdea",
+      "bytes": 5702
+    },
+    {
+      "path": "poly-07-zoom-sraf.png",
+      "sha256": "123974c63b1ad535c65a351816ce37b4fbbee95b099fa9008c492fee8687b10d",
+      "bytes": 5509
+    },
+    {
+      "path": "poly-07-zoom-contour.png",
+      "sha256": "d75a26858293b05fb4ecac463a3c0a472cb35a548c8662be0dff602ae5127e3d",
+      "bytes": 7815
+    },
+    {
+      "path": "poly-07-zoom-pvb.png",
+      "sha256": "a3b3c2ec966f546e80ce1f554f697e04a1e569bd1541e16a84ff4aa40957702b",
+      "bytes": 8196
+    },
+    {
+      "path": "poly-07-zoom-gauge.png",
+      "sha256": "3814a3820ccb33c8d9556047e6fcca16e4a37ba20c8a5f8d45b845ab65a4e4c6",
+      "bytes": 4067
+    },
+    {
+      "path": "poly-07-zoom-overlay.png",
+      "sha256": "987ef75e92002775dbc98dc692641b280c7e5abf6af9fce6abcb200691d536ca",
+      "bytes": 13192
+    },
+    {
+      "path": "poly-07-zoom-mask_view.png",
+      "sha256": "798abe2c34dc72d560c5ef5c00a7c1c5b42b8a6f95f9a18045b532f0258aa75f",
+      "bytes": 6249
+    },
+    {
+      "path": "poly-07-zoom-resist_view.png",
+      "sha256": "c916918264681defd86410e45e6f5c57ee7fbfd7fec52b0d9a70613d3e787f97",
+      "bytes": 11692
+    },
+    {
+      "path": "poly-07-zoom-pvb_view.png",
+      "sha256": "bdb17ec8364d4606e6c6d3a27a619d620efda52f71cf2facd41f08be29b0d851",
+      "bytes": 8658
+    },
+    {
+      "path": "poly-07-detail-target.png",
+      "sha256": "0e14d85252dbd2d88380aecd6e5e5b420550e3de522c0d177c5039d8c06e8e9f",
+      "bytes": 5385
+    },
+    {
+      "path": "poly-07-detail-mask.png",
+      "sha256": "284275180d02915186b7728cc22176eb2d5fcca045bbf53081db567ff6c09925",
+      "bytes": 5435
+    },
+    {
+      "path": "poly-07-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "poly-07-detail-contour.png",
+      "sha256": "763556b96258190557b8e6cc1b8468c6b426644a32c4169fe5c73a19d2a8e6a8",
+      "bytes": 6429
+    },
+    {
+      "path": "poly-07-detail-pvb.png",
+      "sha256": "9646c20fc1d861c4294a3294a625047c315a005125856db6584a21763b532088",
+      "bytes": 6813
+    },
+    {
+      "path": "poly-07-detail-gauge.png",
+      "sha256": "a06ab8670cee1202286cf9ca02c89cedfc0d72d3df0fded804b1e11d1dabde26",
+      "bytes": 4069
+    },
+    {
+      "path": "poly-07-detail-overlay.png",
+      "sha256": "5f57ff059b3faedfa90a15bf49080c1aa5280f10ce63edc225632131b6970cf9",
+      "bytes": 7861
+    },
+    {
+      "path": "poly-07-detail-mask_view.png",
+      "sha256": "e95e3882d6aa74bf1f0e78294cb0231cce779cbf37052c6411663e5c5cfcbb3f",
+      "bytes": 5060
+    },
+    {
+      "path": "poly-07-detail-resist_view.png",
+      "sha256": "132414561a780bca714a996ab69035654f1890b300c00e56d6ddd7e539f64ead",
+      "bytes": 7606
+    },
+    {
+      "path": "poly-07-detail-pvb_view.png",
+      "sha256": "5412b383f2d4040370afb97e1e1ca3876708b2d18ec7d9aacb7b94d3927fb564",
+      "bytes": 6533
+    },
+    {
+      "path": "poly-08-core-target.png",
+      "sha256": "05b7daac17ff4c00e86bc05b1e4f7bd5d3e9625d54662dade9cbddca6784ed38",
+      "bytes": 9969
+    },
+    {
+      "path": "poly-08-core-mask.png",
+      "sha256": "093fa9a4e24b820d050d1adfa40846cb3db0ffa699597c0cb279163efdf1122e",
+      "bytes": 16843
+    },
+    {
+      "path": "poly-08-core-sraf.png",
+      "sha256": "e9b832af889a90c57350c5b597079195e0229f71cf1c15bb5d713448c676b21d",
+      "bytes": 17301
+    },
+    {
+      "path": "poly-08-core-contour.png",
+      "sha256": "b29be878dac87dec073b519d097343f7366a6f556c06e644fffb5b099cef497e",
+      "bytes": 21599
+    },
+    {
+      "path": "poly-08-core-pvb.png",
+      "sha256": "770248039a6f07179a7cef5757e08569b38c7c3c65e579fa6d05ed70c155b2dd",
+      "bytes": 24663
+    },
+    {
+      "path": "poly-08-core-gauge.png",
+      "sha256": "19a67f732b82f3ee95e8ffbd978c6082b94244b19f8354b2a170a9a112e28b8c",
+      "bytes": 3957
+    },
+    {
+      "path": "poly-08-core-overlay.png",
+      "sha256": "894470827d9d13969325c15c6d93aa7cb450d82a1e24f1ffc9d5ba8440d58b63",
+      "bytes": 54921
+    },
+    {
+      "path": "poly-08-core-mask_view.png",
+      "sha256": "8db88e928e54361dd503153a7d7203739add09e9ad9757efd6a6d261589b1dc0",
+      "bytes": 39519
+    },
+    {
+      "path": "poly-08-core-resist_view.png",
+      "sha256": "fde887f0362bd80e8763adecfdd1157076b382308180867b9d728f5a222a5984",
+      "bytes": 31387
+    },
+    {
+      "path": "poly-08-core-pvb_view.png",
+      "sha256": "3d6f103abed4a9de109b8f5aac2702b81f21c9b07ad8852861cc69a55593f413",
+      "bytes": 35048
+    },
+    {
+      "path": "poly-08-zoom-target.png",
+      "sha256": "692bd77e8893fdd1886759421f3f9d371c0f90c2f774c119b54f890791fd1008",
+      "bytes": 5465
+    },
+    {
+      "path": "poly-08-zoom-mask.png",
+      "sha256": "1d2839603f49e27035a624c62714bc5be7ab29752ead77f89ce164442bdffdea",
+      "bytes": 5702
+    },
+    {
+      "path": "poly-08-zoom-sraf.png",
+      "sha256": "123974c63b1ad535c65a351816ce37b4fbbee95b099fa9008c492fee8687b10d",
+      "bytes": 5509
+    },
+    {
+      "path": "poly-08-zoom-contour.png",
+      "sha256": "d75a26858293b05fb4ecac463a3c0a472cb35a548c8662be0dff602ae5127e3d",
+      "bytes": 7815
+    },
+    {
+      "path": "poly-08-zoom-pvb.png",
+      "sha256": "a3b3c2ec966f546e80ce1f554f697e04a1e569bd1541e16a84ff4aa40957702b",
+      "bytes": 8196
+    },
+    {
+      "path": "poly-08-zoom-gauge.png",
+      "sha256": "3814a3820ccb33c8d9556047e6fcca16e4a37ba20c8a5f8d45b845ab65a4e4c6",
+      "bytes": 4067
+    },
+    {
+      "path": "poly-08-zoom-overlay.png",
+      "sha256": "987ef75e92002775dbc98dc692641b280c7e5abf6af9fce6abcb200691d536ca",
+      "bytes": 13192
+    },
+    {
+      "path": "poly-08-zoom-mask_view.png",
+      "sha256": "798abe2c34dc72d560c5ef5c00a7c1c5b42b8a6f95f9a18045b532f0258aa75f",
+      "bytes": 6249
+    },
+    {
+      "path": "poly-08-zoom-resist_view.png",
+      "sha256": "c916918264681defd86410e45e6f5c57ee7fbfd7fec52b0d9a70613d3e787f97",
+      "bytes": 11692
+    },
+    {
+      "path": "poly-08-zoom-pvb_view.png",
+      "sha256": "bdb17ec8364d4606e6c6d3a27a619d620efda52f71cf2facd41f08be29b0d851",
+      "bytes": 8658
+    },
+    {
+      "path": "poly-08-detail-target.png",
+      "sha256": "0e14d85252dbd2d88380aecd6e5e5b420550e3de522c0d177c5039d8c06e8e9f",
+      "bytes": 5385
+    },
+    {
+      "path": "poly-08-detail-mask.png",
+      "sha256": "284275180d02915186b7728cc22176eb2d5fcca045bbf53081db567ff6c09925",
+      "bytes": 5435
+    },
+    {
+      "path": "poly-08-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "poly-08-detail-contour.png",
+      "sha256": "763556b96258190557b8e6cc1b8468c6b426644a32c4169fe5c73a19d2a8e6a8",
+      "bytes": 6429
+    },
+    {
+      "path": "poly-08-detail-pvb.png",
+      "sha256": "9646c20fc1d861c4294a3294a625047c315a005125856db6584a21763b532088",
+      "bytes": 6813
+    },
+    {
+      "path": "poly-08-detail-gauge.png",
+      "sha256": "a06ab8670cee1202286cf9ca02c89cedfc0d72d3df0fded804b1e11d1dabde26",
+      "bytes": 4069
+    },
+    {
+      "path": "poly-08-detail-overlay.png",
+      "sha256": "5f57ff059b3faedfa90a15bf49080c1aa5280f10ce63edc225632131b6970cf9",
+      "bytes": 7861
+    },
+    {
+      "path": "poly-08-detail-mask_view.png",
+      "sha256": "e95e3882d6aa74bf1f0e78294cb0231cce779cbf37052c6411663e5c5cfcbb3f",
+      "bytes": 5060
+    },
+    {
+      "path": "poly-08-detail-resist_view.png",
+      "sha256": "132414561a780bca714a996ab69035654f1890b300c00e56d6ddd7e539f64ead",
+      "bytes": 7606
+    },
+    {
+      "path": "poly-08-detail-pvb_view.png",
+      "sha256": "5412b383f2d4040370afb97e1e1ca3876708b2d18ec7d9aacb7b94d3927fb564",
+      "bytes": 6533
+    },
+    {
+      "path": "poly-09-core-target.png",
+      "sha256": "05b7daac17ff4c00e86bc05b1e4f7bd5d3e9625d54662dade9cbddca6784ed38",
+      "bytes": 9969
+    },
+    {
+      "path": "poly-09-core-mask.png",
+      "sha256": "093fa9a4e24b820d050d1adfa40846cb3db0ffa699597c0cb279163efdf1122e",
+      "bytes": 16843
+    },
+    {
+      "path": "poly-09-core-sraf.png",
+      "sha256": "e9b832af889a90c57350c5b597079195e0229f71cf1c15bb5d713448c676b21d",
+      "bytes": 17301
+    },
+    {
+      "path": "poly-09-core-contour.png",
+      "sha256": "1c6965a5e063f20b0d09225ebf6be8299506c802a044d0f12b6ee49fb9daa5b6",
+      "bytes": 21608
+    },
+    {
+      "path": "poly-09-core-pvb.png",
+      "sha256": "680cc34ee8af093c93f01562ba94cf0cf7b4150dd11e9f3dbc5171606796fa81",
+      "bytes": 24646
+    },
+    {
+      "path": "poly-09-core-gauge.png",
+      "sha256": "19a67f732b82f3ee95e8ffbd978c6082b94244b19f8354b2a170a9a112e28b8c",
+      "bytes": 3957
+    },
+    {
+      "path": "poly-09-core-overlay.png",
+      "sha256": "63b1fe912993894c59b6b25de94a4fbae475413d0761df352659fa30f5153f14",
+      "bytes": 54902
+    },
+    {
+      "path": "poly-09-core-mask_view.png",
+      "sha256": "8db88e928e54361dd503153a7d7203739add09e9ad9757efd6a6d261589b1dc0",
+      "bytes": 39519
+    },
+    {
+      "path": "poly-09-core-resist_view.png",
+      "sha256": "830035dd6cd6abb37d620b0287bfdce63eca3b3a7ad5b493eb2d1f45a40a5672",
+      "bytes": 31368
+    },
+    {
+      "path": "poly-09-core-pvb_view.png",
+      "sha256": "0981b25712e370802eeb2f6cd7d24210d0d345e37083d0da942c1ebbe720fb66",
+      "bytes": 35032
+    },
+    {
+      "path": "poly-09-zoom-target.png",
+      "sha256": "692bd77e8893fdd1886759421f3f9d371c0f90c2f774c119b54f890791fd1008",
+      "bytes": 5465
+    },
+    {
+      "path": "poly-09-zoom-mask.png",
+      "sha256": "1d2839603f49e27035a624c62714bc5be7ab29752ead77f89ce164442bdffdea",
+      "bytes": 5702
+    },
+    {
+      "path": "poly-09-zoom-sraf.png",
+      "sha256": "123974c63b1ad535c65a351816ce37b4fbbee95b099fa9008c492fee8687b10d",
+      "bytes": 5509
+    },
+    {
+      "path": "poly-09-zoom-contour.png",
+      "sha256": "d75a26858293b05fb4ecac463a3c0a472cb35a548c8662be0dff602ae5127e3d",
+      "bytes": 7815
+    },
+    {
+      "path": "poly-09-zoom-pvb.png",
+      "sha256": "a3b3c2ec966f546e80ce1f554f697e04a1e569bd1541e16a84ff4aa40957702b",
+      "bytes": 8196
+    },
+    {
+      "path": "poly-09-zoom-gauge.png",
+      "sha256": "3814a3820ccb33c8d9556047e6fcca16e4a37ba20c8a5f8d45b845ab65a4e4c6",
+      "bytes": 4067
+    },
+    {
+      "path": "poly-09-zoom-overlay.png",
+      "sha256": "987ef75e92002775dbc98dc692641b280c7e5abf6af9fce6abcb200691d536ca",
+      "bytes": 13192
+    },
+    {
+      "path": "poly-09-zoom-mask_view.png",
+      "sha256": "798abe2c34dc72d560c5ef5c00a7c1c5b42b8a6f95f9a18045b532f0258aa75f",
+      "bytes": 6249
+    },
+    {
+      "path": "poly-09-zoom-resist_view.png",
+      "sha256": "c916918264681defd86410e45e6f5c57ee7fbfd7fec52b0d9a70613d3e787f97",
+      "bytes": 11692
+    },
+    {
+      "path": "poly-09-zoom-pvb_view.png",
+      "sha256": "bdb17ec8364d4606e6c6d3a27a619d620efda52f71cf2facd41f08be29b0d851",
+      "bytes": 8658
+    },
+    {
+      "path": "poly-09-detail-target.png",
+      "sha256": "0e14d85252dbd2d88380aecd6e5e5b420550e3de522c0d177c5039d8c06e8e9f",
+      "bytes": 5385
+    },
+    {
+      "path": "poly-09-detail-mask.png",
+      "sha256": "284275180d02915186b7728cc22176eb2d5fcca045bbf53081db567ff6c09925",
+      "bytes": 5435
+    },
+    {
+      "path": "poly-09-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "poly-09-detail-contour.png",
+      "sha256": "763556b96258190557b8e6cc1b8468c6b426644a32c4169fe5c73a19d2a8e6a8",
+      "bytes": 6429
+    },
+    {
+      "path": "poly-09-detail-pvb.png",
+      "sha256": "9646c20fc1d861c4294a3294a625047c315a005125856db6584a21763b532088",
+      "bytes": 6813
+    },
+    {
+      "path": "poly-09-detail-gauge.png",
+      "sha256": "a06ab8670cee1202286cf9ca02c89cedfc0d72d3df0fded804b1e11d1dabde26",
+      "bytes": 4069
+    },
+    {
+      "path": "poly-09-detail-overlay.png",
+      "sha256": "5f57ff059b3faedfa90a15bf49080c1aa5280f10ce63edc225632131b6970cf9",
+      "bytes": 7861
+    },
+    {
+      "path": "poly-09-detail-mask_view.png",
+      "sha256": "e95e3882d6aa74bf1f0e78294cb0231cce779cbf37052c6411663e5c5cfcbb3f",
+      "bytes": 5060
+    },
+    {
+      "path": "poly-09-detail-resist_view.png",
+      "sha256": "132414561a780bca714a996ab69035654f1890b300c00e56d6ddd7e539f64ead",
+      "bytes": 7606
+    },
+    {
+      "path": "poly-09-detail-pvb_view.png",
+      "sha256": "5412b383f2d4040370afb97e1e1ca3876708b2d18ec7d9aacb7b94d3927fb564",
+      "bytes": 6533
+    },
+    {
+      "path": "poly-10-core-target.png",
+      "sha256": "05b7daac17ff4c00e86bc05b1e4f7bd5d3e9625d54662dade9cbddca6784ed38",
+      "bytes": 9969
+    },
+    {
+      "path": "poly-10-core-mask.png",
+      "sha256": "093fa9a4e24b820d050d1adfa40846cb3db0ffa699597c0cb279163efdf1122e",
+      "bytes": 16843
+    },
+    {
+      "path": "poly-10-core-sraf.png",
+      "sha256": "e9b832af889a90c57350c5b597079195e0229f71cf1c15bb5d713448c676b21d",
+      "bytes": 17301
+    },
+    {
+      "path": "poly-10-core-contour.png",
+      "sha256": "025e88c5a6c3ac794cb2a13b0b512fd522f1f03751fd98a0f3c65df27434d293",
+      "bytes": 21611
+    },
+    {
+      "path": "poly-10-core-pvb.png",
+      "sha256": "9e75665dc8edca2eb00c68431da37df664dfe324afb69e1dde8b1d7290e7a1ab",
+      "bytes": 24660
+    },
+    {
+      "path": "poly-10-core-gauge.png",
+      "sha256": "19a67f732b82f3ee95e8ffbd978c6082b94244b19f8354b2a170a9a112e28b8c",
+      "bytes": 3957
+    },
+    {
+      "path": "poly-10-core-overlay.png",
+      "sha256": "4febe5da3ec3ad6ab36012d6bc435d6876cd8622a39fe47e54ef425cbcd9b49f",
+      "bytes": 54894
+    },
+    {
+      "path": "poly-10-core-mask_view.png",
+      "sha256": "8db88e928e54361dd503153a7d7203739add09e9ad9757efd6a6d261589b1dc0",
+      "bytes": 39519
+    },
+    {
+      "path": "poly-10-core-resist_view.png",
+      "sha256": "5cc6481b2a8ef2c35799912490b2168775ebc50e89801720fc280cabb2b83fa3",
+      "bytes": 31366
+    },
+    {
+      "path": "poly-10-core-pvb_view.png",
+      "sha256": "9249a7441652ec8d030c771777b3c299fe14735880f8cb3eca77933b88096bba",
+      "bytes": 35049
+    },
+    {
+      "path": "poly-10-zoom-target.png",
+      "sha256": "692bd77e8893fdd1886759421f3f9d371c0f90c2f774c119b54f890791fd1008",
+      "bytes": 5465
+    },
+    {
+      "path": "poly-10-zoom-mask.png",
+      "sha256": "1d2839603f49e27035a624c62714bc5be7ab29752ead77f89ce164442bdffdea",
+      "bytes": 5702
+    },
+    {
+      "path": "poly-10-zoom-sraf.png",
+      "sha256": "123974c63b1ad535c65a351816ce37b4fbbee95b099fa9008c492fee8687b10d",
+      "bytes": 5509
+    },
+    {
+      "path": "poly-10-zoom-contour.png",
+      "sha256": "d75a26858293b05fb4ecac463a3c0a472cb35a548c8662be0dff602ae5127e3d",
+      "bytes": 7815
+    },
+    {
+      "path": "poly-10-zoom-pvb.png",
+      "sha256": "a3b3c2ec966f546e80ce1f554f697e04a1e569bd1541e16a84ff4aa40957702b",
+      "bytes": 8196
+    },
+    {
+      "path": "poly-10-zoom-gauge.png",
+      "sha256": "3814a3820ccb33c8d9556047e6fcca16e4a37ba20c8a5f8d45b845ab65a4e4c6",
+      "bytes": 4067
+    },
+    {
+      "path": "poly-10-zoom-overlay.png",
+      "sha256": "987ef75e92002775dbc98dc692641b280c7e5abf6af9fce6abcb200691d536ca",
+      "bytes": 13192
+    },
+    {
+      "path": "poly-10-zoom-mask_view.png",
+      "sha256": "798abe2c34dc72d560c5ef5c00a7c1c5b42b8a6f95f9a18045b532f0258aa75f",
+      "bytes": 6249
+    },
+    {
+      "path": "poly-10-zoom-resist_view.png",
+      "sha256": "c916918264681defd86410e45e6f5c57ee7fbfd7fec52b0d9a70613d3e787f97",
+      "bytes": 11692
+    },
+    {
+      "path": "poly-10-zoom-pvb_view.png",
+      "sha256": "bdb17ec8364d4606e6c6d3a27a619d620efda52f71cf2facd41f08be29b0d851",
+      "bytes": 8658
+    },
+    {
+      "path": "poly-10-detail-target.png",
+      "sha256": "0e14d85252dbd2d88380aecd6e5e5b420550e3de522c0d177c5039d8c06e8e9f",
+      "bytes": 5385
+    },
+    {
+      "path": "poly-10-detail-mask.png",
+      "sha256": "284275180d02915186b7728cc22176eb2d5fcca045bbf53081db567ff6c09925",
+      "bytes": 5435
+    },
+    {
+      "path": "poly-10-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "poly-10-detail-contour.png",
+      "sha256": "763556b96258190557b8e6cc1b8468c6b426644a32c4169fe5c73a19d2a8e6a8",
+      "bytes": 6429
+    },
+    {
+      "path": "poly-10-detail-pvb.png",
+      "sha256": "9646c20fc1d861c4294a3294a625047c315a005125856db6584a21763b532088",
+      "bytes": 6813
+    },
+    {
+      "path": "poly-10-detail-gauge.png",
+      "sha256": "a06ab8670cee1202286cf9ca02c89cedfc0d72d3df0fded804b1e11d1dabde26",
+      "bytes": 4069
+    },
+    {
+      "path": "poly-10-detail-overlay.png",
+      "sha256": "5f57ff059b3faedfa90a15bf49080c1aa5280f10ce63edc225632131b6970cf9",
+      "bytes": 7861
+    },
+    {
+      "path": "poly-10-detail-mask_view.png",
+      "sha256": "e95e3882d6aa74bf1f0e78294cb0231cce779cbf37052c6411663e5c5cfcbb3f",
+      "bytes": 5060
+    },
+    {
+      "path": "poly-10-detail-resist_view.png",
+      "sha256": "132414561a780bca714a996ab69035654f1890b300c00e56d6ddd7e539f64ead",
+      "bytes": 7606
+    },
+    {
+      "path": "poly-10-detail-pvb_view.png",
+      "sha256": "5412b383f2d4040370afb97e1e1ca3876708b2d18ec7d9aacb7b94d3927fb564",
+      "bytes": 6533
+    },
+    {
+      "path": "poly-11-core-target.png",
+      "sha256": "05b7daac17ff4c00e86bc05b1e4f7bd5d3e9625d54662dade9cbddca6784ed38",
+      "bytes": 9969
+    },
+    {
+      "path": "poly-11-core-mask.png",
+      "sha256": "093fa9a4e24b820d050d1adfa40846cb3db0ffa699597c0cb279163efdf1122e",
+      "bytes": 16843
+    },
+    {
+      "path": "poly-11-core-sraf.png",
+      "sha256": "e9b832af889a90c57350c5b597079195e0229f71cf1c15bb5d713448c676b21d",
+      "bytes": 17301
+    },
+    {
+      "path": "poly-11-core-contour.png",
+      "sha256": "025e88c5a6c3ac794cb2a13b0b512fd522f1f03751fd98a0f3c65df27434d293",
+      "bytes": 21611
+    },
+    {
+      "path": "poly-11-core-pvb.png",
+      "sha256": "9e75665dc8edca2eb00c68431da37df664dfe324afb69e1dde8b1d7290e7a1ab",
+      "bytes": 24660
+    },
+    {
+      "path": "poly-11-core-gauge.png",
+      "sha256": "19a67f732b82f3ee95e8ffbd978c6082b94244b19f8354b2a170a9a112e28b8c",
+      "bytes": 3957
+    },
+    {
+      "path": "poly-11-core-overlay.png",
+      "sha256": "4febe5da3ec3ad6ab36012d6bc435d6876cd8622a39fe47e54ef425cbcd9b49f",
+      "bytes": 54894
+    },
+    {
+      "path": "poly-11-core-mask_view.png",
+      "sha256": "8db88e928e54361dd503153a7d7203739add09e9ad9757efd6a6d261589b1dc0",
+      "bytes": 39519
+    },
+    {
+      "path": "poly-11-core-resist_view.png",
+      "sha256": "5cc6481b2a8ef2c35799912490b2168775ebc50e89801720fc280cabb2b83fa3",
+      "bytes": 31366
+    },
+    {
+      "path": "poly-11-core-pvb_view.png",
+      "sha256": "9249a7441652ec8d030c771777b3c299fe14735880f8cb3eca77933b88096bba",
+      "bytes": 35049
+    },
+    {
+      "path": "poly-11-zoom-target.png",
+      "sha256": "692bd77e8893fdd1886759421f3f9d371c0f90c2f774c119b54f890791fd1008",
+      "bytes": 5465
+    },
+    {
+      "path": "poly-11-zoom-mask.png",
+      "sha256": "1d2839603f49e27035a624c62714bc5be7ab29752ead77f89ce164442bdffdea",
+      "bytes": 5702
+    },
+    {
+      "path": "poly-11-zoom-sraf.png",
+      "sha256": "123974c63b1ad535c65a351816ce37b4fbbee95b099fa9008c492fee8687b10d",
+      "bytes": 5509
+    },
+    {
+      "path": "poly-11-zoom-contour.png",
+      "sha256": "d75a26858293b05fb4ecac463a3c0a472cb35a548c8662be0dff602ae5127e3d",
+      "bytes": 7815
+    },
+    {
+      "path": "poly-11-zoom-pvb.png",
+      "sha256": "a3b3c2ec966f546e80ce1f554f697e04a1e569bd1541e16a84ff4aa40957702b",
+      "bytes": 8196
+    },
+    {
+      "path": "poly-11-zoom-gauge.png",
+      "sha256": "3814a3820ccb33c8d9556047e6fcca16e4a37ba20c8a5f8d45b845ab65a4e4c6",
+      "bytes": 4067
+    },
+    {
+      "path": "poly-11-zoom-overlay.png",
+      "sha256": "987ef75e92002775dbc98dc692641b280c7e5abf6af9fce6abcb200691d536ca",
+      "bytes": 13192
+    },
+    {
+      "path": "poly-11-zoom-mask_view.png",
+      "sha256": "798abe2c34dc72d560c5ef5c00a7c1c5b42b8a6f95f9a18045b532f0258aa75f",
+      "bytes": 6249
+    },
+    {
+      "path": "poly-11-zoom-resist_view.png",
+      "sha256": "c916918264681defd86410e45e6f5c57ee7fbfd7fec52b0d9a70613d3e787f97",
+      "bytes": 11692
+    },
+    {
+      "path": "poly-11-zoom-pvb_view.png",
+      "sha256": "bdb17ec8364d4606e6c6d3a27a619d620efda52f71cf2facd41f08be29b0d851",
+      "bytes": 8658
+    },
+    {
+      "path": "poly-11-detail-target.png",
+      "sha256": "0e14d85252dbd2d88380aecd6e5e5b420550e3de522c0d177c5039d8c06e8e9f",
+      "bytes": 5385
+    },
+    {
+      "path": "poly-11-detail-mask.png",
+      "sha256": "284275180d02915186b7728cc22176eb2d5fcca045bbf53081db567ff6c09925",
+      "bytes": 5435
+    },
+    {
+      "path": "poly-11-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "poly-11-detail-contour.png",
+      "sha256": "763556b96258190557b8e6cc1b8468c6b426644a32c4169fe5c73a19d2a8e6a8",
+      "bytes": 6429
+    },
+    {
+      "path": "poly-11-detail-pvb.png",
+      "sha256": "9646c20fc1d861c4294a3294a625047c315a005125856db6584a21763b532088",
+      "bytes": 6813
+    },
+    {
+      "path": "poly-11-detail-gauge.png",
+      "sha256": "a06ab8670cee1202286cf9ca02c89cedfc0d72d3df0fded804b1e11d1dabde26",
+      "bytes": 4069
+    },
+    {
+      "path": "poly-11-detail-overlay.png",
+      "sha256": "5f57ff059b3faedfa90a15bf49080c1aa5280f10ce63edc225632131b6970cf9",
+      "bytes": 7861
+    },
+    {
+      "path": "poly-11-detail-mask_view.png",
+      "sha256": "e95e3882d6aa74bf1f0e78294cb0231cce779cbf37052c6411663e5c5cfcbb3f",
+      "bytes": 5060
+    },
+    {
+      "path": "poly-11-detail-resist_view.png",
+      "sha256": "132414561a780bca714a996ab69035654f1890b300c00e56d6ddd7e539f64ead",
+      "bytes": 7606
+    },
+    {
+      "path": "poly-11-detail-pvb_view.png",
+      "sha256": "5412b383f2d4040370afb97e1e1ca3876708b2d18ec7d9aacb7b94d3927fb564",
+      "bytes": 6533
+    },
+    {
+      "path": "metal44-00-core-target.png",
+      "sha256": "07c635107a3d8d1b8bbb6c0ee19b389905e3faa0090f70bb9221855677784f00",
+      "bytes": 11963
+    },
+    {
+      "path": "metal44-00-core-mask.png",
+      "sha256": "1f37ec8c056e6d15b78a4644a3593f551917432f943402179383370187f63c7f",
+      "bytes": 14515
+    },
+    {
+      "path": "metal44-00-core-sraf.png",
+      "sha256": "93b16ee9c3992291975b2be604aafad3979459d53a02f1e74872516a150298c3",
+      "bytes": 12284
+    },
+    {
+      "path": "metal44-00-core-contour.png",
+      "sha256": "ae0740e99b739903600170f574ec506e7f6b50ff9b64dfde2b328d25c67fca38",
+      "bytes": 32248
+    },
+    {
+      "path": "metal44-00-core-pvb.png",
+      "sha256": "1b8cc28e0190b9d8bb8cdc52092444d94ab70cbed2bfb6e8580348b12a64ed27",
+      "bytes": 29844
+    },
+    {
+      "path": "metal44-00-core-gauge.png",
+      "sha256": "0eba124e9a4caaa3335dda056fee0e9fd9eaf20e7b0910e71002120ba37737d8",
+      "bytes": 4053
+    },
+    {
+      "path": "metal44-00-core-overlay.png",
+      "sha256": "2d6fbb9c7c5bdafa357890564fcfcc7199b3e4dd2209909c9b0666b5d3a3645b",
+      "bytes": 79956
+    },
+    {
+      "path": "metal44-00-core-mask_view.png",
+      "sha256": "bdf1ac1541ae3022dfce63346612c80ae6c8de63f8df70e9e4188a384d7d3ce6",
+      "bytes": 35373
+    },
+    {
+      "path": "metal44-00-core-resist_view.png",
+      "sha256": "531425565e20964207aa4317452ba862597125e9441fe59f9886435fcba11316",
+      "bytes": 53475
+    },
+    {
+      "path": "metal44-00-core-pvb_view.png",
+      "sha256": "c3345c365e83e579a8dc04118ebcdf3f861f225dade5a60c9e2a62dca4d018a0",
+      "bytes": 44884
+    },
+    {
+      "path": "metal44-00-zoom-target.png",
+      "sha256": "b5288f12c3d20fcc43e8fae58bfbe24433144b9ae3c91e16779f5405c003ba5f",
+      "bytes": 5445
+    },
+    {
+      "path": "metal44-00-zoom-mask.png",
+      "sha256": "356144dc7985516c50b95c7652a453b3ff9bc0758cb211fa26d8042df2498f20",
+      "bytes": 5599
+    },
+    {
+      "path": "metal44-00-zoom-sraf.png",
+      "sha256": "b75ef959c347f7a459b772e401d8dc165a304f0dc25b5b220aed3ea93e5666ed",
+      "bytes": 5444
+    },
+    {
+      "path": "metal44-00-zoom-contour.png",
+      "sha256": "09a2633155f3d392ab73ceb324051b2bb3bcdea6287ee10dcac2fd4b9b0d1301",
+      "bytes": 8011
+    },
+    {
+      "path": "metal44-00-zoom-pvb.png",
+      "sha256": "aa9c193c8fdb23100b19680b03b259d4559461de390da77d9b8800aa89b5c3ee",
+      "bytes": 8617
+    },
+    {
+      "path": "metal44-00-zoom-gauge.png",
+      "sha256": "0d7317c380db390fc074713342d93bd2e9f8c6141c18d0ab1ae81a4e6eda3899",
+      "bytes": 4120
+    },
+    {
+      "path": "metal44-00-zoom-overlay.png",
+      "sha256": "b6d9c2d48821fd1cf937b0c9a5ed740c876f3f089adeb8f3bc23e8b7bf9f559a",
+      "bytes": 14119
+    },
+    {
+      "path": "metal44-00-zoom-mask_view.png",
+      "sha256": "41a15e1e61bcdb00de91206bd891269b05af9b3188fdf320903c7c9e2202367d",
+      "bytes": 6036
+    },
+    {
+      "path": "metal44-00-zoom-resist_view.png",
+      "sha256": "da14f2db6847dfcd042636e004e872ccc2bb1dacf9177c7534f6dd8fb7eabe68",
+      "bytes": 12673
+    },
+    {
+      "path": "metal44-00-zoom-pvb_view.png",
+      "sha256": "6223f891bd9699718400923d572b9406ed706d79d12a3a3c5e6e1917d80e976c",
+      "bytes": 9208
+    },
+    {
+      "path": "metal44-00-detail-target.png",
+      "sha256": "5be475556e31d9deb23b09b1630022828199cab8d49d742e9a88d7c577704e04",
+      "bytes": 5387
+    },
+    {
+      "path": "metal44-00-detail-mask.png",
+      "sha256": "5845fc861ca64eed4ec4d50fea09e1b70123430680a31f1777f9f9669dbb8102",
+      "bytes": 5394
+    },
+    {
+      "path": "metal44-00-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "metal44-00-detail-contour.png",
+      "sha256": "4ef97bf605d03012770a0d1645c37c4c6dcfd6414af720e091773e959eef347f",
+      "bytes": 6644
+    },
+    {
+      "path": "metal44-00-detail-pvb.png",
+      "sha256": "e7fb3baf7acd70219fc93c0959dd839544df95419d6ea24d91a048b611afdc79",
+      "bytes": 7048
+    },
+    {
+      "path": "metal44-00-detail-gauge.png",
+      "sha256": "78aa6e42b605986687a0382952442d10b33f886292cedd6113f6661867e230c3",
+      "bytes": 4244
+    },
+    {
+      "path": "metal44-00-detail-overlay.png",
+      "sha256": "03c40d52d913f0e850899208363b6ed560b7799404d76e1d2e9426e281880fdd",
+      "bytes": 9127
+    },
+    {
+      "path": "metal44-00-detail-mask_view.png",
+      "sha256": "58e4d2e4950e9e4422e9a9ab2f0eaf587ac57a3f38770fa6c61497a30a33f3cb",
+      "bytes": 5509
+    },
+    {
+      "path": "metal44-00-detail-resist_view.png",
+      "sha256": "3f0e61b11002f5b3f6ce6847aafe970531fe4986baca74299b527f555810bd2b",
+      "bytes": 8590
+    },
+    {
+      "path": "metal44-00-detail-pvb_view.png",
+      "sha256": "effc71a4f25eac0880a85c506ec049bbe006ab7c5b44f16ec625a7a5540c4209",
+      "bytes": 7326
+    },
+    {
+      "path": "metal44-01-core-target.png",
+      "sha256": "07c635107a3d8d1b8bbb6c0ee19b389905e3faa0090f70bb9221855677784f00",
+      "bytes": 11963
+    },
+    {
+      "path": "metal44-01-core-mask.png",
+      "sha256": "543c150bbc105603f61092903d455440bd4ab4a74b2b8b741475fb07ec1acf2a",
+      "bytes": 14799
+    },
+    {
+      "path": "metal44-01-core-sraf.png",
+      "sha256": "93b16ee9c3992291975b2be604aafad3979459d53a02f1e74872516a150298c3",
+      "bytes": 12284
+    },
+    {
+      "path": "metal44-01-core-contour.png",
+      "sha256": "8f13db59b857a0ba3bdbe07e9ed675793ef3485d5913c8f2a686fdc5f5563e4a",
+      "bytes": 32121
+    },
+    {
+      "path": "metal44-01-core-pvb.png",
+      "sha256": "53fc9571d37206a37050d7c4a6022031ac727ea503690b6e3ea11cea11fe9537",
+      "bytes": 29851
+    },
+    {
+      "path": "metal44-01-core-gauge.png",
+      "sha256": "0eba124e9a4caaa3335dda056fee0e9fd9eaf20e7b0910e71002120ba37737d8",
+      "bytes": 4053
+    },
+    {
+      "path": "metal44-01-core-overlay.png",
+      "sha256": "f02456906da64b2c57d78e5076dd465117288f7b3e5084099924bec480dc20e2",
+      "bytes": 80308
+    },
+    {
+      "path": "metal44-01-core-mask_view.png",
+      "sha256": "0b5faefc5a2206cce1b98a0a402b590157c77f0c22149b11eae383766edc593b",
+      "bytes": 35932
+    },
+    {
+      "path": "metal44-01-core-resist_view.png",
+      "sha256": "7b15066cf1801752b4c3d40c5acfacda7201fa313a6428f08a5c56ed832887cd",
+      "bytes": 53367
+    },
+    {
+      "path": "metal44-01-core-pvb_view.png",
+      "sha256": "a6a85c7b6d929f08e43f1819e05e0287dd1e6c5f47af3db625484ce74dc211c9",
+      "bytes": 44844
+    },
+    {
+      "path": "metal44-01-zoom-target.png",
+      "sha256": "b5288f12c3d20fcc43e8fae58bfbe24433144b9ae3c91e16779f5405c003ba5f",
+      "bytes": 5445
+    },
+    {
+      "path": "metal44-01-zoom-mask.png",
+      "sha256": "cf161e25a2d9df672214923b885f8ab8f34ce659ed23493f3c72e13b5bcd6645",
+      "bytes": 5610
+    },
+    {
+      "path": "metal44-01-zoom-sraf.png",
+      "sha256": "b75ef959c347f7a459b772e401d8dc165a304f0dc25b5b220aed3ea93e5666ed",
+      "bytes": 5444
+    },
+    {
+      "path": "metal44-01-zoom-contour.png",
+      "sha256": "3af50faf767fde4988b72413d4389ace1a64eb035cfeef7224e1d0bf32e129ba",
+      "bytes": 8015
+    },
+    {
+      "path": "metal44-01-zoom-pvb.png",
+      "sha256": "a5b776535efc96f39264b0c3bb05d42e6637b7aaca9fae4f2e3fad9c6b451bf3",
+      "bytes": 8723
+    },
+    {
+      "path": "metal44-01-zoom-gauge.png",
+      "sha256": "0d7317c380db390fc074713342d93bd2e9f8c6141c18d0ab1ae81a4e6eda3899",
+      "bytes": 4120
+    },
+    {
+      "path": "metal44-01-zoom-overlay.png",
+      "sha256": "4aaa244befea04e6299c9ee5eed42561b7934b44e41bca8edfd6307a24632fbe",
+      "bytes": 14313
+    },
+    {
+      "path": "metal44-01-zoom-mask_view.png",
+      "sha256": "855391fde6a804486ce16e4dd6e73c9ed12df139e9a59d90b7e516bde45311b4",
+      "bytes": 6059
+    },
+    {
+      "path": "metal44-01-zoom-resist_view.png",
+      "sha256": "59c4a6be5bb597ed60db1c63381a8846a0d873ad2b4740452f7ec834708795c5",
+      "bytes": 12780
+    },
+    {
+      "path": "metal44-01-zoom-pvb_view.png",
+      "sha256": "d4f83dda8bfd11348111cca3738c621cbc3f507c7accdf693b2bd0b8b2c5eca6",
+      "bytes": 9304
+    },
+    {
+      "path": "metal44-01-detail-target.png",
+      "sha256": "5be475556e31d9deb23b09b1630022828199cab8d49d742e9a88d7c577704e04",
+      "bytes": 5387
+    },
+    {
+      "path": "metal44-01-detail-mask.png",
+      "sha256": "ea9e2ffc9373875b8818a799de8e8ff44179132d4e4a6d884f86934cba0b57b4",
+      "bytes": 5394
+    },
+    {
+      "path": "metal44-01-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "metal44-01-detail-contour.png",
+      "sha256": "b488ce15e8bd150f354c828eda584f98e6a752e7f658e89cd2404dbb4b5bbb8d",
+      "bytes": 6628
+    },
+    {
+      "path": "metal44-01-detail-pvb.png",
+      "sha256": "a824855f0042c630f730d6637438862c6218502aed34ff149dce64cec3c345ad",
+      "bytes": 7078
+    },
+    {
+      "path": "metal44-01-detail-gauge.png",
+      "sha256": "78aa6e42b605986687a0382952442d10b33f886292cedd6113f6661867e230c3",
+      "bytes": 4244
+    },
+    {
+      "path": "metal44-01-detail-overlay.png",
+      "sha256": "48a85af5fd89417d817e394802996a3bfec8e10f5cfaea466507dd72c74c3d6c",
+      "bytes": 9179
+    },
+    {
+      "path": "metal44-01-detail-mask_view.png",
+      "sha256": "5507317d954cf05d8483a36151974c0dacc14f237a89b9b347b75f0deb7eb04e",
+      "bytes": 5513
+    },
+    {
+      "path": "metal44-01-detail-resist_view.png",
+      "sha256": "40f9608f2ab6d6bf55aa797ae0c1a679b96c58a0c6a8a5eb765200d4bd1eb054",
+      "bytes": 8648
+    },
+    {
+      "path": "metal44-01-detail-pvb_view.png",
+      "sha256": "5b4df71831b98cf29222af220a69b9370d394a1445f1049b26f10f4209e571ad",
+      "bytes": 7325
+    },
+    {
+      "path": "metal44-02-core-target.png",
+      "sha256": "07c635107a3d8d1b8bbb6c0ee19b389905e3faa0090f70bb9221855677784f00",
+      "bytes": 11963
+    },
+    {
+      "path": "metal44-02-core-mask.png",
+      "sha256": "1507971fbe21f8ab9cc814fece08e77e9f8d6a1e95156b65e17f7006f8edde70",
+      "bytes": 14953
+    },
+    {
+      "path": "metal44-02-core-sraf.png",
+      "sha256": "c737c746bcc4423a5e9f4f3cd76508ed7d10e110034d357f8457b1247029de2f",
+      "bytes": 12284
+    },
+    {
+      "path": "metal44-02-core-contour.png",
+      "sha256": "4068cc718c319983e709b35dd637f566611a29b62b294109e72044bde88edc85",
+      "bytes": 32502
+    },
+    {
+      "path": "metal44-02-core-pvb.png",
+      "sha256": "aad7108f4341a00843891209429e1a98a930e9daf0bf5fa39ad4823110fdeff9",
+      "bytes": 30139
+    },
+    {
+      "path": "metal44-02-core-gauge.png",
+      "sha256": "0eba124e9a4caaa3335dda056fee0e9fd9eaf20e7b0910e71002120ba37737d8",
+      "bytes": 4053
+    },
+    {
+      "path": "metal44-02-core-overlay.png",
+      "sha256": "2c8ab75f0165c42d2c6d7abc1c814d9ed27ae92c744f776f3c4bf7809a89e9ca",
+      "bytes": 80479
+    },
+    {
+      "path": "metal44-02-core-mask_view.png",
+      "sha256": "79670ddd395556a8cafcec1671dc19917addab23b2c6ba8850e91faad51609f4",
+      "bytes": 36123
+    },
+    {
+      "path": "metal44-02-core-resist_view.png",
+      "sha256": "9f0b0f44ad2b0d0e845dac14162c60dabec6c4950e27367c2d16b94756f2bdeb",
+      "bytes": 53609
+    },
+    {
+      "path": "metal44-02-core-pvb_view.png",
+      "sha256": "6ffa9ac253de0b6ee3cd19a43df6d5c626a52f5504ca3944711de1f43f4b5520",
+      "bytes": 45065
+    },
+    {
+      "path": "metal44-02-zoom-target.png",
+      "sha256": "b5288f12c3d20fcc43e8fae58bfbe24433144b9ae3c91e16779f5405c003ba5f",
+      "bytes": 5445
+    },
+    {
+      "path": "metal44-02-zoom-mask.png",
+      "sha256": "081ba4ebaaa733af991cd2b8ba585bd55185ed3614c30e70c7a3d55c5f770fbf",
+      "bytes": 5630
+    },
+    {
+      "path": "metal44-02-zoom-sraf.png",
+      "sha256": "b75ef959c347f7a459b772e401d8dc165a304f0dc25b5b220aed3ea93e5666ed",
+      "bytes": 5444
+    },
+    {
+      "path": "metal44-02-zoom-contour.png",
+      "sha256": "7a8dbebfc10f12941523f957ef6b14b3bdf2726bb22f6f32377d529e0fa589c6",
+      "bytes": 8011
+    },
+    {
+      "path": "metal44-02-zoom-pvb.png",
+      "sha256": "aa346d042ebae1fd8b47cf79c45e36f6b8e9fc0f474f0f0b57596f45e75dfd8b",
+      "bytes": 8676
+    },
+    {
+      "path": "metal44-02-zoom-gauge.png",
+      "sha256": "0d7317c380db390fc074713342d93bd2e9f8c6141c18d0ab1ae81a4e6eda3899",
+      "bytes": 4120
+    },
+    {
+      "path": "metal44-02-zoom-overlay.png",
+      "sha256": "abcdf3ab2ebb57c6c3d22a7411d09ee229d9cf1fa544cfe108cf8fbc935dbab4",
+      "bytes": 14388
+    },
+    {
+      "path": "metal44-02-zoom-mask_view.png",
+      "sha256": "2c7acae13df1a1d6c54472213e341ad99f5821d289409ec4690b94e410c208a5",
+      "bytes": 6086
+    },
+    {
+      "path": "metal44-02-zoom-resist_view.png",
+      "sha256": "1c64e45e4be16d63774dc73a77970ca08152d6bd3a3d35aa98b393b95be0b36c",
+      "bytes": 12750
+    },
+    {
+      "path": "metal44-02-zoom-pvb_view.png",
+      "sha256": "ecb67e8a4eb038db20bdde35300597d2417f41626097337b62041dcdf0d6ec19",
+      "bytes": 9245
+    },
+    {
+      "path": "metal44-02-detail-target.png",
+      "sha256": "5be475556e31d9deb23b09b1630022828199cab8d49d742e9a88d7c577704e04",
+      "bytes": 5387
+    },
+    {
+      "path": "metal44-02-detail-mask.png",
+      "sha256": "0cd32e2a7f1cbf0b87d13450686d57613fa1c424c03cfd4fa5b332c57e2c16e3",
+      "bytes": 5399
+    },
+    {
+      "path": "metal44-02-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "metal44-02-detail-contour.png",
+      "sha256": "008bb521d6ecf281189df6a9f4ebe91cd456807d8c6c1b83574ff293cf95314d",
+      "bytes": 6638
+    },
+    {
+      "path": "metal44-02-detail-pvb.png",
+      "sha256": "1c20e7235d4fcb98055621e6610d584ed94434821983bcf74311808f7a23bd35",
+      "bytes": 7139
+    },
+    {
+      "path": "metal44-02-detail-gauge.png",
+      "sha256": "42045f79c4d4e19eb90ccec5d61cda3d3f1e36072af5224a7ce91997431efb68",
+      "bytes": 4241
+    },
+    {
+      "path": "metal44-02-detail-overlay.png",
+      "sha256": "9c1acf43156da4954bf16c40ddb2a95ef68de66b5c8a330fd9e6c684b8a85ee7",
+      "bytes": 9146
+    },
+    {
+      "path": "metal44-02-detail-mask_view.png",
+      "sha256": "a760cfe89cba01b81e4bb974f6a74f0c95b43c06eb5c39fc6fb96d7fbdd62325",
+      "bytes": 5520
+    },
+    {
+      "path": "metal44-02-detail-resist_view.png",
+      "sha256": "32f7b3ca7ae693cb6c59d1bd356b1eabb0dd715776adf019ad7467acd907c7d5",
+      "bytes": 8654
+    },
+    {
+      "path": "metal44-02-detail-pvb_view.png",
+      "sha256": "cd5442d45a1887cfdcd4bad5c2f8f79deb56aa4050dd93963fe32b93a6b81879",
+      "bytes": 7345
+    },
+    {
+      "path": "metal44-03-core-target.png",
+      "sha256": "07c635107a3d8d1b8bbb6c0ee19b389905e3faa0090f70bb9221855677784f00",
+      "bytes": 11963
+    },
+    {
+      "path": "metal44-03-core-mask.png",
+      "sha256": "fcc291e764a6d273117de0ce0f0c66d049c1c27ed218a87c222a43b84a388135",
+      "bytes": 14953
+    },
+    {
+      "path": "metal44-03-core-sraf.png",
+      "sha256": "c737c746bcc4423a5e9f4f3cd76508ed7d10e110034d357f8457b1247029de2f",
+      "bytes": 12284
+    },
+    {
+      "path": "metal44-03-core-contour.png",
+      "sha256": "9849f6d3c12358cb2dd16cfcf41ac82028df63f6de80924f06aadf7625ad2418",
+      "bytes": 32498
+    },
+    {
+      "path": "metal44-03-core-pvb.png",
+      "sha256": "24eb36a9ef92e94b92f9b4a629621a0b3d9a4638c67126ef5ee1bb54c160b37d",
+      "bytes": 30176
+    },
+    {
+      "path": "metal44-03-core-gauge.png",
+      "sha256": "0eba124e9a4caaa3335dda056fee0e9fd9eaf20e7b0910e71002120ba37737d8",
+      "bytes": 4053
+    },
+    {
+      "path": "metal44-03-core-overlay.png",
+      "sha256": "06e09e93bf86bbf9a900ae429e0a1cded9c9347067f8c461c97d127f56811b40",
+      "bytes": 80533
+    },
+    {
+      "path": "metal44-03-core-mask_view.png",
+      "sha256": "c5b6fafa66c310434000fac9a589ce5131ef2bac3c28b076bc9b7fbebf40131c",
+      "bytes": 36120
+    },
+    {
+      "path": "metal44-03-core-resist_view.png",
+      "sha256": "f83c81c1ace5456b981e1e9813412e3defb8fe8df7dc37de2158943153da87b5",
+      "bytes": 53638
+    },
+    {
+      "path": "metal44-03-core-pvb_view.png",
+      "sha256": "09e1fa20c2cbf8f952035e577e8506a5fd6ad0a70cc299d06567c02dacab617b",
+      "bytes": 45068
+    },
+    {
+      "path": "metal44-03-zoom-target.png",
+      "sha256": "b5288f12c3d20fcc43e8fae58bfbe24433144b9ae3c91e16779f5405c003ba5f",
+      "bytes": 5445
+    },
+    {
+      "path": "metal44-03-zoom-mask.png",
+      "sha256": "8378f0848e64e69f08df85e8018e547da9afd00f582fd7c13af1d449bf7d9fd8",
+      "bytes": 5630
+    },
+    {
+      "path": "metal44-03-zoom-sraf.png",
+      "sha256": "b75ef959c347f7a459b772e401d8dc165a304f0dc25b5b220aed3ea93e5666ed",
+      "bytes": 5444
+    },
+    {
+      "path": "metal44-03-zoom-contour.png",
+      "sha256": "b995fedf20e57b6f7e76a5d27304951a19cb1142cc03b0e4ff60b087348e7859",
+      "bytes": 8011
+    },
+    {
+      "path": "metal44-03-zoom-pvb.png",
+      "sha256": "fd9a66cbbe4b9bf980b8f9e63af75ceeb4202dc28e6b985a83dfb5a3fa4d4d0a",
+      "bytes": 8686
+    },
+    {
+      "path": "metal44-03-zoom-gauge.png",
+      "sha256": "403e2fbdc5eaa9af51f0c699aeb00fbb78a56071be3daaca6c8381a5c13062d2",
+      "bytes": 4116
+    },
+    {
+      "path": "metal44-03-zoom-overlay.png",
+      "sha256": "cdd52c4a212b29ac7d2041f99667c6718cd7fa0c2c2ddd4e1e885bf0fc9ad598",
+      "bytes": 14226
+    },
+    {
+      "path": "metal44-03-zoom-mask_view.png",
+      "sha256": "a9150aaaf5540b3d4c15822f85e38c538df1e34ee4a7ae8f8239555ab5a7664b",
+      "bytes": 6069
+    },
+    {
+      "path": "metal44-03-zoom-resist_view.png",
+      "sha256": "6b7dbf803dcca4da21375e5e89e0f1009eb97ed91b36f872ed46b7d0ed688688",
+      "bytes": 12589
+    },
+    {
+      "path": "metal44-03-zoom-pvb_view.png",
+      "sha256": "71592836fb03927be8ce8bcbf9ae901e9c6afef588916fc98ca386a8e9500bc1",
+      "bytes": 9256
+    },
+    {
+      "path": "metal44-03-detail-target.png",
+      "sha256": "5be475556e31d9deb23b09b1630022828199cab8d49d742e9a88d7c577704e04",
+      "bytes": 5387
+    },
+    {
+      "path": "metal44-03-detail-mask.png",
+      "sha256": "fb4c079786b60f860296a5673e8b748951fcdaed2582af6527a80bff337389d0",
+      "bytes": 5399
+    },
+    {
+      "path": "metal44-03-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "metal44-03-detail-contour.png",
+      "sha256": "4fb29b2a7e3f950da474319bff10a4bb4bf4854b71801303b352a0a32265e6a8",
+      "bytes": 6650
+    },
+    {
+      "path": "metal44-03-detail-pvb.png",
+      "sha256": "12a888d15bdbc081c5a862c8db8a5bb0ee23d466fa95aea4d42034f241fc5b31",
+      "bytes": 7195
+    },
+    {
+      "path": "metal44-03-detail-gauge.png",
+      "sha256": "e392f1acf68fb1ed851c21c3eed41fcbc206586a59bce8c2f038b665de351ad3",
+      "bytes": 4230
+    },
+    {
+      "path": "metal44-03-detail-overlay.png",
+      "sha256": "8db30cb531f5054cda72a651fb58800fcdf5dbc20d06e6622745ecbeb69c7fdf",
+      "bytes": 9228
+    },
+    {
+      "path": "metal44-03-detail-mask_view.png",
+      "sha256": "3d2deae2092606a11ecb40769afb223406c05203fc20d04565bab7cb7713f23f",
+      "bytes": 5516
+    },
+    {
+      "path": "metal44-03-detail-resist_view.png",
+      "sha256": "f9233d99a2f5054306506c990d5bc6dae71137369c2206d400ad7271e0aa3481",
+      "bytes": 8773
+    },
+    {
+      "path": "metal44-03-detail-pvb_view.png",
+      "sha256": "41177a0810e11ec42939e9f9ec7826906ee7c4936717cffb948956b4ca93dd43",
+      "bytes": 7399
+    },
+    {
+      "path": "metal44-04-core-target.png",
+      "sha256": "07c635107a3d8d1b8bbb6c0ee19b389905e3faa0090f70bb9221855677784f00",
+      "bytes": 11963
+    },
+    {
+      "path": "metal44-04-core-mask.png",
+      "sha256": "fcc291e764a6d273117de0ce0f0c66d049c1c27ed218a87c222a43b84a388135",
+      "bytes": 14953
+    },
+    {
+      "path": "metal44-04-core-sraf.png",
+      "sha256": "c737c746bcc4423a5e9f4f3cd76508ed7d10e110034d357f8457b1247029de2f",
+      "bytes": 12284
+    },
+    {
+      "path": "metal44-04-core-contour.png",
+      "sha256": "5eb0044807e70cbb01f5793178215b34a5bbdd774c3c41a3842e96c0b86fa74f",
+      "bytes": 32495
+    },
+    {
+      "path": "metal44-04-core-pvb.png",
+      "sha256": "3423d4125cb974e109c0bf034ccc9b518857ed9964122ef81c33a21b61aa9d98",
+      "bytes": 30180
+    },
+    {
+      "path": "metal44-04-core-gauge.png",
+      "sha256": "0eba124e9a4caaa3335dda056fee0e9fd9eaf20e7b0910e71002120ba37737d8",
+      "bytes": 4053
+    },
+    {
+      "path": "metal44-04-core-overlay.png",
+      "sha256": "b23fb2194fe1122fa6c97ee3d6b527cef40a784dba9c24bc84501de90697cf25",
+      "bytes": 80547
+    },
+    {
+      "path": "metal44-04-core-mask_view.png",
+      "sha256": "c5b6fafa66c310434000fac9a589ce5131ef2bac3c28b076bc9b7fbebf40131c",
+      "bytes": 36120
+    },
+    {
+      "path": "metal44-04-core-resist_view.png",
+      "sha256": "096dea76bfe906d8abae6dad2646bef842aeae1d958ea463b3378e5fb06600ca",
+      "bytes": 53632
+    },
+    {
+      "path": "metal44-04-core-pvb_view.png",
+      "sha256": "f2aa4e484a3a7f6eb48f19cedcda8b21a7ecf3f52e22fd3a1db57a8f2d491956",
+      "bytes": 45040
+    },
+    {
+      "path": "metal44-04-zoom-target.png",
+      "sha256": "b5288f12c3d20fcc43e8fae58bfbe24433144b9ae3c91e16779f5405c003ba5f",
+      "bytes": 5445
+    },
+    {
+      "path": "metal44-04-zoom-mask.png",
+      "sha256": "6c27eae871bd12607c12ede786892fd20dd1a309b9dbd400aa78fe0bb33ed0d9",
+      "bytes": 5630
+    },
+    {
+      "path": "metal44-04-zoom-sraf.png",
+      "sha256": "b75ef959c347f7a459b772e401d8dc165a304f0dc25b5b220aed3ea93e5666ed",
+      "bytes": 5444
+    },
+    {
+      "path": "metal44-04-zoom-contour.png",
+      "sha256": "a651ed7cf8fb4f3ddda2548a9d0247908ecddd002db128cfd152aa91af503760",
+      "bytes": 8013
+    },
+    {
+      "path": "metal44-04-zoom-pvb.png",
+      "sha256": "21db17f0a18f784f581324e2b63d5986df2d65322061bf01fd4512e3e9584661",
+      "bytes": 8639
+    },
+    {
+      "path": "metal44-04-zoom-gauge.png",
+      "sha256": "1984b8867b6b9edeca298a8d14660395b52a4aeb524bfd2a329c716e3e457fbd",
+      "bytes": 4112
+    },
+    {
+      "path": "metal44-04-zoom-overlay.png",
+      "sha256": "75e7c1afc84b1f909b8eac3c1c726594d51d38cb03c589baba61f636a15a28ec",
+      "bytes": 14190
+    },
+    {
+      "path": "metal44-04-zoom-mask_view.png",
+      "sha256": "facc325f83bfc394f18a53ecc01b71fe211ce9c230fe725d4f78544f1f4c4bb4",
+      "bytes": 6071
+    },
+    {
+      "path": "metal44-04-zoom-resist_view.png",
+      "sha256": "b9b4fb1a7a2c822e5358201b315b5073b2816fa759f4edf515cbde0753264153",
+      "bytes": 12567
+    },
+    {
+      "path": "metal44-04-zoom-pvb_view.png",
+      "sha256": "7017bdd5d015b71950c4da4819100e695dd2d7c159819f016a65c54259ec8105",
+      "bytes": 9242
+    },
+    {
+      "path": "metal44-04-detail-target.png",
+      "sha256": "5be475556e31d9deb23b09b1630022828199cab8d49d742e9a88d7c577704e04",
+      "bytes": 5387
+    },
+    {
+      "path": "metal44-04-detail-mask.png",
+      "sha256": "f6a6191f8d9a7b29abd8c145589e473400b32c5ecab29345336d1e21fc4650f8",
+      "bytes": 5398
+    },
+    {
+      "path": "metal44-04-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "metal44-04-detail-contour.png",
+      "sha256": "f100a6a9e397bb33d565d7411b08565ee1d7e778a6d77d92cdacf91fe856921d",
+      "bytes": 6698
+    },
+    {
+      "path": "metal44-04-detail-pvb.png",
+      "sha256": "33648d7f8a0e9cd32ec0cc27320739a7d31101db092d388b8e04e37c7554b751",
+      "bytes": 7228
+    },
+    {
+      "path": "metal44-04-detail-gauge.png",
+      "sha256": "c7fa7b632fd729349b07970089ecc870d178d631e9c5369ac33ccc1ba5bed880",
+      "bytes": 4219
+    },
+    {
+      "path": "metal44-04-detail-overlay.png",
+      "sha256": "92f86029f5ab7b5fbcaccc3c886dff1273237f9c0c6b799616488024d8748c09",
+      "bytes": 9292
+    },
+    {
+      "path": "metal44-04-detail-mask_view.png",
+      "sha256": "e9c3a5d93d7cbcb3b96802e94fd7a010a7cb81bb393cb49f328b9b23b78381ab",
+      "bytes": 5515
+    },
+    {
+      "path": "metal44-04-detail-resist_view.png",
+      "sha256": "e909f9b26142ca06a5a909801e8bae6d87cd2ef75b6dbcb3a690930de2e46a5c",
+      "bytes": 8843
+    },
+    {
+      "path": "metal44-04-detail-pvb_view.png",
+      "sha256": "a98583fc88d707b0720286fa79330613a6b64b9c6ffcae1a6c0e8bbf1f9b0a36",
+      "bytes": 7476
+    },
+    {
+      "path": "metal44-05-core-target.png",
+      "sha256": "07c635107a3d8d1b8bbb6c0ee19b389905e3faa0090f70bb9221855677784f00",
+      "bytes": 11963
+    },
+    {
+      "path": "metal44-05-core-mask.png",
+      "sha256": "fcc291e764a6d273117de0ce0f0c66d049c1c27ed218a87c222a43b84a388135",
+      "bytes": 14953
+    },
+    {
+      "path": "metal44-05-core-sraf.png",
+      "sha256": "c737c746bcc4423a5e9f4f3cd76508ed7d10e110034d357f8457b1247029de2f",
+      "bytes": 12284
+    },
+    {
+      "path": "metal44-05-core-contour.png",
+      "sha256": "3ce5dee23ad723e8b09e4473027e3ce4994c16702a74577a010b9db87b393d63",
+      "bytes": 32497
+    },
+    {
+      "path": "metal44-05-core-pvb.png",
+      "sha256": "c29e4eadf7490dc2a0167e858adf957e1327035c86f9663807b32343773ef3f3",
+      "bytes": 30185
+    },
+    {
+      "path": "metal44-05-core-gauge.png",
+      "sha256": "41bd9d371c8d9f74b86c79b3d3abd31444f72d73455d311da845ea698bab87ab",
+      "bytes": 4032
+    },
+    {
+      "path": "metal44-05-core-overlay.png",
+      "sha256": "5a2d71538c72ea968d3a4e653b29e7edade0a7c9ad52b9d24653b3b31cfbfd3d",
+      "bytes": 80513
+    },
+    {
+      "path": "metal44-05-core-mask_view.png",
+      "sha256": "c5b6fafa66c310434000fac9a589ce5131ef2bac3c28b076bc9b7fbebf40131c",
+      "bytes": 36120
+    },
+    {
+      "path": "metal44-05-core-resist_view.png",
+      "sha256": "b53c2f6f976e140847831b5695eb2a9e25093b12cddccacad571f86497bcb4ec",
+      "bytes": 53613
+    },
+    {
+      "path": "metal44-05-core-pvb_view.png",
+      "sha256": "b091d6f2f1863ee3da4eeffac4b39648040ceee6dc3ca91f0474b5192a1ce36e",
+      "bytes": 45056
+    },
+    {
+      "path": "metal44-05-zoom-target.png",
+      "sha256": "b5288f12c3d20fcc43e8fae58bfbe24433144b9ae3c91e16779f5405c003ba5f",
+      "bytes": 5445
+    },
+    {
+      "path": "metal44-05-zoom-mask.png",
+      "sha256": "42ed94b7732dd20d5c1a21ce2224939a47e13ca877406ddd4c882f2a91acea2a",
+      "bytes": 5629
+    },
+    {
+      "path": "metal44-05-zoom-sraf.png",
+      "sha256": "b75ef959c347f7a459b772e401d8dc165a304f0dc25b5b220aed3ea93e5666ed",
+      "bytes": 5444
+    },
+    {
+      "path": "metal44-05-zoom-contour.png",
+      "sha256": "7f6a75590d8e13dc13c1588d8ada9ce618efc5322bc783d87ea3f8083d571e7d",
+      "bytes": 8044
+    },
+    {
+      "path": "metal44-05-zoom-pvb.png",
+      "sha256": "111b637718625d3f56797a3b3418164e267c421504a980fe35d9a545d3f3ca48",
+      "bytes": 8658
+    },
+    {
+      "path": "metal44-05-zoom-gauge.png",
+      "sha256": "689626e8b15887fcf70995b11a9fc0ea3068967efe97276ee886e41940f90a68",
+      "bytes": 4110
+    },
+    {
+      "path": "metal44-05-zoom-overlay.png",
+      "sha256": "4d2a112e03860954f026ddcc2fc28dafbd8d9f6d9c799ba1bfee777d215162ef",
+      "bytes": 14360
+    },
+    {
+      "path": "metal44-05-zoom-mask_view.png",
+      "sha256": "10f98ce6c8fbd2aa5cfc83f3df9c1bb94e3a0a4380ec1ce5684329c5606453ed",
+      "bytes": 6074
+    },
+    {
+      "path": "metal44-05-zoom-resist_view.png",
+      "sha256": "97f4d74ded641b73f5f4af85edf645a1a41edd1960728bcb4d1e67cc62348ef1",
+      "bytes": 12753
+    },
+    {
+      "path": "metal44-05-zoom-pvb_view.png",
+      "sha256": "9c900f3d90a7bdb267eff456cbd2e15acd421a1004e31f75fc542e1e0519e195",
+      "bytes": 9232
+    },
+    {
+      "path": "metal44-05-detail-target.png",
+      "sha256": "5be475556e31d9deb23b09b1630022828199cab8d49d742e9a88d7c577704e04",
+      "bytes": 5387
+    },
+    {
+      "path": "metal44-05-detail-mask.png",
+      "sha256": "9d319066af56418b0a8e0a47ad64b1df94f8006fcf0f9d203c833f6b30c3115c",
+      "bytes": 5398
+    },
+    {
+      "path": "metal44-05-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "metal44-05-detail-contour.png",
+      "sha256": "201a68030f779085b9a915b82a50885ecfb446715bfc1f171e802874c867f7c6",
+      "bytes": 6675
+    },
+    {
+      "path": "metal44-05-detail-pvb.png",
+      "sha256": "1e983eb23d9cb39afcb78a450b9f6ccc25c2611666e7621ad11aebbe18e5dace",
+      "bytes": 7190
+    },
+    {
+      "path": "metal44-05-detail-gauge.png",
+      "sha256": "8b3083376c1253562dc5c5da8fdbcfe7782dca8bad92ff0f2ac4cdcf54ee0101",
+      "bytes": 4211
+    },
+    {
+      "path": "metal44-05-detail-overlay.png",
+      "sha256": "a08aa7fad29ca09c855f72ad89c6c4017479b1bb36cdd4b359f746ede3a98496",
+      "bytes": 9410
+    },
+    {
+      "path": "metal44-05-detail-mask_view.png",
+      "sha256": "a5acd54b58c5fe1dfbdf95d9a257cdc2f8e998fa6716724c78b4b7d6345bed12",
+      "bytes": 5516
+    },
+    {
+      "path": "metal44-05-detail-resist_view.png",
+      "sha256": "b0b76f36a0307c032b52c0fb90d09e80a4d4d918a4e8d53151e8126de95fa2dd",
+      "bytes": 8918
+    },
+    {
+      "path": "metal44-05-detail-pvb_view.png",
+      "sha256": "926c52b87c856645ab2e0232753ef69fab91d5be04067ecf8a3a976229c30a97",
+      "bytes": 7465
+    },
+    {
+      "path": "metal44-06-core-target.png",
+      "sha256": "07c635107a3d8d1b8bbb6c0ee19b389905e3faa0090f70bb9221855677784f00",
+      "bytes": 11963
+    },
+    {
+      "path": "metal44-06-core-mask.png",
+      "sha256": "fcc291e764a6d273117de0ce0f0c66d049c1c27ed218a87c222a43b84a388135",
+      "bytes": 14953
+    },
+    {
+      "path": "metal44-06-core-sraf.png",
+      "sha256": "c737c746bcc4423a5e9f4f3cd76508ed7d10e110034d357f8457b1247029de2f",
+      "bytes": 12284
+    },
+    {
+      "path": "metal44-06-core-contour.png",
+      "sha256": "2414551cab99bc7a7e5160c042e9e60e5599e27a7cfcc5dcb2ef2496f1070d12",
+      "bytes": 32503
+    },
+    {
+      "path": "metal44-06-core-pvb.png",
+      "sha256": "20e7640e784c658ff81816131f168d54bc8f2a91ced2d10b9e85fabf6d4e0f80",
+      "bytes": 30182
+    },
+    {
+      "path": "metal44-06-core-gauge.png",
+      "sha256": "41bd9d371c8d9f74b86c79b3d3abd31444f72d73455d311da845ea698bab87ab",
+      "bytes": 4032
+    },
+    {
+      "path": "metal44-06-core-overlay.png",
+      "sha256": "ea379c706279bd5338e74d0fc32aba1d329a88c60eb8e2748d9f034567e968d0",
+      "bytes": 80553
+    },
+    {
+      "path": "metal44-06-core-mask_view.png",
+      "sha256": "c5b6fafa66c310434000fac9a589ce5131ef2bac3c28b076bc9b7fbebf40131c",
+      "bytes": 36120
+    },
+    {
+      "path": "metal44-06-core-resist_view.png",
+      "sha256": "a83253ce1c467414dd7775c0c4f1d0042c53aedd966a884a54ec7a49fd93f807",
+      "bytes": 53647
+    },
+    {
+      "path": "metal44-06-core-pvb_view.png",
+      "sha256": "e2929d4c5f8f064628e062e1c6dcdd0e50626617ac10953caac6c8a6f15ac8da",
+      "bytes": 45069
+    },
+    {
+      "path": "metal44-06-zoom-target.png",
+      "sha256": "b5288f12c3d20fcc43e8fae58bfbe24433144b9ae3c91e16779f5405c003ba5f",
+      "bytes": 5445
+    },
+    {
+      "path": "metal44-06-zoom-mask.png",
+      "sha256": "104156513ea5a19f440cd240576e8f029b0a82b5236d1ccda04c9532d00f523c",
+      "bytes": 5629
+    },
+    {
+      "path": "metal44-06-zoom-sraf.png",
+      "sha256": "b75ef959c347f7a459b772e401d8dc165a304f0dc25b5b220aed3ea93e5666ed",
+      "bytes": 5444
+    },
+    {
+      "path": "metal44-06-zoom-contour.png",
+      "sha256": "16c3d3f11e654d496ebb79420924183c424034d684dbd23d0991f9693421a597",
+      "bytes": 8049
+    },
+    {
+      "path": "metal44-06-zoom-pvb.png",
+      "sha256": "33a380c27dfb867cfc59df2e5977a5542cf7565bcb8c184986dffc8adca10de5",
+      "bytes": 8674
+    },
+    {
+      "path": "metal44-06-zoom-gauge.png",
+      "sha256": "c682302484e3c2a301dcbcdf09ae5814ce8d0d4477909f1a2b7d24532a9b93b7",
+      "bytes": 4109
+    },
+    {
+      "path": "metal44-06-zoom-overlay.png",
+      "sha256": "626ad8fed0f7e7143a23fd5258a1984681445d9d5c94d0b07f9dec5de6357f40",
+      "bytes": 14380
+    },
+    {
+      "path": "metal44-06-zoom-mask_view.png",
+      "sha256": "ac542d57a09b7864b1b9b80cb7357b629e61af8de4b8b61c98953e0a050fa08a",
+      "bytes": 6072
+    },
+    {
+      "path": "metal44-06-zoom-resist_view.png",
+      "sha256": "3cd421542c011074bbabd57a6bdd070f1640a2c4a6dbe75d17476505d3fbcb09",
+      "bytes": 12738
+    },
+    {
+      "path": "metal44-06-zoom-pvb_view.png",
+      "sha256": "7db5185587534b638a697a3b757992af497cdf0a0ae8b13ae7b86db057b0b2c1",
+      "bytes": 9216
+    },
+    {
+      "path": "metal44-06-detail-target.png",
+      "sha256": "5be475556e31d9deb23b09b1630022828199cab8d49d742e9a88d7c577704e04",
+      "bytes": 5387
+    },
+    {
+      "path": "metal44-06-detail-mask.png",
+      "sha256": "1b847e0f5d7197961d26c05fe1dce9eddb22e4c6eb1097001c3e976771903ba6",
+      "bytes": 5399
+    },
+    {
+      "path": "metal44-06-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "metal44-06-detail-contour.png",
+      "sha256": "85529955c946da3d23b269d7e4ceefa32067a943bc773eb360ce6914cbc5095a",
+      "bytes": 6687
+    },
+    {
+      "path": "metal44-06-detail-pvb.png",
+      "sha256": "3ec050685e50d150e10ef4cb61695ed654f11b99ba6946c2a2e50bd48844491a",
+      "bytes": 7185
+    },
+    {
+      "path": "metal44-06-detail-gauge.png",
+      "sha256": "6460cd984edc31ce240b7703f906efa763f5c121841c30590835994a37d09ed9",
+      "bytes": 4201
+    },
+    {
+      "path": "metal44-06-detail-overlay.png",
+      "sha256": "02196eb3e760251c524f4e66a7a63fc16f950330c340f785b6fcb538d0fb580b",
+      "bytes": 9199
+    },
+    {
+      "path": "metal44-06-detail-mask_view.png",
+      "sha256": "1384d20c4432a1f9e9d39f2ceed26b1d3a8eb78b7c8d44856c5e97f9f06a77f2",
+      "bytes": 5515
+    },
+    {
+      "path": "metal44-06-detail-resist_view.png",
+      "sha256": "6c108691b4f92cd0b2140fcfecf674f99e7c997c7dc95701ab2b3bee18cb6e9e",
+      "bytes": 8757
+    },
+    {
+      "path": "metal44-06-detail-pvb_view.png",
+      "sha256": "a61cad9c8a10379a87d5945851b088dcdc168e7dd7f18da3e56a24e44e386811",
+      "bytes": 7374
+    },
+    {
+      "path": "metal44-07-core-target.png",
+      "sha256": "07c635107a3d8d1b8bbb6c0ee19b389905e3faa0090f70bb9221855677784f00",
+      "bytes": 11963
+    },
+    {
+      "path": "metal44-07-core-mask.png",
+      "sha256": "fcc291e764a6d273117de0ce0f0c66d049c1c27ed218a87c222a43b84a388135",
+      "bytes": 14953
+    },
+    {
+      "path": "metal44-07-core-sraf.png",
+      "sha256": "c737c746bcc4423a5e9f4f3cd76508ed7d10e110034d357f8457b1247029de2f",
+      "bytes": 12284
+    },
+    {
+      "path": "metal44-07-core-contour.png",
+      "sha256": "26e3abf610becfd05d2a895a0798452c029b2fcbcc6cc667bf6b0d11b7d89ce1",
+      "bytes": 32498
+    },
+    {
+      "path": "metal44-07-core-pvb.png",
+      "sha256": "a60377b38c4ef168b8214c4ef010fdc4fa627be22ff8f591311619ae8dc2ac8e",
+      "bytes": 30183
+    },
+    {
+      "path": "metal44-07-core-gauge.png",
+      "sha256": "41bd9d371c8d9f74b86c79b3d3abd31444f72d73455d311da845ea698bab87ab",
+      "bytes": 4032
+    },
+    {
+      "path": "metal44-07-core-overlay.png",
+      "sha256": "ace568a985381d0066df310ac1e870750e886db92769e86f49b5ddb296c59974",
+      "bytes": 80532
+    },
+    {
+      "path": "metal44-07-core-mask_view.png",
+      "sha256": "c5b6fafa66c310434000fac9a589ce5131ef2bac3c28b076bc9b7fbebf40131c",
+      "bytes": 36120
+    },
+    {
+      "path": "metal44-07-core-resist_view.png",
+      "sha256": "f36b1fbdad9bd3c19f6f4bd914ad8d7b11411181ed709d26868cc79db78b948f",
+      "bytes": 53632
+    },
+    {
+      "path": "metal44-07-core-pvb_view.png",
+      "sha256": "ea79cfcf6136e7bb4aa34e11b0a5936ec69ecc1f154678a3cf76d2511c0fff9c",
+      "bytes": 45081
+    },
+    {
+      "path": "metal44-07-zoom-target.png",
+      "sha256": "b5288f12c3d20fcc43e8fae58bfbe24433144b9ae3c91e16779f5405c003ba5f",
+      "bytes": 5445
+    },
+    {
+      "path": "metal44-07-zoom-mask.png",
+      "sha256": "3f64cbbf72c8e6b80604ebb2178b2e18b0a21cdbaa1fffdfee75f7b1804f52eb",
+      "bytes": 5629
+    },
+    {
+      "path": "metal44-07-zoom-sraf.png",
+      "sha256": "b75ef959c347f7a459b772e401d8dc165a304f0dc25b5b220aed3ea93e5666ed",
+      "bytes": 5444
+    },
+    {
+      "path": "metal44-07-zoom-contour.png",
+      "sha256": "69e9310d4bf352dde5c2877421dab76ab81b88724da03dc37519e3054d10ba1f",
+      "bytes": 8074
+    },
+    {
+      "path": "metal44-07-zoom-pvb.png",
+      "sha256": "82578b2f07e9d1fc2fa7040c4c67aba3387e873c4db5412a92d9ab07b2d4dcb0",
+      "bytes": 8715
+    },
+    {
+      "path": "metal44-07-zoom-gauge.png",
+      "sha256": "4561b66fe5f7da18bd4c9ff99b885acbfa934fee1c638f04208d5c81b9a2194d",
+      "bytes": 4104
+    },
+    {
+      "path": "metal44-07-zoom-overlay.png",
+      "sha256": "00259c6cc4227efdaafc65f70b01b30d9a4b9fc685663dd05fcef61802c23755",
+      "bytes": 14371
+    },
+    {
+      "path": "metal44-07-zoom-mask_view.png",
+      "sha256": "3552ab81ccd86ad8f501682c4cef5e67c2dfcf5e4969f8c201a2868c162c6287",
+      "bytes": 6072
+    },
+    {
+      "path": "metal44-07-zoom-resist_view.png",
+      "sha256": "8626db1827b20f355f540c0278243c4b08921414d2a6ed2c8a3fb1f2d1c0d05e",
+      "bytes": 12842
+    },
+    {
+      "path": "metal44-07-zoom-pvb_view.png",
+      "sha256": "a2d3b37540f7309d73f6d82cd08ced96c2464313260b299aee30c64d87641306",
+      "bytes": 9246
+    },
+    {
+      "path": "metal44-07-detail-target.png",
+      "sha256": "5be475556e31d9deb23b09b1630022828199cab8d49d742e9a88d7c577704e04",
+      "bytes": 5387
+    },
+    {
+      "path": "metal44-07-detail-mask.png",
+      "sha256": "4e1a47f5e419209a3dbc77568b717e1f75ae9729e36d8501c69c469587391c08",
+      "bytes": 5399
+    },
+    {
+      "path": "metal44-07-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "metal44-07-detail-contour.png",
+      "sha256": "2aebafd7062c8ac8ad07bcc53b9a79202ed4a0965d1bf9891daba2659fda7484",
+      "bytes": 6686
+    },
+    {
+      "path": "metal44-07-detail-pvb.png",
+      "sha256": "3ea5491f88e3f3c74293dc5e55a3f35ecdedc8d702a7bb56d595b3a8ee85eb2f",
+      "bytes": 7216
+    },
+    {
+      "path": "metal44-07-detail-gauge.png",
+      "sha256": "ba0da271ecc7fc665f72a62b5e326a29ec6bb7df2771b7140f7bc70065884814",
+      "bytes": 4192
+    },
+    {
+      "path": "metal44-07-detail-overlay.png",
+      "sha256": "0547a317f9d266256fabe05e221e84db28fd01b225cf6836847a1da703516a09",
+      "bytes": 9305
+    },
+    {
+      "path": "metal44-07-detail-mask_view.png",
+      "sha256": "0cf79c49534be8557ba0486679448bdab90bda20b41ad0eac65e350afad45418",
+      "bytes": 5515
+    },
+    {
+      "path": "metal44-07-detail-resist_view.png",
+      "sha256": "3ead6703296944d98e21ce476a82bdd573f0a773e5974e0e6d23b57fdfd552fc",
+      "bytes": 8826
+    },
+    {
+      "path": "metal44-07-detail-pvb_view.png",
+      "sha256": "e27d07ebf1e675518f649801b41a799dc67abbbc6196f09bc2a16491c01ca2f4",
+      "bytes": 7419
+    },
+    {
+      "path": "metal44-08-core-target.png",
+      "sha256": "07c635107a3d8d1b8bbb6c0ee19b389905e3faa0090f70bb9221855677784f00",
+      "bytes": 11963
+    },
+    {
+      "path": "metal44-08-core-mask.png",
+      "sha256": "0ef1e3cb7dc1f526418d99f6932fd28fc62ad557851a7a349beb0d968724a752",
+      "bytes": 14951
+    },
+    {
+      "path": "metal44-08-core-sraf.png",
+      "sha256": "c737c746bcc4423a5e9f4f3cd76508ed7d10e110034d357f8457b1247029de2f",
+      "bytes": 12284
+    },
+    {
+      "path": "metal44-08-core-contour.png",
+      "sha256": "7d91d0c2ed494a0cc8aa08f8867c6857c0e2450bb961057338d8a741e3d2ad8f",
+      "bytes": 32490
+    },
+    {
+      "path": "metal44-08-core-pvb.png",
+      "sha256": "2863a7335ef3040f43f07540461b5388882472aa8b17d097d63fdff1a9410584",
+      "bytes": 30182
+    },
+    {
+      "path": "metal44-08-core-gauge.png",
+      "sha256": "41bd9d371c8d9f74b86c79b3d3abd31444f72d73455d311da845ea698bab87ab",
+      "bytes": 4032
+    },
+    {
+      "path": "metal44-08-core-overlay.png",
+      "sha256": "d90ab2ba5e8be0af7b6fe15ca505b16900e9a5cc50d5fb129e9339aa74ecd9e7",
+      "bytes": 80498
+    },
+    {
+      "path": "metal44-08-core-mask_view.png",
+      "sha256": "f49206268e5efdf74f790c78042893d951e55121eb1732c9366a5ff1d87325f4",
+      "bytes": 36117
+    },
+    {
+      "path": "metal44-08-core-resist_view.png",
+      "sha256": "a3138894ff919e1a963e62faba434aa0bf64bcabf0989299ea32cde831d7be53",
+      "bytes": 53591
+    },
+    {
+      "path": "metal44-08-core-pvb_view.png",
+      "sha256": "bee5bc81f7ea39eb452dce0fa8bf9ddde36a7ec759b129c48dc7e2583e16d5a1",
+      "bytes": 45064
+    },
+    {
+      "path": "metal44-08-zoom-target.png",
+      "sha256": "b5288f12c3d20fcc43e8fae58bfbe24433144b9ae3c91e16779f5405c003ba5f",
+      "bytes": 5445
+    },
+    {
+      "path": "metal44-08-zoom-mask.png",
+      "sha256": "b9cf4980f374bf92db619f8480e565d8b0bde2d9a6e814b79b6b504ff4e797d1",
+      "bytes": 5629
+    },
+    {
+      "path": "metal44-08-zoom-sraf.png",
+      "sha256": "b75ef959c347f7a459b772e401d8dc165a304f0dc25b5b220aed3ea93e5666ed",
+      "bytes": 5444
+    },
+    {
+      "path": "metal44-08-zoom-contour.png",
+      "sha256": "618064e148431ef155cc82941a807736ad090998156cd00848e34bf6989316eb",
+      "bytes": 8065
+    },
+    {
+      "path": "metal44-08-zoom-pvb.png",
+      "sha256": "3c70b6347e5e9a276367125b616d1edf6247023f5f44d6d2c900b2e05dddeb73",
+      "bytes": 8650
+    },
+    {
+      "path": "metal44-08-zoom-gauge.png",
+      "sha256": "60f0b52cba04e766b4082818f5a50cffa402082146b25f9e438c3347d42bae32",
+      "bytes": 4101
+    },
+    {
+      "path": "metal44-08-zoom-overlay.png",
+      "sha256": "4905548bb713fc77990140a8f1c68d5a0c713594cadda0cf2429a8253f01b72c",
+      "bytes": 14303
+    },
+    {
+      "path": "metal44-08-zoom-mask_view.png",
+      "sha256": "3ada75b4b6d0eaed99c239f7ba95202a9b64492be686498013d38d037bc4182e",
+      "bytes": 6070
+    },
+    {
+      "path": "metal44-08-zoom-resist_view.png",
+      "sha256": "f091f85fd2669de9473c6295b2365bf626afd555e2da5160d7fbeec1ecd36b01",
+      "bytes": 12693
+    },
+    {
+      "path": "metal44-08-zoom-pvb_view.png",
+      "sha256": "c69638cddbebeb586de683b839ef88ebfbe0154a1c6ddc75f6cebff800921e87",
+      "bytes": 9210
+    },
+    {
+      "path": "metal44-08-detail-target.png",
+      "sha256": "5be475556e31d9deb23b09b1630022828199cab8d49d742e9a88d7c577704e04",
+      "bytes": 5387
+    },
+    {
+      "path": "metal44-08-detail-mask.png",
+      "sha256": "c7eb4229dbcee6e7f43f3f5cd747270ee237114337eab4e37edd68ed949f14cf",
+      "bytes": 5399
+    },
+    {
+      "path": "metal44-08-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "metal44-08-detail-contour.png",
+      "sha256": "e35dd585604c843dff9dbed1ce8daf881ade330b983af3de9e96c2950453b646",
+      "bytes": 6705
+    },
+    {
+      "path": "metal44-08-detail-pvb.png",
+      "sha256": "fc0f1c6a9742306fc9dc31da0683a97437fd4d6b96ef0cdb487b7256d0f81e12",
+      "bytes": 7251
+    },
+    {
+      "path": "metal44-08-detail-gauge.png",
+      "sha256": "70b0f049894c19f92abe5b16287f75a7e56d4408e7ed36e9479ee7ec8a78b11c",
+      "bytes": 4182
+    },
+    {
+      "path": "metal44-08-detail-overlay.png",
+      "sha256": "671fb90302e18603584ad61aa8e49ee2e84df73bafbd7bd6ec8fe45deefcb5fc",
+      "bytes": 9444
+    },
+    {
+      "path": "metal44-08-detail-mask_view.png",
+      "sha256": "1bb9eb111c0f537f4b3cf75bf8dff27779415f6dd76ec8e2c910d35d01aad1fd",
+      "bytes": 5515
+    },
+    {
+      "path": "metal44-08-detail-resist_view.png",
+      "sha256": "326f45ea79bd00dd3f5337c99c648bdf839c5d5a7068b4b77205082ab12586e4",
+      "bytes": 8919
+    },
+    {
+      "path": "metal44-08-detail-pvb_view.png",
+      "sha256": "814dfadba166ebda7e8011a8d70353dc35a4490e6c0f026b4cc2644d91d6b653",
+      "bytes": 7438
+    },
+    {
+      "path": "metal44-09-core-target.png",
+      "sha256": "07c635107a3d8d1b8bbb6c0ee19b389905e3faa0090f70bb9221855677784f00",
+      "bytes": 11963
+    },
+    {
+      "path": "metal44-09-core-mask.png",
+      "sha256": "0ef1e3cb7dc1f526418d99f6932fd28fc62ad557851a7a349beb0d968724a752",
+      "bytes": 14951
+    },
+    {
+      "path": "metal44-09-core-sraf.png",
+      "sha256": "c737c746bcc4423a5e9f4f3cd76508ed7d10e110034d357f8457b1247029de2f",
+      "bytes": 12284
+    },
+    {
+      "path": "metal44-09-core-contour.png",
+      "sha256": "e40dd35338a8e485f54ed904a7108c5fda96c176c4a79c0bb6cb9ecf7735914f",
+      "bytes": 32479
+    },
+    {
+      "path": "metal44-09-core-pvb.png",
+      "sha256": "6b4d4a8b2b38b1a62cc477db1970eaafba285b1662bbe9a5843c84d97d74fb90",
+      "bytes": 30195
+    },
+    {
+      "path": "metal44-09-core-gauge.png",
+      "sha256": "41bd9d371c8d9f74b86c79b3d3abd31444f72d73455d311da845ea698bab87ab",
+      "bytes": 4032
+    },
+    {
+      "path": "metal44-09-core-overlay.png",
+      "sha256": "8d60785dba0a357012ace2ebd01aaa91a044f33a74486218841c13d63e0284d6",
+      "bytes": 80469
+    },
+    {
+      "path": "metal44-09-core-mask_view.png",
+      "sha256": "f49206268e5efdf74f790c78042893d951e55121eb1732c9366a5ff1d87325f4",
+      "bytes": 36117
+    },
+    {
+      "path": "metal44-09-core-resist_view.png",
+      "sha256": "c1d772f65016a2c360f1a538a6782e3ccdbd1fef34c79ddfad4a8b3524d94dbe",
+      "bytes": 53585
+    },
+    {
+      "path": "metal44-09-core-pvb_view.png",
+      "sha256": "3551aa8fc0d5a051e98e03a69321b9bb8148d50f25238882dfc17b628e8fadc6",
+      "bytes": 45094
+    },
+    {
+      "path": "metal44-09-zoom-target.png",
+      "sha256": "b5288f12c3d20fcc43e8fae58bfbe24433144b9ae3c91e16779f5405c003ba5f",
+      "bytes": 5445
+    },
+    {
+      "path": "metal44-09-zoom-mask.png",
+      "sha256": "b9cf4980f374bf92db619f8480e565d8b0bde2d9a6e814b79b6b504ff4e797d1",
+      "bytes": 5629
+    },
+    {
+      "path": "metal44-09-zoom-sraf.png",
+      "sha256": "b75ef959c347f7a459b772e401d8dc165a304f0dc25b5b220aed3ea93e5666ed",
+      "bytes": 5444
+    },
+    {
+      "path": "metal44-09-zoom-contour.png",
+      "sha256": "618064e148431ef155cc82941a807736ad090998156cd00848e34bf6989316eb",
+      "bytes": 8065
+    },
+    {
+      "path": "metal44-09-zoom-pvb.png",
+      "sha256": "3c70b6347e5e9a276367125b616d1edf6247023f5f44d6d2c900b2e05dddeb73",
+      "bytes": 8650
+    },
+    {
+      "path": "metal44-09-zoom-gauge.png",
+      "sha256": "60f0b52cba04e766b4082818f5a50cffa402082146b25f9e438c3347d42bae32",
+      "bytes": 4101
+    },
+    {
+      "path": "metal44-09-zoom-overlay.png",
+      "sha256": "4905548bb713fc77990140a8f1c68d5a0c713594cadda0cf2429a8253f01b72c",
+      "bytes": 14303
+    },
+    {
+      "path": "metal44-09-zoom-mask_view.png",
+      "sha256": "3ada75b4b6d0eaed99c239f7ba95202a9b64492be686498013d38d037bc4182e",
+      "bytes": 6070
+    },
+    {
+      "path": "metal44-09-zoom-resist_view.png",
+      "sha256": "f091f85fd2669de9473c6295b2365bf626afd555e2da5160d7fbeec1ecd36b01",
+      "bytes": 12693
+    },
+    {
+      "path": "metal44-09-zoom-pvb_view.png",
+      "sha256": "c69638cddbebeb586de683b839ef88ebfbe0154a1c6ddc75f6cebff800921e87",
+      "bytes": 9210
+    },
+    {
+      "path": "metal44-09-detail-target.png",
+      "sha256": "5be475556e31d9deb23b09b1630022828199cab8d49d742e9a88d7c577704e04",
+      "bytes": 5387
+    },
+    {
+      "path": "metal44-09-detail-mask.png",
+      "sha256": "c7eb4229dbcee6e7f43f3f5cd747270ee237114337eab4e37edd68ed949f14cf",
+      "bytes": 5399
+    },
+    {
+      "path": "metal44-09-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "metal44-09-detail-contour.png",
+      "sha256": "e35dd585604c843dff9dbed1ce8daf881ade330b983af3de9e96c2950453b646",
+      "bytes": 6705
+    },
+    {
+      "path": "metal44-09-detail-pvb.png",
+      "sha256": "fc0f1c6a9742306fc9dc31da0683a97437fd4d6b96ef0cdb487b7256d0f81e12",
+      "bytes": 7251
+    },
+    {
+      "path": "metal44-09-detail-gauge.png",
+      "sha256": "70b0f049894c19f92abe5b16287f75a7e56d4408e7ed36e9479ee7ec8a78b11c",
+      "bytes": 4182
+    },
+    {
+      "path": "metal44-09-detail-overlay.png",
+      "sha256": "671fb90302e18603584ad61aa8e49ee2e84df73bafbd7bd6ec8fe45deefcb5fc",
+      "bytes": 9444
+    },
+    {
+      "path": "metal44-09-detail-mask_view.png",
+      "sha256": "1bb9eb111c0f537f4b3cf75bf8dff27779415f6dd76ec8e2c910d35d01aad1fd",
+      "bytes": 5515
+    },
+    {
+      "path": "metal44-09-detail-resist_view.png",
+      "sha256": "326f45ea79bd00dd3f5337c99c648bdf839c5d5a7068b4b77205082ab12586e4",
+      "bytes": 8919
+    },
+    {
+      "path": "metal44-09-detail-pvb_view.png",
+      "sha256": "814dfadba166ebda7e8011a8d70353dc35a4490e6c0f026b4cc2644d91d6b653",
+      "bytes": 7438
+    },
+    {
+      "path": "metal44-10-core-target.png",
+      "sha256": "07c635107a3d8d1b8bbb6c0ee19b389905e3faa0090f70bb9221855677784f00",
+      "bytes": 11963
+    },
+    {
+      "path": "metal44-10-core-mask.png",
+      "sha256": "0ef1e3cb7dc1f526418d99f6932fd28fc62ad557851a7a349beb0d968724a752",
+      "bytes": 14951
+    },
+    {
+      "path": "metal44-10-core-sraf.png",
+      "sha256": "c737c746bcc4423a5e9f4f3cd76508ed7d10e110034d357f8457b1247029de2f",
+      "bytes": 12284
+    },
+    {
+      "path": "metal44-10-core-contour.png",
+      "sha256": "5c19979469da4fc7cbe363a28bf6d51651ea9bdb8550d91bf82be27a26103217",
+      "bytes": 32493
+    },
+    {
+      "path": "metal44-10-core-pvb.png",
+      "sha256": "0f16166cd1af8376dd7a07fdd45f8c33f7a9f796323753cac8282b5cb4770303",
+      "bytes": 30195
+    },
+    {
+      "path": "metal44-10-core-gauge.png",
+      "sha256": "41bd9d371c8d9f74b86c79b3d3abd31444f72d73455d311da845ea698bab87ab",
+      "bytes": 4032
+    },
+    {
+      "path": "metal44-10-core-overlay.png",
+      "sha256": "65371118b3ba03468cd4226d204ded471cca82fcb58d3aace2db6e8c4d487b3a",
+      "bytes": 80455
+    },
+    {
+      "path": "metal44-10-core-mask_view.png",
+      "sha256": "f49206268e5efdf74f790c78042893d951e55121eb1732c9366a5ff1d87325f4",
+      "bytes": 36117
+    },
+    {
+      "path": "metal44-10-core-resist_view.png",
+      "sha256": "c6d8d6595f193883e86e88a808b14efaa20c594f95393c7a2ee2ead90ceaf4df",
+      "bytes": 53592
+    },
+    {
+      "path": "metal44-10-core-pvb_view.png",
+      "sha256": "af65630401f20f6d5193fa81288cf64c441e5934a4c4b69dcf5cbb9694ccba60",
+      "bytes": 45100
+    },
+    {
+      "path": "metal44-10-zoom-target.png",
+      "sha256": "b5288f12c3d20fcc43e8fae58bfbe24433144b9ae3c91e16779f5405c003ba5f",
+      "bytes": 5445
+    },
+    {
+      "path": "metal44-10-zoom-mask.png",
+      "sha256": "b9cf4980f374bf92db619f8480e565d8b0bde2d9a6e814b79b6b504ff4e797d1",
+      "bytes": 5629
+    },
+    {
+      "path": "metal44-10-zoom-sraf.png",
+      "sha256": "b75ef959c347f7a459b772e401d8dc165a304f0dc25b5b220aed3ea93e5666ed",
+      "bytes": 5444
+    },
+    {
+      "path": "metal44-10-zoom-contour.png",
+      "sha256": "618064e148431ef155cc82941a807736ad090998156cd00848e34bf6989316eb",
+      "bytes": 8065
+    },
+    {
+      "path": "metal44-10-zoom-pvb.png",
+      "sha256": "3c70b6347e5e9a276367125b616d1edf6247023f5f44d6d2c900b2e05dddeb73",
+      "bytes": 8650
+    },
+    {
+      "path": "metal44-10-zoom-gauge.png",
+      "sha256": "60f0b52cba04e766b4082818f5a50cffa402082146b25f9e438c3347d42bae32",
+      "bytes": 4101
+    },
+    {
+      "path": "metal44-10-zoom-overlay.png",
+      "sha256": "4905548bb713fc77990140a8f1c68d5a0c713594cadda0cf2429a8253f01b72c",
+      "bytes": 14303
+    },
+    {
+      "path": "metal44-10-zoom-mask_view.png",
+      "sha256": "3ada75b4b6d0eaed99c239f7ba95202a9b64492be686498013d38d037bc4182e",
+      "bytes": 6070
+    },
+    {
+      "path": "metal44-10-zoom-resist_view.png",
+      "sha256": "f091f85fd2669de9473c6295b2365bf626afd555e2da5160d7fbeec1ecd36b01",
+      "bytes": 12693
+    },
+    {
+      "path": "metal44-10-zoom-pvb_view.png",
+      "sha256": "c69638cddbebeb586de683b839ef88ebfbe0154a1c6ddc75f6cebff800921e87",
+      "bytes": 9210
+    },
+    {
+      "path": "metal44-10-detail-target.png",
+      "sha256": "5be475556e31d9deb23b09b1630022828199cab8d49d742e9a88d7c577704e04",
+      "bytes": 5387
+    },
+    {
+      "path": "metal44-10-detail-mask.png",
+      "sha256": "c7eb4229dbcee6e7f43f3f5cd747270ee237114337eab4e37edd68ed949f14cf",
+      "bytes": 5399
+    },
+    {
+      "path": "metal44-10-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "metal44-10-detail-contour.png",
+      "sha256": "e35dd585604c843dff9dbed1ce8daf881ade330b983af3de9e96c2950453b646",
+      "bytes": 6705
+    },
+    {
+      "path": "metal44-10-detail-pvb.png",
+      "sha256": "fc0f1c6a9742306fc9dc31da0683a97437fd4d6b96ef0cdb487b7256d0f81e12",
+      "bytes": 7251
+    },
+    {
+      "path": "metal44-10-detail-gauge.png",
+      "sha256": "70b0f049894c19f92abe5b16287f75a7e56d4408e7ed36e9479ee7ec8a78b11c",
+      "bytes": 4182
+    },
+    {
+      "path": "metal44-10-detail-overlay.png",
+      "sha256": "671fb90302e18603584ad61aa8e49ee2e84df73bafbd7bd6ec8fe45deefcb5fc",
+      "bytes": 9444
+    },
+    {
+      "path": "metal44-10-detail-mask_view.png",
+      "sha256": "1bb9eb111c0f537f4b3cf75bf8dff27779415f6dd76ec8e2c910d35d01aad1fd",
+      "bytes": 5515
+    },
+    {
+      "path": "metal44-10-detail-resist_view.png",
+      "sha256": "326f45ea79bd00dd3f5337c99c648bdf839c5d5a7068b4b77205082ab12586e4",
+      "bytes": 8919
+    },
+    {
+      "path": "metal44-10-detail-pvb_view.png",
+      "sha256": "814dfadba166ebda7e8011a8d70353dc35a4490e6c0f026b4cc2644d91d6b653",
+      "bytes": 7438
+    },
+    {
+      "path": "metal44-11-core-target.png",
+      "sha256": "07c635107a3d8d1b8bbb6c0ee19b389905e3faa0090f70bb9221855677784f00",
+      "bytes": 11963
+    },
+    {
+      "path": "metal44-11-core-mask.png",
+      "sha256": "0ef1e3cb7dc1f526418d99f6932fd28fc62ad557851a7a349beb0d968724a752",
+      "bytes": 14951
+    },
+    {
+      "path": "metal44-11-core-sraf.png",
+      "sha256": "c737c746bcc4423a5e9f4f3cd76508ed7d10e110034d357f8457b1247029de2f",
+      "bytes": 12284
+    },
+    {
+      "path": "metal44-11-core-contour.png",
+      "sha256": "5c19979469da4fc7cbe363a28bf6d51651ea9bdb8550d91bf82be27a26103217",
+      "bytes": 32493
+    },
+    {
+      "path": "metal44-11-core-pvb.png",
+      "sha256": "0f16166cd1af8376dd7a07fdd45f8c33f7a9f796323753cac8282b5cb4770303",
+      "bytes": 30195
+    },
+    {
+      "path": "metal44-11-core-gauge.png",
+      "sha256": "41bd9d371c8d9f74b86c79b3d3abd31444f72d73455d311da845ea698bab87ab",
+      "bytes": 4032
+    },
+    {
+      "path": "metal44-11-core-overlay.png",
+      "sha256": "65371118b3ba03468cd4226d204ded471cca82fcb58d3aace2db6e8c4d487b3a",
+      "bytes": 80455
+    },
+    {
+      "path": "metal44-11-core-mask_view.png",
+      "sha256": "f49206268e5efdf74f790c78042893d951e55121eb1732c9366a5ff1d87325f4",
+      "bytes": 36117
+    },
+    {
+      "path": "metal44-11-core-resist_view.png",
+      "sha256": "c6d8d6595f193883e86e88a808b14efaa20c594f95393c7a2ee2ead90ceaf4df",
+      "bytes": 53592
+    },
+    {
+      "path": "metal44-11-core-pvb_view.png",
+      "sha256": "af65630401f20f6d5193fa81288cf64c441e5934a4c4b69dcf5cbb9694ccba60",
+      "bytes": 45100
+    },
+    {
+      "path": "metal44-11-zoom-target.png",
+      "sha256": "b5288f12c3d20fcc43e8fae58bfbe24433144b9ae3c91e16779f5405c003ba5f",
+      "bytes": 5445
+    },
+    {
+      "path": "metal44-11-zoom-mask.png",
+      "sha256": "b9cf4980f374bf92db619f8480e565d8b0bde2d9a6e814b79b6b504ff4e797d1",
+      "bytes": 5629
+    },
+    {
+      "path": "metal44-11-zoom-sraf.png",
+      "sha256": "b75ef959c347f7a459b772e401d8dc165a304f0dc25b5b220aed3ea93e5666ed",
+      "bytes": 5444
+    },
+    {
+      "path": "metal44-11-zoom-contour.png",
+      "sha256": "618064e148431ef155cc82941a807736ad090998156cd00848e34bf6989316eb",
+      "bytes": 8065
+    },
+    {
+      "path": "metal44-11-zoom-pvb.png",
+      "sha256": "3c70b6347e5e9a276367125b616d1edf6247023f5f44d6d2c900b2e05dddeb73",
+      "bytes": 8650
+    },
+    {
+      "path": "metal44-11-zoom-gauge.png",
+      "sha256": "60f0b52cba04e766b4082818f5a50cffa402082146b25f9e438c3347d42bae32",
+      "bytes": 4101
+    },
+    {
+      "path": "metal44-11-zoom-overlay.png",
+      "sha256": "4905548bb713fc77990140a8f1c68d5a0c713594cadda0cf2429a8253f01b72c",
+      "bytes": 14303
+    },
+    {
+      "path": "metal44-11-zoom-mask_view.png",
+      "sha256": "3ada75b4b6d0eaed99c239f7ba95202a9b64492be686498013d38d037bc4182e",
+      "bytes": 6070
+    },
+    {
+      "path": "metal44-11-zoom-resist_view.png",
+      "sha256": "f091f85fd2669de9473c6295b2365bf626afd555e2da5160d7fbeec1ecd36b01",
+      "bytes": 12693
+    },
+    {
+      "path": "metal44-11-zoom-pvb_view.png",
+      "sha256": "c69638cddbebeb586de683b839ef88ebfbe0154a1c6ddc75f6cebff800921e87",
+      "bytes": 9210
+    },
+    {
+      "path": "metal44-11-detail-target.png",
+      "sha256": "5be475556e31d9deb23b09b1630022828199cab8d49d742e9a88d7c577704e04",
+      "bytes": 5387
+    },
+    {
+      "path": "metal44-11-detail-mask.png",
+      "sha256": "c7eb4229dbcee6e7f43f3f5cd747270ee237114337eab4e37edd68ed949f14cf",
+      "bytes": 5399
+    },
+    {
+      "path": "metal44-11-detail-sraf.png",
+      "sha256": "65aa5a5ca1a2cf2d016483029fbf6bfad327bad530cb182e5b8445b36a73927f",
+      "bytes": 5345
+    },
+    {
+      "path": "metal44-11-detail-contour.png",
+      "sha256": "e35dd585604c843dff9dbed1ce8daf881ade330b983af3de9e96c2950453b646",
+      "bytes": 6705
+    },
+    {
+      "path": "metal44-11-detail-pvb.png",
+      "sha256": "fc0f1c6a9742306fc9dc31da0683a97437fd4d6b96ef0cdb487b7256d0f81e12",
+      "bytes": 7251
+    },
+    {
+      "path": "metal44-11-detail-gauge.png",
+      "sha256": "70b0f049894c19f92abe5b16287f75a7e56d4408e7ed36e9479ee7ec8a78b11c",
+      "bytes": 4182
+    },
+    {
+      "path": "metal44-11-detail-overlay.png",
+      "sha256": "671fb90302e18603584ad61aa8e49ee2e84df73bafbd7bd6ec8fe45deefcb5fc",
+      "bytes": 9444
+    },
+    {
+      "path": "metal44-11-detail-mask_view.png",
+      "sha256": "1bb9eb111c0f537f4b3cf75bf8dff27779415f6dd76ec8e2c910d35d01aad1fd",
+      "bytes": 5515
+    },
+    {
+      "path": "metal44-11-detail-resist_view.png",
+      "sha256": "326f45ea79bd00dd3f5337c99c648bdf839c5d5a7068b4b77205082ab12586e4",
+      "bytes": 8919
+    },
+    {
+      "path": "metal44-11-detail-pvb_view.png",
+      "sha256": "814dfadba166ebda7e8011a8d70353dc35a4490e6c0f026b4cc2644d91d6b653",
+      "bytes": 7438
+    }
+  ],
+  "calls": {
+    "opc": 0,
+    "llm": 0
+  },
+  "scope": "Derived raster images, measurements and provenance hashes only. Source GDS, decks, RDB and raw responses remain on server.",
+  "source_scripts_sha256": {
+    "poly": "c59715db26c2ff2139061441a330ea4002ae0dbac4cf8054e459bdb1991ab88f",
+    "metal1": "6284f6e3e597ab4abbc0f5b23529649a4a6ce1ec61523b3c5f64f5d83529171e"
+  }
+}

@@ -1,0 +1,671 @@
+{
+  "asOf": "2026-09-26",
+  "units": {
+    "epe": "nm",
+    "pvb": "10^-3 um"
+  },
+  "main": {
+    "rows": [
+      {
+        "layer": "poly",
+        "method": "R0",
+        "n": 10,
+        "max": 18.293792,
+        "mean": 0.854356,
+        "pvb": 7.281033
+      },
+      {
+        "layer": "poly",
+        "method": "full",
+        "n": 10,
+        "max": 5.361305,
+        "mean": 0.64488,
+        "pvb": 7.398206
+      },
+      {
+        "layer": "metal1",
+        "method": "R0",
+        "n": 10,
+        "max": 22.052214,
+        "mean": 0.805082,
+        "pvb": 5.015227
+      },
+      {
+        "layer": "metal1",
+        "method": "full",
+        "n": 10,
+        "max": 15.692281,
+        "mean": 0.689756,
+        "pvb": 5.021477
+      },
+      {
+        "layer": "overall",
+        "method": "R0",
+        "n": 20,
+        "max": 20.173003,
+        "mean": 0.829719,
+        "pvb": 6.14813
+      },
+      {
+        "layer": "overall",
+        "method": "full",
+        "n": 20,
+        "max": 10.526793,
+        "mean": 0.667318,
+        "pvb": 6.209841
+      }
+    ],
+    "sourceSha256": "90adc2f91ea59e1b81af318a64ecc483f8a5a85cab6c5d13d1f2470affacfc92"
+  },
+  "mechanism": {
+    "rows": [
+      {
+        "layer": "poly",
+        "method": "full",
+        "n": 10,
+        "complete": 10,
+        "qualitySuccess": 10,
+        "max": 5.361305,
+        "mean": 0.64488,
+        "pvb": 7.398206,
+        "opc": 120,
+        "llm": 643
+      },
+      {
+        "layer": "metal1",
+        "method": "full",
+        "n": 10,
+        "complete": 10,
+        "qualitySuccess": 10,
+        "max": 15.692281,
+        "mean": 0.689756,
+        "pvb": 5.021477,
+        "opc": 120,
+        "llm": 652
+      },
+      {
+        "layer": "poly",
+        "method": "frozen",
+        "n": 10,
+        "complete": 9,
+        "qualitySuccess": 10,
+        "max": 8.081832,
+        "mean": 0.639878,
+        "pvb": 7.319326,
+        "opc": 112,
+        "llm": 403
+      },
+      {
+        "layer": "metal1",
+        "method": "frozen",
+        "n": 10,
+        "complete": 10,
+        "qualitySuccess": 10,
+        "max": 16.120902,
+        "mean": 0.716678,
+        "pvb": 5.027338,
+        "opc": 120,
+        "llm": 461
+      },
+      {
+        "layer": "poly",
+        "method": "without_m1",
+        "n": 10,
+        "complete": 9,
+        "qualitySuccess": 10,
+        "max": 6.21323,
+        "mean": 0.652614,
+        "pvb": 7.374377,
+        "opc": 111,
+        "llm": 872
+      },
+      {
+        "layer": "metal1",
+        "method": "without_m1",
+        "n": 10,
+        "complete": 10,
+        "qualitySuccess": 10,
+        "max": 16.279702,
+        "mean": 0.74161,
+        "pvb": 5.02341,
+        "opc": 120,
+        "llm": 720
+      },
+      {
+        "layer": "poly",
+        "method": "without_m2",
+        "n": 10,
+        "complete": 10,
+        "qualitySuccess": 10,
+        "max": 5.474982,
+        "mean": 0.632042,
+        "pvb": 7.410705,
+        "opc": 120,
+        "llm": 662
+      },
+      {
+        "layer": "metal1",
+        "method": "without_m2",
+        "n": 10,
+        "complete": 9,
+        "qualitySuccess": 10,
+        "max": 16.334004,
+        "mean": 0.716519,
+        "pvb": 5.024587,
+        "opc": 110,
+        "llm": 600
+      },
+      {
+        "layer": "poly",
+        "method": "without_m3",
+        "n": 10,
+        "complete": 10,
+        "qualitySuccess": 10,
+        "max": 5.870119,
+        "mean": 0.623707,
+        "pvb": 7.394282,
+        "opc": 120,
+        "llm": 681
+      },
+      {
+        "layer": "metal1",
+        "method": "without_m3",
+        "n": 10,
+        "complete": 9,
+        "qualitySuccess": 10,
+        "max": 16.153923,
+        "mean": 0.725104,
+        "pvb": 5.024558,
+        "opc": 113,
+        "llm": 610
+      }
+    ],
+    "sourceSha256": "f82f6097fe3ba0d7cc6470d2aff442640b9d26b73e1e68829a5169acfbac7079"
+  },
+  "baseline": {
+    "rows": [
+      {
+        "layer": "poly",
+        "method": "ace",
+        "n": 10,
+        "complete": 10,
+        "max": 16.696545,
+        "mean": 0.782927,
+        "pvb": 6.904817,
+        "success": 9,
+        "opc": 120,
+        "llm": 961
+      },
+      {
+        "layer": "poly",
+        "method": "raw",
+        "n": 10,
+        "complete": 10,
+        "max": 17.271422,
+        "mean": 0.834946,
+        "pvb": 7.238782,
+        "success": 7,
+        "opc": 120,
+        "llm": 226
+      },
+      {
+        "layer": "poly",
+        "method": "react",
+        "n": 10,
+        "complete": 10,
+        "max": 16.500723,
+        "mean": 0.817441,
+        "pvb": 7.120367,
+        "success": 10,
+        "opc": 120,
+        "llm": 280
+      },
+      {
+        "layer": "poly",
+        "method": "reasoningbank",
+        "n": 10,
+        "complete": 10,
+        "max": 17.523473,
+        "mean": 0.832834,
+        "pvb": 7.150898,
+        "success": 7,
+        "opc": 120,
+        "llm": 521
+      },
+      {
+        "layer": "poly",
+        "method": "static",
+        "n": 10,
+        "complete": 10,
+        "max": 17.582541,
+        "mean": 0.847539,
+        "pvb": 7.256732,
+        "success": 6,
+        "opc": 120,
+        "llm": 248
+      },
+      {
+        "layer": "poly",
+        "method": "textual",
+        "n": 10,
+        "complete": 10,
+        "max": 17.296098,
+        "mean": 0.780696,
+        "pvb": 6.977232,
+        "success": 9,
+        "opc": 120,
+        "llm": 538
+      },
+      {
+        "layer": "metal1",
+        "method": "ace",
+        "n": 10,
+        "complete": 10,
+        "max": 19.920228,
+        "mean": 0.758142,
+        "pvb": 4.927951,
+        "success": 10,
+        "opc": 120,
+        "llm": 872
+      },
+      {
+        "layer": "metal1",
+        "method": "raw",
+        "n": 10,
+        "complete": 10,
+        "max": 19.608649,
+        "mean": 0.757625,
+        "pvb": 4.968544,
+        "success": 9,
+        "opc": 120,
+        "llm": 229
+      },
+      {
+        "layer": "metal1",
+        "method": "react",
+        "n": 10,
+        "complete": 10,
+        "max": 17.774509,
+        "mean": 0.72873,
+        "pvb": 4.884943,
+        "success": 10,
+        "opc": 120,
+        "llm": 244
+      },
+      {
+        "layer": "metal1",
+        "method": "reasoningbank",
+        "n": 10,
+        "complete": 10,
+        "max": 20.537579,
+        "mean": 0.756032,
+        "pvb": 4.923975,
+        "success": 8,
+        "opc": 120,
+        "llm": 467
+      },
+      {
+        "layer": "metal1",
+        "method": "static",
+        "n": 10,
+        "complete": 10,
+        "max": 19.875255,
+        "mean": 0.780442,
+        "pvb": 5.00111,
+        "success": 9,
+        "opc": 120,
+        "llm": 254
+      },
+      {
+        "layer": "metal1",
+        "method": "textual",
+        "n": 10,
+        "complete": 10,
+        "max": 18.965825,
+        "mean": 0.741561,
+        "pvb": 4.877925,
+        "success": 8,
+        "opc": 120,
+        "llm": 492
+      },
+      {
+        "layer": "poly",
+        "method": "bayesian",
+        "n": 10,
+        "complete": 10,
+        "max": 17.909,
+        "mean": 0.827,
+        "pvb": 7.3,
+        "success": 4,
+        "opc": 120,
+        "llm": 0
+      },
+      {
+        "layer": "metal1",
+        "method": "bayesian",
+        "n": 10,
+        "complete": 10,
+        "max": 21.773,
+        "mean": 0.778,
+        "pvb": 5.01,
+        "success": 2,
+        "opc": 120,
+        "llm": 0
+      },
+      {
+        "layer": "overall",
+        "method": "bayesian",
+        "n": 20,
+        "complete": 20,
+        "max": 19.841,
+        "mean": 0.803,
+        "pvb": 6.155,
+        "success": 6,
+        "opc": 240,
+        "llm": 0
+      }
+    ],
+    "sourceSha256": "6424e5145f49cf12fb045b300917efc49cc8dc153bbfa1707b8e47979372e2ab",
+    "paperTableSha256": "4e650161d96d9512a11473579bd297e2a89709ab7828cc90235ba13cd594ec94"
+  },
+  "experience": {
+    "rows": [
+      {
+        "layer": "poly",
+        "method": "ace",
+        "n": 10,
+        "complete": 10,
+        "max": 5.313346,
+        "mean": 0.646604,
+        "pvb": 7.404377,
+        "success": 10,
+        "opc": 120,
+        "llm": 591
+      },
+      {
+        "layer": "poly",
+        "method": "vpevolve",
+        "n": 10,
+        "complete": 10,
+        "max": 5.084954,
+        "mean": 0.646481,
+        "pvb": 7.398318,
+        "success": 10,
+        "opc": 120,
+        "llm": 608
+      },
+      {
+        "layer": "metal1",
+        "method": "ace",
+        "n": 10,
+        "complete": 10,
+        "max": 16.327953,
+        "mean": 0.69838,
+        "pvb": 5.022371,
+        "success": 10,
+        "opc": 120,
+        "llm": 586
+      },
+      {
+        "layer": "metal1",
+        "method": "vpevolve",
+        "n": 10,
+        "complete": 10,
+        "max": 15.938019,
+        "mean": 0.693323,
+        "pvb": 5.020638,
+        "success": 10,
+        "opc": 120,
+        "llm": 605
+      }
+    ],
+    "sourceSha256": "98044121af93e7cd7bd83eab144ef0e55a52d8b73ce78fbf73bfbaff8c1f9f67",
+    "paired": {
+      "poly": {
+        "startMax": 5.766004,
+        "meanDeltaMax": -0.228392,
+        "better": 5,
+        "tie": 3,
+        "worse": 2
+      },
+      "metal1": {
+        "startMax": 18.43201,
+        "meanDeltaMax": -0.389934,
+        "better": 5,
+        "tie": 2,
+        "worse": 3
+      }
+    },
+    "pairedSourceSha256": "8f142bcc4cb24fd8df5ad04e6e75841e305ddeb0ae9d9831f8fdcb500a92c9fb"
+  },
+  "local": {
+    "rows": [
+      {
+        "layer": "poly",
+        "method": "global_local",
+        "n": 5,
+        "complete": 5,
+        "max": 5.184757,
+        "mean": 0.651323,
+        "pvb": 7.379314,
+        "success": 5,
+        "opc": 50,
+        "llm": 296
+      },
+      {
+        "layer": "poly",
+        "method": "global_only",
+        "n": 5,
+        "complete": 5,
+        "max": 5.238426,
+        "mean": 0.6346,
+        "pvb": 7.374929,
+        "success": 5,
+        "opc": 50,
+        "llm": 300
+      },
+      {
+        "layer": "metal1",
+        "method": "global_local",
+        "n": 5,
+        "complete": 5,
+        "max": 18.011739,
+        "mean": 0.698139,
+        "pvb": 4.99608,
+        "success": 5,
+        "opc": 51,
+        "llm": 319
+      },
+      {
+        "layer": "metal1",
+        "method": "global_only",
+        "n": 5,
+        "complete": 5,
+        "max": 18.582596,
+        "mean": 0.629764,
+        "pvb": 4.980469,
+        "success": 5,
+        "opc": 51,
+        "llm": 350
+      }
+    ],
+    "sourceSha256": "c028495f3f4aaf280400edaeaccb1001ba42b2a5c776ad1b784a4c4417e269d7",
+    "paired": {
+      "poly": {
+        "startMax": 5.811917,
+        "meanDeltaMax": -0.053669,
+        "better": 2,
+        "tie": 1,
+        "worse": 2
+      },
+      "metal1": {
+        "startMax": 20.288146,
+        "meanDeltaMax": -0.570856,
+        "better": 3,
+        "tie": 0,
+        "worse": 2
+      }
+    },
+    "pairedSourceSha256": "557aebd97ce0e5ee8b285c89a08aab322a52296bc4582895ed0b45bd89ca1e9d"
+  },
+  "longHorizon": {
+    "rows": [
+      {
+        "layer": "poly",
+        "method": "frozen",
+        "n": 1,
+        "complete": 1,
+        "max": 5.267391,
+        "mean": 0.812936,
+        "pvb": 7.360978,
+        "success": 1,
+        "opc": 102,
+        "llm": 510,
+        "rounds": 100
+      },
+      {
+        "layer": "poly",
+        "method": "full",
+        "n": 1,
+        "complete": 1,
+        "max": 4.477174,
+        "mean": 0.639291,
+        "pvb": 6.916448,
+        "success": 1,
+        "opc": 102,
+        "llm": 1859,
+        "rounds": 100
+      },
+      {
+        "layer": "metal1",
+        "method": "frozen",
+        "n": 1,
+        "complete": 0,
+        "max": 13.347826,
+        "mean": 0.637498,
+        "pvb": 5.069163,
+        "success": 0,
+        "opc": 59,
+        "llm": 1808,
+        "rounds": 57
+      },
+      {
+        "layer": "metal1",
+        "method": "full",
+        "n": 1,
+        "complete": 1,
+        "max": 10.911957,
+        "mean": 0.528627,
+        "pvb": 4.618698,
+        "success": 1,
+        "opc": 102,
+        "llm": 1367,
+        "rounds": 100
+      }
+    ],
+    "sourceSha256": "60d1810526bba6e71fdd92e2d5679085a8789de619eb661ff93412efabb8afd0"
+  },
+  "paperVersion": "de5b8d9",
+  "callAccounting": "Recorded opc includes R0; website tables report opc minus one R0 evaluation per case, matching the paper.",
+  "crossModel": {
+    "rows": [
+      {
+        "layer": "poly",
+        "model": "Claude Sonnet 5",
+        "n": 10,
+        "max": 8.563,
+        "mean": 0.643,
+        "pvb": 7.338
+      },
+      {
+        "layer": "metal1",
+        "model": "Claude Sonnet 5",
+        "n": 10,
+        "max": 17.066,
+        "mean": 0.723,
+        "pvb": 5.028
+      },
+      {
+        "layer": "poly",
+        "model": "GPT-5.6-Luna",
+        "n": 10,
+        "max": 10.258,
+        "mean": 0.707,
+        "pvb": 7.33
+      },
+      {
+        "layer": "metal1",
+        "model": "GPT-5.6-Luna",
+        "n": 10,
+        "max": 17.251,
+        "mean": 0.735,
+        "pvb": 5.023
+      },
+      {
+        "layer": "poly",
+        "model": "Gemini 3.8 Flash",
+        "n": 10,
+        "max": 7.924,
+        "mean": 0.633,
+        "pvb": 7.229
+      },
+      {
+        "layer": "metal1",
+        "model": "Gemini 3.8 Flash",
+        "n": 10,
+        "max": 17.398,
+        "mean": 0.76,
+        "pvb": 5.02
+      },
+      {
+        "layer": "poly",
+        "model": "DeepSeek-V4.1-Flash",
+        "n": 10,
+        "max": 9.641,
+        "mean": 0.633,
+        "pvb": 7.331
+      },
+      {
+        "layer": "metal1",
+        "model": "DeepSeek-V4.1-Flash",
+        "n": 10,
+        "max": 16.696,
+        "mean": 0.747,
+        "pvb": 5.024
+      },
+      {
+        "layer": "poly",
+        "model": "GLM-5.3-Flash",
+        "n": 10,
+        "max": 8.45,
+        "mean": 0.629,
+        "pvb": 7.357
+      },
+      {
+        "layer": "metal1",
+        "model": "GLM-5.3-Flash",
+        "n": 10,
+        "max": 17.306,
+        "mean": 0.74,
+        "pvb": 5.024
+      },
+      {
+        "layer": "poly",
+        "model": "Gemma-4-31B",
+        "n": 10,
+        "max": 7.661,
+        "mean": 0.651,
+        "pvb": 7.347
+      },
+      {
+        "layer": "metal1",
+        "model": "Gemma-4-31B",
+        "n": 10,
+        "max": 16.87,
+        "mean": 0.738,
+        "pvb": 5.024
+      }
+    ],
+    "paperFigureSha256": "b9e24a38ee9731b7e8320b65dfa236aea16c27870e0a6b254b875004dd5174f8"
+  }
+}

@@ -1,0 +1,89 @@
+.paired-study {
+  margin-top: 54px;
+  padding: 32px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: #fff;
+}
+
+.paired-heading {
+  max-width: 850px;
+  margin-bottom: 26px;
+}
+
+.paired-heading .eyebrow { margin-bottom: 10px; }
+.paired-heading h3 { font-size: clamp(28px, 3vw, 38px); }
+.paired-heading p:last-child { margin-top: 14px; color: var(--muted); }
+.paired-study .scope-note { margin-top: 18px; }
+
+.memory-section .ablation-card h3 {
+  font-size: 21px;
+  min-height: 58px;
+}
+
+.memory-section .ablation-card.ours {
+  border-color: var(--mint);
+  box-shadow: 0 12px 34px #95b9e52b;
+}
+
+.ablation-card .ablation-facts {
+  display: grid;
+  gap: 7px;
+  margin-top: 17px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.ablation-card .ablation-facts b { color: var(--ink); }
+
+.final-section { padding: 100px 0; }
+.cross-model-section { background: #eef2f8; border-block: 1px solid var(--line); }
+.cross-model-section .paper-figure { margin-bottom: 26px; }
+.cross-model-section .main-table { margin-top: 0; }
+.long-horizon-section { background: var(--paper); }
+
+.long-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 36px 0 24px;
+}
+
+.long-legend { display: flex; gap: 23px; font-size: 13px; color: var(--muted); }
+.long-legend span { display: inline-flex; align-items: center; gap: 9px; }
+.long-legend span::before { content: ''; width: 22px; height: 3px; border-radius: 4px; }
+.long-full::before { background: #7262cb; }
+.long-frozen::before { background: #dd956b; }
+
+.long-chart-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; }
+.long-chart-card { padding: 28px; background: #fff; border: 1px solid var(--line); border-radius: 18px; }
+.long-chart-card>div:first-child>span { font: 11px/1.5 monospace; letter-spacing: .09em; color: var(--muted); }
+.long-chart-card h3 { font: 600 46px/1.2 var(--sans); letter-spacing: -.05em; margin: 10px 0 2px; }
+.long-chart-card h3 small { font-size: 18px; letter-spacing: 0; }
+.long-chart-card p { font-size: 14px; color: var(--muted); }
+.long-chart { min-height: 245px; margin-top: 23px; }
+.long-chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.long-chart .chart-grid { stroke: #dfe4eb; stroke-width: 1; }
+.long-chart .chart-limit { stroke: #c27474; stroke-width: 1.2; stroke-dasharray: 5 5; }
+.long-chart .chart-axis { fill: var(--muted); font: 11px var(--sans); }
+.long-chart .series-full { fill: none; stroke: #7262cb; stroke-width: 2.7; stroke-linecap: round; stroke-linejoin: round; }
+.long-chart .series-frozen { fill: none; stroke: #dd956b; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.long-chart .end-full { fill: #7262cb; }
+.long-chart .end-frozen { fill: #dd956b; }
+.long-horizon-section>.wide>.scope-note { margin-top: 20px; }
+
+@media (min-width: 1250px) {
+  .memory-section .ablation-grid { grid-template-columns: repeat(5,minmax(0,1fr)); }
+  .memory-section .ablation-card { padding: 22px; }
+  .memory-section .ablation-card strong { font-size: 41px; }
+}
+
+@media (max-width: 760px) {
+  .paired-study { padding: 22px; margin-top: 38px; }
+  .final-section { padding: 74px 0; }
+  .long-chart-grid { grid-template-columns: 1fr; }
+  .long-chart-card { padding: 22px; }
+  .long-chart-card h3 { font-size: 39px; }
+}
