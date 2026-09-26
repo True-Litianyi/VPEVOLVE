@@ -11,3 +11,7 @@
 .signed-contributions{margin-top:8px;color:var(--muted);font-size:12px}
 .signed-contributions>span{padding:0 7px}
 @media(max-width:650px){.signed-authors .wide{padding-top:35px;padding-bottom:39px}.signed-authors-top{align-items:flex-start;flex-wrap:wrap}.signed-author-list{font-size:20px}.signed-affiliations{font-size:12px}}
+
+.signed-emails{margin-top:13px;color:var(--muted);font:13px/1.6 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;overflow-wrap:anywhere}
+.signed-emails a{color:var(--green);border-bottom:1px solid currentColor}
+.signed-emails a:hover{opacity:.72}
