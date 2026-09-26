@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101d31">
+  <meta name="description" content="VPEvolve is a self-evolving virtual process engineer for computational lithography. Read the signed research preprint and explore its method and results.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="VPEvolve — A Self-Evolving Virtual Process Engineer">
+  <meta property="og:description" content="A signed research preprint on measured experience, global recipe search, and pattern-guided local correction for computational lithography.">
+  <meta property="og:url" content="https://true-litianyi.github.io/VPEVOLVE/">
+  <meta property="og:image" content="https://true-litianyi.github.io/VPEVOLVE/assets/overview.png">
+  <link rel="canonical" href="https://true-litianyi.github.io/VPEVOLVE/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <title>VPEvolve — Research Preprint</title>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="VPEvolve home"><span class="brand-mark" aria-hidden="true">V<span>·</span>P</span><span>VPEvolve</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#overview">Overview</a>
+      <a href="#method">Method</a>
+      <a href="#results">Results</a>
+      <a class="nav-paper" href="paper/VPEvolve-preprint.pdf">Read paper <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="paper-title">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Research preprint · Computational lithography</p>
+          <h1 id="paper-title">VPEvolve: A Self-Evolving Virtual Process Engineer for Computational Lithography</h1>
+          <p class="hero-lead">A virtual process engineer that improves lithography recipes through commercial-tool measurements and a reusable bank of engineering experience.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="paper/VPEvolve-preprint.pdf">Read the preprint <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="#overview">Explore the work <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="hero-aside" aria-label="Research summary">
+          <div class="aside-label">THE RESEARCH IDEA <span>01 / 03</span></div>
+          <div class="aside-rule"></div>
+          <p>Propose a recipe edit.</p>
+          <p>Measure its physical effect.</p>
+          <p>Keep the evidence for the next decision.</p>
+          <div class="aside-foot">Frozen model weights <span>·</span> evolving recipes and experience</div>
+        </div>
+      </div>
+      <div class="hero-bottom" aria-hidden="true"><span>GLOBAL PARAMETERS</span><i></i><span>LOCAL RULES</span><i></i><span>MEASURED EXPERIENCE</span></div>
+    </section>
+
+    <section class="authors-shell" aria-labelledby="authors-heading">
+      <div class="section-index">THE AUTHORS</div>
+      <div>
+        <h2 class="visually-hidden" id="authors-heading">Authors and affiliations</h2>
+        <p class="authors">Tianyi Li<sup>1,*</sup> · Wenxuan Dong<sup>1,*</sup> · Donger Luo<sup>1</sup> · Nan Wang<sup>1</sup> · Yanpeng Chen<sup>1</sup> · Jiaqi Liu<sup>2</sup> · Xinyun Zhang<sup>1</sup> · Hao Geng<sup>1,†</sup></p>
+        <div class="affiliations"><p><sup>1</sup> ShanghaiTech University</p><p><sup>2</sup> Shanghai Optoelectronics Science and Technology Innovation Center</p></div>
+        <p class="author-notes"><sup>*</sup> Equal contribution <span>·</span> <sup>†</sup> Corresponding author</p>
+      </div>
+    </section>
+
+    <section class="section section-overview" id="overview" aria-labelledby="overview-heading">
+      <div class="section-heading"><div><p class="section-index">01 / OVERVIEW</p><h2 id="overview-heading">From trial and error<br>to <em>retained experience.</em></h2></div><p>Optical proximity correction recipes combine global settings with local rules. A change that fixes one hotspot can interact with existing rules, while knowledge from commercial-tool trials can remain scattered across code and logs.</p></div>
+      <figure class="figure-card"><a href="assets/overview.png" target="_blank" rel="noopener" aria-label="Open the full-size overview figure"><img src="assets/overview.png" alt="Recipe example, human process engineering workflow, and VPEvolve's skill-bank-guided recipe evolution." width="2224" height="673"></a><figcaption><b>From recipe development to VPEvolve.</b> Engineers evaluate recipe edits and accumulate experience. VPEvolve connects recipe optimization with a Skill Bank that turns measured outcomes into guidance for later trials.</figcaption></figure>
+      <div class="abstract-block"><h3>Abstract</h3><p>Optical proximity correction (OPC) recipes grow as engineers add local rules to repair newly discovered lithography hotspots. Each correction can interact with existing rules, while lessons from commercial-tool trials remain scattered across code and logs. VPEvolve combines a Virtual Process Engineer (VPE) harness with a Skill Bank of measured engineering experience. The harness equips a frozen language model with process manuals, layout analysis, recipe editing, and commercial-tool evaluation. The actor proposes changes to the global parameters, local targeted rules, or diagnostic trials. After each evaluation, an LLM reflector and curator turn the measured response into evidence-linked judgments. The actor retrieves them before its next trial. Feasible improvements update the retained recipe; every measured trial informs the Skill Bank that guides the next edit. The model weights remain fixed. On a FreePDK45-derived benchmark with ten commercial-tool evaluations per case, VPEvolve reduces the mean per-case maximum edge placement error from 18.294 to 5.361 nm on Poly and from 22.052 to 15.692 nm on Metal1. Every final recipe satisfies the predefined quality constraints and improves the maximum error by at least 0.1 nm.</p></div>
+    </section>
+
+    <section class="section section-method" id="method" aria-labelledby="method-heading">
+      <div class="section-heading"><div><p class="section-index">02 / METHOD</p><h2 id="method-heading">Search globally.<br><em>Repair locally.</em></h2></div><p>A fixed harness gives the actor a controlled way to inspect a layout, edit a recipe, and request commercial-tool evaluations. Reflections on measured trials become reusable, evidence-linked guidance in the Skill Bank.</p></div>
+      <figure class="figure-card"><a href="assets/method.png" target="_blank" rel="noopener" aria-label="Open the full-size method figure"><img src="assets/method.png" alt="VPEvolve method diagram showing global recipe edits, pattern-guided local correction, physical evaluation, and skill-bank updates." width="1575" height="604"></a><figcaption><b>Global and local actions share a measurement loop.</b> The model weights stay fixed as recipes and recorded experience change during a run.</figcaption></figure>
+      <div class="steps" aria-label="Method stages"><div><span>01</span><h3>Propose</h3><p>Choose a global parameter edit, targeted local rule, or diagnostic trial.</p></div><div><span>02</span><h3>Evaluate</h3><p>Run the commercial tool and check the measured result against quality constraints.</p></div><div><span>03</span><h3>Remember</h3><p>Retain feasible recipe improvements and turn every measured trial into evidence for the next edit.</p></div></div>
+    </section>
+
+    <section class="section section-results" id="results" aria-labelledby="results-heading">
+      <div class="section-heading"><div><p class="section-index">03 / RESULTS</p><h2 id="results-heading">Measured improvement<br>across <em>two layers.</em></h2></div><p>Mean per-case maximum edge placement error on the FreePDK45-derived benchmark, using ten commercial-tool evaluations per case.</p></div>
+      <div class="result-grid"><article class="result-card"><div class="result-top"><span>POLY</span><span>MAX EPE · NM</span></div><p class="result-value"><span>18.294</span><i aria-hidden="true">→</i><strong>5.361</strong></p><p>Baseline to VPEvolve</p></article><article class="result-card"><div class="result-top"><span>METAL1</span><span>MAX EPE · NM</span></div><p class="result-value"><span>22.052</span><i aria-hidden="true">→</i><strong>15.692</strong></p><p>Baseline to VPEvolve</p></article></div>
+      <p class="result-note">Every final recipe in the reported comparison satisfies the predefined quality constraints and improves maximum EPE by at least 0.1 nm. See the paper for the full protocol, other metrics, comparisons, and limitations.</p>
+      <div class="paper-callout"><div><p class="section-index">READ THE FULL WORK</p><h3>Methods, experiments, and appendices.</h3><p>The signed preprint contains the complete evaluation and supporting details.</p></div><a class="button button-primary" href="paper/VPEvolve-preprint.pdf">Download PDF <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">V<span>·</span>P</span><span>VPEvolve</span></a><p>Research preprint · 2026</p><a href="paper/VPEvolve-preprint.pdf">Paper PDF <span aria-hidden="true">↗</span></a></footer>
+</body>
+</html>
