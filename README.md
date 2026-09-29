@@ -5,7 +5,8 @@ https://true-litianyi.github.io/VPEVOLVE/.
 
 It contains the measured results, figures, recipe replay, physical geometry
 views, and code/data downloads. The signed code release is at
-https://github.com/True-Litianyi/VPEVOLVE_code. The paper PDF is in `paper/`.
+https://github.com/True-Litianyi/VPEVOLVE_code. The published preprint is at
+https://arxiv.org/abs/2609.32473. A local PDF copy is in `paper/`.
 
 The site is static HTML, CSS, JavaScript, and local assets. It loads no
 third-party scripts or visitor analytics. GitHub Pages publishes `main` from
